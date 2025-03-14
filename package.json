@@ -1,0 +1,41 @@
+{
+    "name": "simple-icons-plus",
+    "displayName": "Simple Icons Plus",
+    "author": {
+        "name": "pit00"
+    },
+    "publisher": "pit00",
+    "description": "Fork of simple icon theme",
+    "version": "1.0.13",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "icon": "assets/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pit00/Simple-Icons-Plus"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "icons",
+        "theme",
+        "icon-theme",
+        "customization",
+        "simple"
+    ],
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+            "id": "simple-icons-plus",
+            "label": "Simple Icons Plus",
+            "path": "./themes/icons/default-icon-theme.json"
+            }
+        ]
+    }
+}

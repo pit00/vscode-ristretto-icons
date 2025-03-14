@@ -20,8 +20,8 @@ VS Code file icons, based on Catppuccin Latte
 * ![#209FB5](https://placehold.co/16/209FB5/209FB5.png) #209FB5: Sapphire
 * ![#1E66F5](https://placehold.co/16/1E66F5/1E66F5.png) #1E66F5: Blue
 * ![#7287FD](https://placehold.co/16/7287FD/7287FD.png) #7287FD: Lavender
-* ![#4C4F69](https://placehold.co/16/4C4F69/4C4F69.png) #4C4F69: Charcoal <!-- Text -->
 * ![#8C8FA1](https://placehold.co/16/8C8FA1/8C8FA1.png) #8C8FA1: Slate <!-- Overlay 1 -->
+* ![#4C4F69](https://placehold.co/16/4C4F69/4C4F69.png) #4C4F69: Charcoal <!-- Text -->
 <!--
 * ![#5C5F77](https://placehold.co/16/5C5F77/5C5F77.png) #5C5F77: Subtext 1
 * ![#6C6F85](https://placehold.co/16/6C6F85/6C6F85.png) #6C6F85: Subtext 0
@@ -33,7 +33,11 @@ VS Code file icons, based on Catppuccin Latte
 * ![#EFF1F5](https://placehold.co/16/EFF1F5/EFF1F5.png) #EFF1F5: Base
 * ![#E6E9EF](https://placehold.co/16/E6E9EF/E6E9EF.png) #E6E9EF: Mantle
 * ![#DCE0E8](https://placehold.co/16/DCE0E8/DCE0E8.png) #DCE0E8: Crust
+folder_docker
+foler_storybook
+docker-ignore
 -->
+
 
 <!-- # Currently available icons (deprecated)
 

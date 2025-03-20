@@ -1605,31 +1605,31 @@
     "iconDefinitions": {
         //default
         "_file_default": {
-            "iconPath": "../../assets/icons/File_default.svg"
+            "iconPath": "../../assets/icons/_file.svg"
         },
         "_folder_default_close": {
-            "iconPath": "../../assets/icons/Folder_default_close.svg"
+            "iconPath": "../../assets/icons/_folder.svg"
         },
         "_folder_default_open": {
-            "iconPath": "../../assets/icons/Folder_default_open.svg"
+            "iconPath": "../../assets/icons/_folder_open.svg"
         },
         "3d": {
-            "iconPath": "../../assets/icons/3D.svg"
+            "iconPath": "../../assets/icons/3d.svg"
         },
         "text": {
-            "iconPath": "../../assets/icons/File_Text.svg"
+            "iconPath": "../../assets/icons/text.svg"
         },
         "reg": {
             "iconPath": "../../assets/icons/REG.svg"
         },
         "audio": {
-            "iconPath": "../../assets/icons/File_Music.svg"
+            "iconPath": "../../assets/icons/audio.svg"
         },
         "image": {
-            "iconPath": "../../assets/icons/File_Image.svg"
+            "iconPath": "../../assets/icons/image.svg"
         },
         "font": {
-            "iconPath": "../../assets/icons/File_font.svg"
+            "iconPath": "../../assets/icons/font.svg"
         },
         
         //files

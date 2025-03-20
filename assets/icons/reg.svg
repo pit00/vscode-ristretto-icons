@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" style="transform-origin: 8px 8px;" transform="matrix(-1, 0, 0, -1, 0.000002, 0)">
+    <path d="M6 2v4" stroke="#04A5E5"/>
+    <path d="M10 2v7.5m4 .5V2H2v4h12" stroke="#04A5E5"/>
+    <path d="M 9.983 10 L 10.006 14 L 14 14 L 14 10 L 9.983 10 Z" stroke="#04A5E5"/>
+    <path d="M 5.993 6.001 L 6.016 10.001 L 10.01 10.001 L 10.01 6.001 L 5.993 6.001 Z" stroke="#04A5E5"/>
+    <path d="M 3.399 9.561 L 0.676 12.491 L 3.586 15.227 L 6.326 12.313 L 3.399 9.561 Z" stroke="#1E66F5"/>
+  </g>
+</svg>

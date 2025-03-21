@@ -131,6 +131,8 @@
         "lr": "adobe-lightroom",
         //adobe-photoshop
         "psd": "adobe-photoshop",
+        //adobe-xd
+        "xd": "adobe-xd",
         //adobe-premierepro
         "pproj": "adobe-premiere-pro",
         "ppr": "adobe-premiere-pro",
@@ -267,6 +269,8 @@
         //docker
         "dockerignore": "dockerig",
         "dockerfile": "docker",
+        //django
+        "djt": "django",
         
         // E
         //ejs
@@ -445,7 +449,7 @@
         // rd
         "rd": "rds",
         //lock
-        "lock": "lock",
+        // "lock": "lock",
         //react
         "jsx": "react",
         "tsx": "react",
@@ -478,7 +482,7 @@
         //swift
         "swift": "swift",
         // subtitle
-        "srt": "sub",
+        // "srt": "sub",
         
         // T
         //terrabyte
@@ -563,7 +567,8 @@
         "gz": "zip",
         "tar": "zip",
         "tar.gz": "zip",
-        "rar": "zip"
+        "rar": "zip",
+        "zap": "zap"
     },
     
     "languageIds": {
@@ -593,6 +598,10 @@
         
         //css
         "css": "css",
+        
+        //django
+        "django-html": "django",
+        "django-txt": "django",
         
         //dart
         "dart": "dart",
@@ -768,6 +777,10 @@
         //astro
         "astro.mjs": "astro",
         
+        //adonis
+        ".adonisrc.json": "adonis",
+        "ace": "adonis",
+        
         //blitz
         "blitz.config.js": "blitz",
         
@@ -790,8 +803,8 @@
         //dart
         ".pubignore": "dart",
         
-        //django
-        "manage.py": "django",
+        //django-main
+        "manage.py": "django-main",
         
         //docker
         "dockerfile": "docker",
@@ -1003,10 +1016,16 @@
         ".postcssrc.json": "postcss",
         ".postcssrc.yml": "postcss",
         
+        //python-config
+        "pyproject.toml": "python-config",
+        "requirements.txt": "python-config",
+        "requirements-dev.txt": "python-config",
+        "requirements-test.txt": "python-config",
+        
         //pyc
-        "requirements.txt": "pyc",
+        // "requirements.txt": "pyc",
+        // ".python-version": "pyc",
         "pipfile": "pyc",
-        ".python-version": "pyc",
         "manifest.in": "pyc",
         "pylintrc": "pyc",
         ".pylintrc": "pyc",
@@ -1064,6 +1083,16 @@
         
         // yml ignore
         ".gitbook.yaml": "ymlig",
+        
+        // yarn
+        ".yarnrc": "yarn",
+        ".yarnclean": "yarn",
+        ".yarn-integrity": "yarn",
+        "yarn-error.log": "yarn",
+        ".yarnrc.yml": "yarn",
+        ".yarnrc.yaml": "yarn",
+        "yarn.config.cjs": "yarn",
+        "yarn.lock": "yarn-lock",
         
         //award
         "_THANK YOU 1K": "award-1k"
@@ -1653,6 +1682,9 @@
         "asm": {
             "iconPath": "../../assets/icons/assembly.svg"
         },
+        "adonis": {
+            "iconPath": "../../assets/icons/adonis.svg"
+        },
         "astro": {
             "iconPath": "../../assets/icons/astro.svg"
         },
@@ -1722,6 +1754,9 @@
         "django": {
             "iconPath": "../../assets/icons/django.svg"
         },
+        "django-main": {
+            "iconPath": "../../assets/icons/django-main.svg"
+        },
         "docker": {
             "iconPath": "../../assets/icons/docker.svg"
         },
@@ -1770,9 +1805,6 @@
         "gitig": {
             "iconPath": "../../assets/icons/git-ignore.svg"
         },
-"rignore": {
-    "iconPath": "../../assets/icons/rignore.svg"
-},
         "glsl": {
             "iconPath": "../../assets/icons/glsl.svg"
         },
@@ -1812,9 +1844,9 @@
         "html": {
             "iconPath": "../../assets/icons/html.svg"
         },
-"htmlint": {
-    "iconPath": "../../assets/icons/HTMLint.svg" // html + cog
-},
+        "htmlint": {
+            "iconPath": "../../assets/icons/htlm-config.svg" // html + cog
+        },
         "idris": {
             "iconPath": "../../assets/icons/idris.svg"
         },
@@ -1932,18 +1964,24 @@
         "python": {
             "iconPath": "../../assets/icons/python.svg"
         },
+        "python-config": {
+            "iconPath": "../../assets/icons/python-config.svg"
+        },
         "quark": {
             "iconPath": "../../assets/icons/quark.svg"
         },
         "r": {
             "iconPath": "../../assets/icons/r.svg"
         },
-"rds": {
-    "iconPath": "../../assets/icons/rds.svg"
-},
-"lock": {
-    "iconPath": "../../assets/icons/lock.svg"
-},
+        "rds": {
+            "iconPath": "../../assets/icons/r-data.svg"
+        },
+        "rignore": {
+            "iconPath": "../../assets/icons/r-ignore.svg"
+        },
+        // "lock": {
+        //     "iconPath": "../../assets/icons/lock.svg"
+        // },
         "react": {
             "iconPath": "../../assets/icons/javascript-react.svg"
         },
@@ -1983,9 +2021,9 @@
         "swift": {
             "iconPath": "../../assets/icons/swift.svg"
         },
-"sub": {
-    "iconPath": "../../assets/icons/sub.svg"
-},
+        // "sub": {
+        //     "iconPath": "../../assets/icons/sub.svg"
+        // },
         "tailwind": {
             "iconPath": "../../assets/icons/tailwind.svg"
         },
@@ -2043,8 +2081,17 @@
         "ymlig": {
             "iconPath": "../../assets/icons/yaml-ignore.svg"
         },
+        "yarn": {
+            "iconPath": "../../assets/icons/yarn.svg"
+        },
+        "yarn-lock": {
+            "iconPath": "../../assets/icons/yarn-lock.svg"
+        },
         "zig": {
             "iconPath": "../../assets/icons/zig.svg"
+        },
+        "zap": {
+            "iconPath": "../../assets/icons/zap.svg"
         },
         "zip": {
             "iconPath": "../../assets/icons/zip.svg"
@@ -2055,7 +2102,7 @@
             "iconPath": "../../assets/icons/adobebridge.svg"
         },
         "adobe-after-effects": {
-            "iconPath": "../../assets/icons/aftereffects.svg"
+            "iconPath": "../../assets/icons/adobe-ae.svg"
         },
         "adobe-audition": {
             "iconPath": "../../assets/icons/audition.svg"
@@ -2064,22 +2111,25 @@
             "iconPath": "../../assets/icons/dreamweather.svg"
         },
         "adobe-illustrator": {
-            "iconPath": "../../assets/icons/illustrator.svg"
+            "iconPath": "../../assets/icons/adobe-ai.svg"
         },
         "adobe-incopy": {
             "iconPath": "../../assets/icons/incopy.svg"
         },
         "adobe-indesign": {
-            "iconPath": "../../assets/icons/indesign.svg"
+            "iconPath": "../../assets/icons/adobe-id.svg"
         },
         "adobe-lightroom": {
             "iconPath": "../../assets/icons/lightroom.svg"
         },
         "adobe-photoshop": {
-            "iconPath": "../../assets/icons/photoshop.svg"
+            "iconPath": "../../assets/icons/adobe-ps.svg"
         },
         "adobe-premiere-pro": {
             "iconPath": "../../assets/icons/premierepro.svg"
+        },
+        "adobe-xd": {
+            "iconPath": "../../assets/icons/adobe-xd.svg"
         },
         
         //microsoft
@@ -2369,10 +2419,10 @@
         },
         
         "folder-keys": {
-            "iconPath": "../../assets/icons/folder_keys.svg"
+            "iconPath": "../../assets/icons/folder_key.svg"
         },
         "folder-keys-open": {
-            "iconPath": "../../assets/icons/folder_keys_open.svg"
+            "iconPath": "../../assets/icons/folder_key_open.svg"
         },
         
         "folder-layout": {

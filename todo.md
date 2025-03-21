@@ -1,108 +1,3 @@
-advpl.svg
-alex.svg
-amber.svg
-angular-component.svg
-angular-directive.svg
-angular-guard.svg
-angular-pipe.svg
-angular-service.svg
-ansible-lint.svg
-ansible.svg
-antlr.svg
-apache.svg
-api-blueprint.svg
-apl.svg
-apollo.svg
-apps_script.svg
-appveyor.svg
-arduino.svg
-artistic_style.svg
-asciidoc.svg
-astro-config.svg
-aurelia.svg
-auto.svg
-autohotkey.svg
-autoit.svg
-azure-pipelines.svg
-azure.svg
-babel.svg
-ballerina.svg
-bat.svg
-bazel.svg
-bazel_ignore.svg
-benchmark.svg
-bicep.svg
-biome.svg
-bitbucket.svg
-bithound.svg
-bower.svg
-browserslist.svg
-buck.svg
-buildkite.svg
-bun-lock.svg
-bun.svg
-c-header.svg
-caddy.svg
-cadence.svg
-cakephp.svg
-capacitor.svg
-cargo-lock.svg
-certificate.svg
-chart.svg
-chart_lock.svg
-chromium.svg
-circle-ci.svg
-cmake_in.svg
-cocoapods.svg
-cocoapods_lock.svg
-coconut.svg
-code-climate.svg
-code-of-conduct.svg
-codecov.svg
-codeowners.svg
-coffeescript.svg
-command.svg
-commitlint.svg
-contributing.svg
-cpp-header.svg
-craco.svg
-cspell.svg
-css-map.svg
-css3.svg
-csv.svg
-cucumber.svg
-cuda.svg
-cypress.svg
-dart-generated.svg
-denizen_script.svg
-deno.svg
-deno_lock.svg
-dependabot.svg
-detox.svg
-devcontainer.svg
-dhall.svg
-diff.svg
-disc.svg
-doc.svg
-docusaurus.svg
-dotjs.svg
-drawio.svg
-drizzle-orm.svg
-dub-selections.svg
-dub.svg
-eleventy.svg
-elixir.svg
-ember.svg
-env-docker.svg
-envrc.svg
-esbuild.svg
-eslint-ignore.svg
-exe.svg
-fastlane.svg
-favicon.svg
-firebase.svg
-flow.svg
-flutter.svg
 folder_assets.svg
 folder_assets_open.svg
 folder_audit.svg
@@ -333,6 +228,110 @@ folder_wxt.svg
 folder_wxt_open.svg
 folder_xcode.svg
 folder_xcode_open.svg
+
+advpl.svg
+alex.svg
+amber.svg
+angular-component.svg
+angular-directive.svg
+angular-guard.svg
+angular-pipe.svg
+angular-service.svg
+ansible-lint.svg
+ansible.svg
+antlr.svg
+apache.svg
+api-blueprint.svg
+apl.svg
+apollo.svg
+apps_script.svg
+appveyor.svg
+arduino.svg
+artistic_style.svg
+asciidoc.svg
+astro-config.svg
+aurelia.svg
+auto.svg
+autohotkey.svg
+autoit.svg
+azure-pipelines.svg
+azure.svg
+babel.svg
+ballerina.svg
+bat.svg
+bazel.svg
+bazel_ignore.svg
+benchmark.svg
+bicep.svg
+biome.svg
+bitbucket.svg
+bithound.svg
+bower.svg
+browserslist.svg
+buck.svg
+buildkite.svg
+bun-lock.svg
+bun.svg
+c-header.svg
+caddy.svg
+cadence.svg
+cakephp.svg
+capacitor.svg
+cargo-lock.svg
+certificate.svg
+chart.svg
+chart_lock.svg
+chromium.svg
+circle-ci.svg
+cmake_in.svg
+cocoapods.svg
+cocoapods_lock.svg
+coconut.svg
+code-climate.svg
+code-of-conduct.svg
+codecov.svg
+codeowners.svg
+coffeescript.svg
+command.svg
+commitlint.svg
+contributing.svg
+cpp-header.svg
+craco.svg
+cspell.svg
+css-map.svg
+css3.svg
+csv.svg
+cucumber.svg
+cuda.svg
+cypress.svg
+dart-generated.svg
+denizen_script.svg
+deno.svg
+deno_lock.svg
+dependabot.svg
+detox.svg
+devcontainer.svg
+dhall.svg
+diff.svg
+disc.svg
+doc.svg
+docusaurus.svg
+dotjs.svg
+drawio.svg
+drizzle-orm.svg
+dub-selections.svg
+dub.svg
+eleventy.svg
+elixir.svg
+ember.svg
+envrc.svg
+esbuild.svg
+exe.svg
+fastlane.svg
+favicon.svg
+firebase.svg
+flow.svg
+flutter.svg
 forth.svg
 foxpro.svg
 fvm.svg
@@ -340,7 +339,6 @@ gamemaker.svg
 gatsby.svg
 gcp.svg
 git-cliff.svg
-gitbook.svg
 gitlab.svg
 gitpod.svg
 gleam-config.svg
@@ -557,7 +555,6 @@ typescript_test.svg
 typst.svg
 uml.svg
 unocss.svg
-url.svg
 uv.svg
 v.svg
 vagrant.svg
@@ -1038,7 +1035,6 @@ export const extensions: IconMap = {
   ],
   uml: ['iuml', 'pu', 'puml', 'plantuml', 'wsd'],
   unity: ['unity'],
-  url: ['url'],
   v: ['v'],
   video: [
     'avi',
@@ -1386,18 +1382,6 @@ export const files: IconMap = {
     'esbuild.config.cjs',
     'esbuild.config.mjs',
   ],
-  eslint: [
-    '.eslintrc.js',
-    '.eslintrc.cjs',
-    '.eslintrc.yaml',
-    '.eslintrc.yml',
-    '.eslintrc.json',
-    '.eslintrc-md.js',
-    '.eslintrc-jsdoc.js',
-    '.eslintrc',
-    'eslint.config.js',
-  ],
-  eslint_ignore: ['.eslintignore', '.eslintcache'],
   fastlane: ['fastfile', 'fastlane/appfile', 'fastlane/pluginfile'],
   favicon: ['favicon.ico'],
   firebase: [
@@ -1428,7 +1412,6 @@ export const files: IconMap = {
     '.gitkeep',
     '.git-include',
   ],
-  gitbook: ['.gitbook.yaml'],
   gitlab: ['.gitlab-ci.yml'],
   gitpod: ['.gitpod.yml'],
   gleam: ['gleam.toml'],
@@ -3437,30 +3420,6 @@ const fileIcons: FileIcons = {
       'esbuild.config.mjs',
     ],
   },
-  'eslint-ignore': {
-    fileNames: [
-      '.eslintignore',
-      '.eslintcache,',
-    ],
-  },
-  'eslint': {
-    fileNames: [
-      '.eslintrc.js',
-      '.eslintrc.cjs',
-      '.eslintrc.yaml',
-      '.eslintrc.yml',
-      '.eslintrc.json',
-      '.eslintrc-md.js',
-      '.eslintrc-jsdoc.js',
-      '.eslintrc',
-      'eslint.config.js',
-      'eslint.config.cjs',
-      'eslint.config.mjs',
-      'eslint.config.ts',
-      'eslint.config.cts',
-      'eslint.config.mts',
-    ],
-  },
   'exe': {
     fileExtensions: [
       'exe',
@@ -5099,9 +5058,6 @@ const fileIcons: FileIcons = {
       'unocss.config.ts',
       'unocss.config.mts',
     ],
-  },
-  'url': {
-    fileExtensions: ['url'],
   },
   'uv': {
     fileNames: ['uv.lock'],

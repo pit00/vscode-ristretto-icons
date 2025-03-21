@@ -905,14 +905,14 @@
         "gemfile": "gemfile",
         
         //git
-        ".gitignore_global": "git",
-        ".gitconfig": "git",
-        ".gitattributes": "git",
-        ".gitmodules": "git",
-        ".gitkeep": "git",
-        ".gitinclude": "git",
-        "git-history": "git",
-        ".gitignore": "gitig",
+        ".gitignore_global": "git-ignore",
+        ".gitconfig": "git-ignore",
+        ".gitattributes": "git-ignore",
+        ".gitmodules": "git-ignore",
+        ".gitkeep": "git-ignore",
+        ".gitinclude": "git-ignore",
+        "git-history": "git-ignore",
+        ".gitignore": "git",
         
         // rignore
         "DESCRIPTION": "r-config",
@@ -1316,6 +1316,13 @@
         "pkg": "folder-package",
         "pkgs": "folder-package",
         
+        // python
+        "python": "folder-python",
+        "python2": "folder-python",
+        "python3": "folder-python",
+        ".pytest_cache": "folder-python",
+        "__pycache__": "folder-python",
+        
         //page
         // "page": "folder-page",
         // "pages": "folder-page",
@@ -1580,6 +1587,13 @@
         "packages": "folder-package-open",
         "pkg": "folder-package-open",
         "pkgs": "folder-package-open",
+        
+        // python
+        "python": "folder-python-open",
+        "python2": "folder-python-open",
+        "python3": "folder-python-open",
+        ".pytest_cache": "folder-python-open",
+        "__pycache__": "folder-python-open",
         
         //page
         // "page": "folder-page-open",
@@ -1886,7 +1900,7 @@
         "git": {
             "iconPath": "../../assets/icons/git.svg"
         },
-        "gitig": {
+        "git-ignore": {
             "iconPath": "../../assets/icons/git-ignore.svg"
         },
         "gitbook": {
@@ -2442,6 +2456,12 @@
         },
         "folder-node-open": {
             "iconPath": "../../assets/icons/folder_node_open.svg"
+        },
+        "folder-python": {
+            "iconPath": "../../assets/icons/folder_python.svg"
+        },
+        "folder-python-open": {
+            "iconPath": "../../assets/icons/folder_python_open.svg"
         },
         "folder-package": {
             "iconPath": "../../assets/icons/folder_packages.svg"

@@ -142,8 +142,6 @@ folder_proto.svg
 folder_proto__open.svg
 folder_public.svg
 folder_public_open.svg
-folder_python.svg
-folder_python__open.svg
 folder_queue.svg
 folder_queue_open.svg
 folder_redux.svg
@@ -907,7 +905,6 @@ export const extensions: IconMap = {
   pug: ['jade', 'pug'],
   puppet: ['pp'],
   purescript: ['purs', 'pure'],
-  python: ['py'],
   python_compiled: ['pyc', 'pyo', 'pyd'],
   python_misc: ['whl'],
   r: ['r', 'rmd'],
@@ -2425,7 +2422,6 @@ export const folders: IconMap = {
   folder_project: ['project', 'projects', '.project', '.projects'],
   folder_proto: ['protobuf', 'protobufs', 'proto', 'protos'],
   folder_public: ['public', 'www', 'wwwroot', 'web', 'website', 'site', 'http', 'webroot'],
-  folder_python: ['python', 'python2', 'python3', '.pytest_cache', '__pycache__'],
   folder_queue: ['queue', 'queues', 'bull', 'mq'],
   folder_redux: ['redux'],
   folder_review: ['review', 'reviews', 'revisal', 'revisals', 'reviewed'],
@@ -2591,7 +2587,6 @@ export const languages: IconMap = {
   pug: ['jade', 'pug'],
   puppet: ['puppet'],
   purescript: ['purescript'],
-  python: ['python'],
   r: ['r', 'rsweave'],
   razor: ['razor', 'aspnetcorerazor'],
   reason: ['reason', 'reason_lisp'],
@@ -4521,10 +4516,6 @@ const fileIcons: FileIcons = {
       'requirements-test.txt',
       '.python-version',
     ],
-  },
-  'python': {
-    languageIds: ['python'],
-    fileExtensions: ['py'],
   },
   'r': {
     languageIds: [

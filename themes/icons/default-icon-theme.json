@@ -448,6 +448,7 @@
         "rds": "r-ignore",
         // rd
         "rd": "r-ignore",
+        "Rproj": "r-ignore",
         //lock
         // "lock": "lock",
         //react

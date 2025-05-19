@@ -1409,7 +1409,7 @@ export const files: IconMap = {
     '.gitkeep',
     '.git-include',
   ],
-  gitlab: ['.gitlab-ci.yml'],
+  gitlab: ['.gitlab-ci.yml', 'gitlab-ci.yaml'],
   gitpod: ['.gitpod.yml'],
   gleam: ['gleam.toml'],
   go_mod: ['go.mod', 'go.sum', 'go.work', 'go.work.sum'],
@@ -2735,6 +2735,7 @@ const fileIcons: FileIcons = {
     fileNames: [
       '.ds_store',
       'apple-app-site-association',
+      'apple-developer-merchantid-domain-association',
     ],
   },
   'asciidoc': {
@@ -3480,6 +3481,7 @@ const fileIcons: FileIcons = {
       'f95',
       'f03',
       'f08',
+      'for',
     ],
   },
   'fsharp': {
@@ -3544,7 +3546,7 @@ const fileIcons: FileIcons = {
     ],
   },
   'gitlab': {
-    fileExtensions: ['gitlab-ci.yml'],
+    fileExtensions: ['gitlab-ci.yml', 'gitlab-ci.yaml',],
   },
   'gitpod': {
     fileNames: ['.gitpod.yml'],
@@ -5750,6 +5752,9 @@ const folderIcons: FolderIcons = {
       'font',
       'fonts',
     ],
+  },
+  'forgejo': {
+    folderNames: ['.forgejo'],
   },
   'functions': {
     folderNames: [

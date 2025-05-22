@@ -378,7 +378,6 @@ jenkins.svg
 jinja.svg
 json-schema.svg
 juce.svg
-jupyter.svg
 just.svg
 karma.svg
 kdl.svg
@@ -585,6 +584,7 @@ xib.svg
 xmake.svg
 
 # Extensions
+
 export const extensions: IconMap = {
   _3d: [
     'ac',
@@ -839,7 +839,6 @@ export const extensions: IconMap = {
     'ndjson',
   ],
   julia: ['jl'],
-  jupyter: ['ipynb'],
   key: ['pub', 'key', 'pem', 'asc', 'gpg', 'passwd', 'keystore'],
   kivy: ['kv'],
   kotlin: ['kt', 'kts'],
@@ -905,8 +904,6 @@ export const extensions: IconMap = {
   pug: ['jade', 'pug'],
   puppet: ['pp'],
   purescript: ['purs', 'pure'],
-  python_compiled: ['pyc', 'pyo', 'pyd'],
-  python_misc: ['whl'],
   r: ['r', 'rmd'],
   racket: ['rkt', 'rkts', 'rktd', 'rktl'],
   razor: ['cshtml', 'vbhtml'],
@@ -1134,6 +1131,7 @@ export const extensions: IconMap = {
 }
 
 # Filenames
+
 export const files: IconMap = {
   adonis: ['.adonisrc.json', 'ace'],
   alex: ['.alexrc', '.alexrc.yml', '.alexrc.yaml', 'alexrc.js'],
@@ -1654,7 +1652,6 @@ export const files: IconMap = {
     'payload.config.ts',
     'payload.config.mts',
   ],
-  pdm: ['pdm.toml', '.pdm-python'],
   pdm_lock: ['pdm.lock'],
   php_cs_fixer: [
     '.php_cs',
@@ -1747,15 +1744,6 @@ export const files: IconMap = {
     '.puppeteerrc.yaml',
     'puppeteer.config.js',
     'puppeteer.config.cjs',
-  ],
-  python_misc: [
-    'requirements.txt',
-    'pipfile',
-    '.python-version',
-    'manifest.in',
-    'pylintrc',
-    '.pylintrc',
-    'pyproject.toml',
   ],
   quasar: ['quasar.conf.js', 'quasar.config.js'],
   r: ['.Rhistory'],
@@ -2161,6 +2149,7 @@ export const files: IconMap = {
 }
 
 # Folders
+
 export const folders: IconMap = {
   folder_admin: ['admin', 'manager', 'managers', 'moderator', 'moderators'],
   folder_android: ['android', 'apk'],
@@ -2504,6 +2493,7 @@ export const folders: IconMap = {
 }
 
 # LANGUAGES
+
 export const languages: IconMap = {
   angular: ['ng-template'],
   api_blueprint: ['apiblueprint'],
@@ -2557,7 +2547,6 @@ export const languages: IconMap = {
   jinja: ['jinja'],
   json: ['json', 'jsonc', 'json5', 'jsonl'],
   julia: ['julia', 'juliamarkdown'],
-  jupyter: ['jupyter'],
   latex: [
     'bibtex',
     'bibtex-style',
@@ -2641,6 +2630,7 @@ export const languages: IconMap = {
 }
 
 # ALL Files
+
 const fileIcons: FileIcons = {
   'adobe-ae': {
     fileExtensions: ['aep'],
@@ -3937,10 +3927,6 @@ const fileIcons: FileIcons = {
     languageIds: ['julia'],
     fileExtensions: ['jl'],
   },
-  'jupyter': {
-    languageIds: ['jupyter'],
-    fileExtensions: ['ipynb'],
-  },
   'just': {
     fileExtensions: ['just'],
     fileNames: ['justfile', '.justfile'],
@@ -4501,22 +4487,6 @@ const fileIcons: FileIcons = {
       '.puppeteerrc.yaml,',
       'puppeteer.config.js',
       'puppeteer.config.cjs',
-    ],
-  },
-  'python-compiled': {
-    fileExtensions: [
-      'pyc',
-      'pyo',
-      'pyd',
-    ],
-  },
-  'python-config': {
-    fileNames: [
-      'pyproject.toml',
-      'requirements.txt',
-      'requirements-dev.txt',
-      'requirements-test.txt',
-      '.python-version',
     ],
   },
   'r': {
@@ -5464,6 +5434,7 @@ const fileIcons: FileIcons = {
 }
 
 # All Folders
+
 const folderIcons: FolderIcons = {
   'admin': {
     folderNames: [

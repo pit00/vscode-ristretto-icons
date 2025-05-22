@@ -434,8 +434,11 @@
         //pyc
         "pyc": "pyc",
         "whl": "pyc",
+        "pyd": "pyc",
+        "pyo": "pyc",
         //python
         "py": "python",
+        "ipynb": "jupyter",
         
         // Q
         //quark
@@ -697,6 +700,7 @@
         
         //python
         "python": "python",
+        "jupyter": "jupyter",
         
         //r
         "r": "r",
@@ -1030,12 +1034,15 @@
         "requirements-test.txt": "python-config",
         
         //pyc
-        // "requirements.txt": "pyc",
-        // ".python-version": "pyc",
         "pipfile": "pyc",
         "manifest.in": "pyc",
         "pylintrc": "pyc",
         ".pylintrc": "pyc",
+        ".python-version": "pyc",
+        
+        // pdm
+        "pdm.toml": "pdm",
+        ".pdm-python": "pdm",
         
         //readme
         "readme": "readme",
@@ -2068,6 +2075,9 @@
         },
         "python-config": {
             "iconPath": "../../assets/icons/python-config.svg"
+        },
+        "jupyter": {
+            "iconPath": "../../assets/icons/jupyter.svg"
         },
         "quark": {
             "iconPath": "../../assets/icons/quark.svg"

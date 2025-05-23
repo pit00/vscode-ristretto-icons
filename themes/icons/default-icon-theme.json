@@ -284,6 +284,7 @@
         "env": "env",
         //erlang
         "erl": "erlang",
+        "excalidraw": "excalidraw",
         
         // F
         //fortan
@@ -1886,6 +1887,9 @@
         },
         "erlang": {
             "iconPath": "../../assets/icons/erlang.svg"
+        },
+        "excalidraw": {
+            "iconPath": "../../assets/icons/excalidraw.svg"
         },
         "eslint": {
             "iconPath": "../../assets/icons/eslint.svg"

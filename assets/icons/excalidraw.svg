@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496.7 476.4" style="enable-background:new 0 0 496.7 476.4;" xml:space="preserve">
+<style type="text/css">
+    .st0{fill:#7287FD;}
+    .st1{fill:none;stroke:#7287FD;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+    <ellipse class="st0" cx="364.9" cy="114.3" rx="34" ry="34"/>
+    <path class="st1" d="M418.3,466.4l68.4-77.2c0.3-0.3-103.5-116.2-101.8-112.9c-8.5-9.7-100.9,74-94.7,81.1L418.3,466.4z"/>
+    <path class="st1" d="M116.3,211c4.6,0,92.1-105.5,88.6-105.5l-67-68.5L10,10l33.9,142.5L116.3,211z"/>
+    <path class="st1" d="M12,371.7l107.6,93.7l208.2-198.6c1.9,0,112-91.1,109.3-91.1c14.2,0,33-163.1,24.3-163.1 c0-7.5-158.7,28.6-158.7,37.3L195.9,180C197,181.1,13.2,372.9,12,371.7z"/>
+</g>
+</svg>

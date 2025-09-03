@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>folder_graphql</title>
-    <g id="folder_graphql" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <g id="folder" stroke="#8C8FA1" stroke-linecap="round">
-            <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
-        </g>
-        <g id="macos" stroke="#D20F39">
-            <path d="M12,8.5 L15.5,13.5 L8.5,13.5 L12,8.5 Z M8.5,13.5 L12,15.5 L15.5,13.5 L15.5,9.5 L12,7.5 L8.5,9.5 L8.5,13.5 Z" id="Combined-Shape"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<path fill="none" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round" d="M4.5 4.5H12c.8 0 1.5.7 1.5 1.5v.5m-7.5 7H2c-.8 0-1.5-.7-1.5-1.5V3.5c0-.6.4-1 1-1h5c.6 0 1 .4 1 1v1" />
+	<path fill="none" stroke="#ea76cb" stroke-linecap="round" stroke-linejoin="round" d="M8.9999635 13.614596v0m0 0H14.821511M8.9999635 13.071581 11.587318 8.7274605m3.234193 4.3441205-2.587354-4.3441205M15.500001 13.902304 11.950872 15.500005 8.4017445 13.902303V9.5468754l3.5491275-1.5344271 3.549129 1.5344271z" />
 </svg>

@@ -31,12 +31,10 @@
         "workspace"
     ],
     "contributes": {
-        "iconThemes": [
-            {
+        "iconThemes": [{
             "id": "vscode-ristretto-icons",
             "label": "Ristretto Icons",
             "path": "./themes/icons/default-icon-theme.json"
-            }
-        ]
+        }]
     }
 }

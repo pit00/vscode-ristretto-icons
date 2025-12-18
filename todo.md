@@ -1,3 +1,5 @@
+# TODO list
+
 folder_assets.svg
 folder_assets_open.svg
 folder_audit.svg
@@ -146,8 +148,7 @@ folder_redux.svg
 folder_redux_open.svg
 folder_renovate.svg
 folder_renovate_open.svg
-folder_resource.svg
-folder_resource__open.svg
+
 folder_review.svg
 folder_review__open.svg
 folder_robot.svg
@@ -186,12 +187,8 @@ folder_task.svg
 folder_task__open.svg
 folder_tauri.svg
 folder_tauri_open.svg
-folder_templates.svg
-folder_templates_open.svg
 folder_terraform.svg
 folder_terraform__open.svg
-folder_themes.svg
-folder_themes_open.svg
 folder_turbo.svg
 folder_turbo_open.svg
 folder_types.svg
@@ -294,7 +291,6 @@ craco.svg
 cspell.svg
 css-map.svg
 css3.svg
-csv.svg
 cucumber.svg
 cuda.svg
 cypress.svg
@@ -307,7 +303,6 @@ detox.svg
 devcontainer.svg
 dhall.svg
 diff.svg
-disc.svg
 doc.svg
 docusaurus.svg
 dotjs.svg
@@ -576,6 +571,8 @@ xd.svg
 xib.svg
 xmake.svg
 
+mte?
+
 # fileExtensions
 
 export const extensions: IconMap = {
@@ -599,42 +596,32 @@ export const extensions: IconMap = {
     "vdp",
     "vox",
   ],
-
 //advpl
 "prw": "advpl",
 "prx": "advpl",
 "ptm": "advpl",
 "tlpp": "advpl",
 "ch": "advpl",
-
 //android
 "apk": "android",
 "smali": "android",
 "dex": "android",
- 
 //angular
 "ng-template": "angular",
-
 //antlr
 "antlr": "g4"
-
 //api_blueprint
 "apib": "api_blueprint",
 "apiblueprint": "api_blueprint",
-
 //apl
 "apl": "apl",
-
 //apple
 "applescript": "apple",
 "ipa": "apple",
-
 apps_script: ["gs"],
 arduino: ["ino"],
-
 //asciidoc
 ""ad", "adoc", "asciidoc"": "asciidoc",
-
   assembly: [
     "asm",
     "a51",
@@ -681,7 +668,6 @@ arduino: ["ino"],
   cpp: ["cc", "cpp", "cxx", "c++", "cp", "mm", "mii", "ii"],
   crystal: ["cr", "ecr"],
   csharp: ["cs", "csx", "csharp"],
-  csv: ["csv", "tsv", "psv"],
   cucumber: ["feature", "features"],
   cuda: ["cu", "cuh"],
   d: ["d"],
@@ -704,7 +690,6 @@ arduino: ["ino"],
   ],
   denizen_script: ["dsc"],
   dhall: ["dhall", "dhallb"],
-  disc: ["iso", "vcd", "cue", "dmg", "hdd", "vmdk", "qcow", "qcow2", "qed"],
   django: ["djt"],
   doc: ["doc", "docx", "rtf", "odt", "pages"],
   docker: ["dockerfile"],
@@ -1154,7 +1139,6 @@ export const languages: IconMap = {
   cpp: ["cpp"],
   csharp: ["csharp"],
   css: ["css"],
-  csv: ["csv", "tsv", "psv"],
   cucumber: ["cucumber"],
   cuda: ["cuda-cpp"],
   d: ["d"],
@@ -1276,7 +1260,6 @@ export const files: IconMap = {
     //adonis
     ".adonisrc.json": "adonis",
     "ace": "adonis",
-    
   alex: [".alexrc", ".alexrc.yml", ".alexrc.yaml", "alexrc.js"],
   android: ["androidmanifest.xml"],
   angular: ["angular-cli.json", ".angular-cli.json", "angular.json"],
@@ -2568,7 +2551,6 @@ export const folders: IconMap = {
   folder_queue: ["queue", "queues", "bull", "mq"],
   folder_redux: ["redux"],
   folder_review: ["review", "reviews", "revisal", "revisals", "reviewed"],
-  folder_resource: ["res", "resource", "resources", "static"],
   folder_robot: [".bot", "bot", "bots", ".robot", "robot", "robots", "_bot", "_robot"],
   folder_routes: ["route", "routes", "router", "routers", "navigation", "navigator", "navigators"],
   folder_rules: [
@@ -2603,21 +2585,7 @@ export const folders: IconMap = {
   folder_svg: ["svg", "svgs"],
   folder_task: ["task", "tasks"],
   folder_tauri: ["src-tauri", "tauri"],
-  folder_temp: ["temp", "tmp", "temporary"],
-  folder_templates: ["template", "templates", "_template", "_templates"],
   folder_terraform: ["terraform", ".terraform"],
-  folder_tests: [
-    "test",
-    "tests",
-    "testing",
-    "__tests__",
-    "__snapshots__",
-    "__mocks__",
-    "__fixtures__",
-    "__test__",
-    "spec",
-    "specs",
-  ],
   folder_types: ["typings", "@types", "types"],
   folder_typescript: ["typescript", "ts"],
   folder_unity: ["unity"],
@@ -2637,7 +2605,6 @@ export const folders: IconMap = {
   folder_vercel: ["vercel", ".vercel", "now", ".now"],
   folder_video: ["vid", "vids", "video", "videos", "movie", "movies", "media"],
   folder_views: ["view", "views", "screen", "screens", "page", "pages", "html"],
-  folder_vscode: [".vscode", ".vscode-test"],
   folder_vue: ["vue"],
   folder_webpack: [".webpack", "webpack"],
   folder_windows: ["windows", "win", "win32", "win64", "wince"],
@@ -3097,18 +3064,6 @@ const fileIcons: FileIcons = {
     languageIds: ["css"],
     fileExtensions: ["css"],
   },
-  "csv": {
-    languageIds: [
-      "csv",
-      "tsv",
-      "psv",
-    ],
-    fileExtensions: [
-      "csv",
-      "tsv",
-      "psv",
-    ],
-  },
   "cucumber": {
     languageIds: ["cucumber"],
     fileExtensions: [
@@ -3122,10 +3077,6 @@ const fileIcons: FileIcons = {
       "cu",
       "cuh",
     ],
-  },
-  "cue": {
-    languageIds: ["cue"],
-    fileExtensions: ["cue"],
   },
   "cursor-ignore": {
     fileNames: [
@@ -6236,44 +6187,7 @@ const folderIcons: FolderIcons = {
   "tauri": {
     folderNames: ["src-tauri"],
   },
-  "temp": {
-    folderNames: [
-      "temp",
-      ".temp",
-      "tmp",
-      ".tmp",
-      "cached",
-      "cache",
-      ".cache",
-    ],
-  },
-  "templates": {
-    folderNames: [
-      "template",
-      "templates",
-    ],
-  },
-  "tests": {
-    folderNames: [
-      "test",
-      "tests",
-      "testing",
-      "__tests__",
-      "__snapshots__",
-      "__mocks__",
-      "__fixtures__",
-      "__test__",
-      "spec",
-      "specs",
-    ],
-  },
-  "themes": {
-    folderNames: [
-      "theme",
-      "themes",
-    ],
-  },
-  "turbo": {
+    "turbo": {
     folderNames: [
       ".turbo",
     ],
@@ -6327,12 +6241,6 @@ const folderIcons: FolderIcons = {
       "pages",
       "public_html",
       "html",
-    ],
-  },
-  "vscode": {
-    folderNames: [
-      ".vscode",
-      ".vscode-test",
     ],
   },
   "windows": {

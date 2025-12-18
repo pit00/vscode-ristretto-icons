@@ -144,6 +144,12 @@
         "css.map": "css",
         // cfg ext
         "cfg": "cfg",
+        // cue ext
+        "cue": "disc",
+        // csv ext
+        "csv": "csv",
+        "tsv": "csv",
+        "psv": "csv",
         
         // D ext
         // d ext
@@ -155,6 +161,14 @@
         "dockerfile": "docker",
         // django ext
         "djt": "django",
+        // disc ext
+        "iso": "disc",
+        "vcd": "disc",
+        "dmg": "disc",
+        "vmdk": "disc",
+        "qcow": "disc",
+        "qcow2": "disc",
+        "qed": "disc",
         
         // E ext
         // ejs ext
@@ -386,7 +400,7 @@
         "pptm": "ms-pptx",
         "pptx": "ms-pptx",
         //ms-xlsx ext
-        "csv": "ms-xlsx",
+        // "csv": "ms-xlsx",
         "ods": "ms-xlsx",
         "xla": "ms-xlsx",
         "xlam": "ms-xlsx",
@@ -629,6 +643,12 @@
         "csharp": "csharp",
         // css lang
         "css": "css",
+        // cue lang
+        "cue": "disc",
+        // csv lang
+        "csv": "csv",
+        "tsv": "csv",
+        "psv": "csv",
         
         // D lang
         // django lang
@@ -1123,29 +1143,29 @@
     },
     
     "folderNames": {
-        // A open
-        // abstract open
+        // A closed
+        // abstract closed
         // "abstract": "folder-abstract",
         // "abstracts": "folder-abstract",
-        // admin open
+        // admin closed
         "admin": "folder-admin",
         "admins": "folder-admin",
-        // angular open
+        // angular closed
         "ng": "folder-angular",
         "angular": "folder-angular",
-        // anim open
+        // anim closed
         "anim": "folder-anim",
         "anims": "folder-anim",
         "animation": "folder-anim",
         "animations": "folder-anim",
         "gif": "folder-anim",
         "gifs": "folder-anim",
-        // api open
+        // api closed
         "api": "folder-api",
-        // app open
+        // app closed
         "app": "folder-app",
         "apps": "folder-app",
-        // audio open
+        // audio closed
         "audio": "folder-audio",
         "audios": "folder-audio",
         "sound": "folder-audio",
@@ -1153,45 +1173,45 @@
         "music": "folder-audio",
         "musics": "folder-audio",
         
-        // C open
-        // class open
+        // C closed
+        // class closed
         // "class": "folder-class",
         // "classes": "folder-class",
-        // client open
+        // client closed
         "client": "folder-client",
         "clients": "folder-client",
         "front": "folder-client",
         "fronted": "folder-client",
-        // cloud open
+        // cloud closed
         "cloud": "folder-cloud",
         "clouds": "folder-cloud",
         "aws": "folder-cloud",
         "gcs": "folder-cloud",
-        // cluster open
+        // cluster closed
         // "cluster": "folder-cluster",
         // "clusters": "folder-cluster",
-        // command open
+        // command closed
         "command": "folder-command",
         "commands": "folder-command",
         "bin": "folder-command",
         "cmd": "folder-command",
-        // component open
+        // component closed
         "component": "folder-component",
         "components": "folder-component",
-        // config open
+        // config closed
         "config": "folder-config",
         "configs": "folder-config",
         "cfg": "folder-config",
         "cfgs": "folder-config",
-        // contract open
+        // contract closed
         // "contract": "folder-contract",
         // "contracts": "folder-contract",
-        // core open
+        // core closed
         "core": "folder-core",
         "cores": "folder-core",
         
-        // D open
-        // database open
+        // D closed
+        // database closed
         "database": "folder-database",
         "databases": "folder-database",
         "data": "folder-database",
@@ -1199,58 +1219,58 @@
         "sql": "folder-database",
         "model": "folder-database",
         "models": "folder-database",
-        // dist open
+        // dist closed
         "build": "folder-dist",
         "dist": "folder-dist",
         "out": "folder-dist",
         "release": "folder-dist",
-        // docker open
+        // docker closed
         "docker": "folder-docker",
-        // docs open
+        // docs closed
         "doc": "folder-docs",
         "docs": "folder-docs",
         "document": "folder-docs",
         "documentation": "folder-docs",
         "documentations": "folder-docs",
-        // download open
+        // download closed
         "download": "folder-download",
         "downloads": "folder-download",
         
-        // E open
-        // error open
+        // E closed
+        // error closed
         "error": "folder-error",
         "errors": "folder-error",
-        // event open
+        // event closed
         "event": "folder-event",
         "events": "folder-event",
         
-        // F open
-        // font open
+        // F closed
+        // font closed
         "font": "folder-font",
         "fonts": "folder-font",
         
-        // G open
-        // git open
+        // G closed
+        // git closed
         "git": "folder-git",
         ".git": "folder-git",
         ".github": "folder-git",
         ".gitbook": "folder-git",
-        // gradle open
+        // gradle closed
         "gradle": "folder-gradle",
         ".gradle": "folder-gradle",
-        // godot open
+        // godot closed
         ".godot": "folder-godot",
         "godot": "folder-godot",
         ".godot-cpp": "folder-godot",
         "godot-cpp": "folder-godot",
         
-        // H open
-        // home open
+        // H closed
+        // home closed
         "home": "folder-home",
         "homes": "folder-home",
         
-        // I open
-        // image open
+        // I closed
+        // image closed
         "image": "folder-image",
         "images": "folder-image",
         "img": "folder-image",
@@ -1258,68 +1278,68 @@
         "assets": "folder-image",
         "icon": "folder-image",
         "icons": "folder-image",
-        // in open
+        // in closed
         // "in": "folder-in",
         // "input": "folder-in",
-        // interface open
+        // interface closed
         // "interface": "folder-interface",
         // "interfaces": "folder-interface",
-        // ios open
+        // ios closed
         "ios": "folder-ios",
         "apple": "folder-ios",
         "mac": "folder-ios",
         
-        // J open
-        // java open
+        // J closed
+        // java closed
         "java": "folder-java",
         "jar": "folder-java",
-        // javascript open
+        // javascript closed
         "javascript": "folder-javascript",
         "js": "folder-javascript",
         "script": "folder-javascript",
         
-        // K open
-        // keys open
+        // K closed
+        // keys closed
         "keys": "folder-keys",
         "key": "folder-keys",
         
-        // L open
-        // layout open
+        // L closed
+        // layout closed
         "layout": "folder-layout",
         "ui": "folder-layout",
-        // lib open
+        // lib closed
         "lib": "folder-lib",
         "libs": "folder-lib",
         "librarie": "folder-lib",
         "libraries": "folder-lib",
         "ressource": "folder-lib",
         "ressources": "folder-lib",
-        // log open
+        // log closed
         "log": "folder-log",
         "logs": "folder-log",
         "history": "folder-log",
         
-        // M open
-        // middleware open
+        // M closed
+        // middleware closed
         "middleware": "folder-middleware",
         "middlewares": "folder-middleware",
         
-        // N open
-        // network open
+        // N closed
+        // network closed
         // "network": "folder-network",
         // "networks": "folder-network",
         // "packet": "folder-network",
         // "packets": "folder-network",
         // "route": "folder-network",
         // "routes": "folder-network",
-        // node open
+        // node closed
         "node": "folder-node",
         "node_modules": "folder-node",
         ".node": "folder-node",
         ".node_modules": "folder-node",
         
-        // P open
-        // package open
+        // P closed
+        // package closed
         "package": "folder-package",
         "packages": "folder-package",
         "pkg": "folder-package",
@@ -1330,90 +1350,122 @@
         "python3": "folder-python",
         ".pytest_cache": "folder-python",
         "__pycache__": "folder-python",
-        // page open
+        // page closed
         // "page": "folder-page",
         // "pages": "folder-page",
         // "view": "folder-page",
         // "views": "folder-page",
         // "html": "folder-page",
         // "htm": "folder-page",
-        // pipe open
+        // pipe closed
         // "pipe": "folder-pipe",
         // "pipes": "folder-pipe",
-        // private open
+        // private closed
         "private": "folder-private",
         "lock": "folder-private",
         
-        // S open
-        // server open
+        // R closed
+        // resource closed
+        "res": "folder-resource",
+        "resource": "folder-resource",
+        "resources": "folder-resource",
+        "static": "folder-resource",
+        
+        // S closed
+        // server closed
         "server": "folder-server",
         "servers": "folder-server",
         "back": "folder-server",
         "backend": "folder-server",
-        // src open
+        // src closed
         "src": "folder-src",
         "source": "folder-src",
         "controller": "folder-src",
         "controllers": "folder-src",
-        // style open
+        // style closed
         "style": "folder-style",
         "styles": "folder-style",
         "css": "folder-style",
         "stylesheets": "folder-style",
         "scss": "folder-style",
         "sass": "folder-style",
-        // scripts open
+        // scripts closed
         // "script": "folder-scripts",
         "scripts": "folder-scripts",
         "scripting": "folder-scripts",
         
-        // T open
-        // temp open
+        // T closed
+        // temp closed
         "temp": "folder-temp",
-        // test open
+        ".temp": "folder-temp",
+        "tmp": "folder-temp",
+        ".tmp": "folder-temp",
+        "cached": "folder-temp",
+        "cache": "folder-temp",
+        ".cache": "folder-temp",
+        "temporary": "folder-temp",
+        "scraps": "folder-temp",
+        // test closed
         "test": "folder-test",
         "tests": "folder-test",
-        // typescript open
+        "testing": "folder-test",
+        "__tests__": "folder-test",
+        "__snapshots__": "folder-test",
+        "__mocks__": "folder-test",
+        "__fixtures__": "folder-test",
+        "__test__": "folder-test",
+        "spec": "folder-test",
+        "specs": "folder-test",
+        // typescript closed
         "typescript": "folder-typescript",
         "ts": "folder-typescript",
+        // template closed
+        "template": "folder-template",
+        "templates": "folder-template",
+        "_template": "folder-template",
+        "_templates": "folder-template",
+        // theme closed
+        "theme": "folder-theme",
+        "themes": "folder-theme",
         
-        // V open
-        // vm open
+        // V closed
+        // vm closed
         // "vm": "folder-vm",
-        // vscode open
+        // vscode closed
         "vscode": "folder-vscode",
         ".vscode": "folder-vscode",
+        ".vscode-test": "folder-vscode",
         
-        // Y open
-        // yarn open
+        // Y closed
+        // yarn closed
         "yarn": "folder-yarn",
         ".yarn": "folder-yarn"
     },
     
     "folderNamesExpanded": {
-        // A close
-        // abstract close
+        // A opened
+        // abstract opened
         // "abstract": "folder-abstract-open",
         // "abstracts": "folder-abstract-open",
-        // admin close
+        // admin opened
         "admin": "folder-admin-open",
         "admins": "folder-admin-open",
-        // angular close
+        // angular opened
         "ng": "folder-angular-open",
         "angular": "folder-angular-open",
-        // anim close
+        // anim opened
         "anim": "folder-anim-open",
         "anims": "folder-anim-open",
         "animation": "folder-anim-open",
         "animations": "folder-anim-open",
         "gif": "folder-anim-open",
         "gifs": "folder-anim-open",
-        // api close
+        // api opened
         "api": "folder-api-open",
-        // app close
+        // app opened
         "app": "folder-app-open",
         "apps": "folder-app-open",
-        // audio close
+        // audio opened
         "audio": "folder-audio-open",
         "audios": "folder-audio-open",
         "sound": "folder-audio-open",
@@ -1421,45 +1473,45 @@
         "music": "folder-audio-open",
         "musics": "folder-audio-open",
         
-        // C close
-        // class close
+        // C opened
+        // class opened
         // "class": "folder-class-open",
         // "classes": "folder-class-open",
-        // client close
+        // client opened
         "client": "folder-client-open",
         "clients": "folder-client-open",
         "front": "folder-client-open",
         "fronted": "folder-client-open",
-        // cloud close
+        // cloud opened
         "cloud": "folder-cloud-open",
         "clouds": "folder-cloud-open",
         "aws": "folder-cloud-open",
         "gcs": "folder-cloud-open",
-        // cluster close
+        // cluster opened
         // "cluster": "folder-cluster-open",
         // "clusters": "folder-cluster-open",
-        // command close
+        // command opened
         "command": "folder-command-open",
         "commands": "folder-command-open",
         "bin": "folder-command-open",
         "cmd": "folder-command-open",
-        // component close
+        // component opened
         "component": "folder-component-open",
         "components": "folder-component-open",
-        // config close
+        // config opened
         "config": "folder-config-open",
         "configs": "folder-config-open",
         "cfg": "folder-config-open",
         "cfgs": "folder-config-open",
-        // contract close
+        // contract opened
         // "contract": "folder-contract-open",
         // "contracts": "folder-contract-open",
-        // core close
+        // core opened
         "core": "folder-core-open",
         "cores": "folder-core-open",
         
-        // D close
-        // database close
+        // D opened
+        // database opened
         "database": "folder-database-open",
         "databases": "folder-database-open",
         "data": "folder-database-open",
@@ -1467,52 +1519,52 @@
         "sql": "folder-database-open",
         "model": "folder-database-open",
         "models": "folder-database-open",
-        // dist close
+        // dist opened
         "dist": "folder-dist-open",
         "out": "folder-dist-open",
-        // docker close
+        // docker opened
         "docker": "folder-docker-open",
-        // docs close
+        // docs opened
         "doc": "folder-docs-open",
         "docs": "folder-docs-open",
         "document": "folder-docs-open",
         "documentation": "folder-docs-open",
         "documentations": "folder-docs-open",
-        // download close
+        // download opened
         "download": "folder-download-open",
         "downloads": "folder-download-open",
-        // error close
+        // error opened
         "error": "folder-error-open",
         "errors": "folder-error-open",
-        // event close
+        // event opened
         "event": "folder-event-open",
         "events": "folder-event-open",
         
-        // F close
-        // font close
+        // F opened
+        // font opened
         "font": "folder-font-open",
         "fonts": "folder-font-open",
-        // git close
+        // git opened
         "git": "folder-git-open",
         ".git": "folder-git-open",
         ".github": "folder-git-open",
         ".gitbook": "folder-git-open",
-        // gradle close
+        // gradle opened
         "gradle": "folder-gradle-open",
         ".gradle": "folder-gradle-open",
-        // godot close
+        // godot opened
         ".godot": "folder-godot-open",
         "godot": "folder-godot-open",
         ".godot-cpp": "folder-godot-open",
         "godot-cpp": "folder-godot-open",
         
-        // H close
-        // home close
+        // H opened
+        // home opened
         "home": "folder-home-open",
         "homes": "folder-home-open",
         
-        // I close
-        // image close
+        // I opened
+        // image opened
         "image": "folder-image-open",
         "images": "folder-image-open",
         "img": "folder-image-open",
@@ -1520,49 +1572,49 @@
         "assets": "folder-image-open",
         "icon": "folder-image-open",
         "icons": "folder-image-open",
-        // in close
+        // in opened
         // "in": "folder-in-open",
         // "input": "folder-in-open",
-        // interface close
+        // interface opened
         // "interface": "folder-interface-open",
         // "interfaces": "folder-interface-open",
-        // ios close
+        // ios opened
         "ios": "folder-ios-open",
         "apple": "folder-ios-open",
         "mac": "folder-ios-open",
         
-        // J close
-        // java close
+        // J opened
+        // java opened
         "java": "folder-java-open",
         "jar": "folder-java-open",
-        // javascript close
+        // javascript opened
         "javascript": "folder-javascript-open",
         "js": "folder-javascript-open",
         "script": "folder-javascript-open",
         
-        // K close
-        // keys close
+        // K opened
+        // keys opened
         "keys": "folder-keys-open",
         "key": "folder-keys-open",
         
-        // L close
-        // layout close
+        // L opened
+        // layout opened
         "layout": "folder-layout-open",
         "ui": "folder-layout-open",
-        // lib close
+        // lib opened
         "lib": "folder-lib-open",
         "libs": "folder-lib-open",
         "libraries": "folder-lib-open",
-        // log close
+        // log opened
         "log": "folder-log-open",
         "logs": "folder-log-open",
         "history": "folder-log-open",
         
-        // M close
-        // middleware close
+        // M opened
+        // middleware opened
         "middleware": "folder-middleware-open",
         "middlewares": "folder-middleware-open",
-        // network close
+        // network opened
         // "network": "folder-network-open",
         // "networks": "folder-network-open",
         // "packet": "folder-network-open",
@@ -1570,15 +1622,15 @@
         // "route": "folder-network-open",
         // "routes": "folder-network-open",
         
-        // N close
-        // node close
+        // N opened
+        // node opened
         "node": "folder-node-open",
         "node_modules": "folder-node-open",
         ".node": "folder-node-open",
         ".node_modules": "folder-node-open",
         
-        // P close
-        // package close
+        // P opened
+        // package opened
         "package": "folder-package-open",
         "packages": "folder-package-open",
         "pkg": "folder-package-open",
@@ -1589,62 +1641,94 @@
         "python3": "folder-python-open",
         ".pytest_cache": "folder-python-open",
         "__pycache__": "folder-python-open",
-        // page close
+        // page opened
         // "page": "folder-page-open",
         // "pages": "folder-page-open",
         // "view": "folder-page-open",
         // "views": "folder-page-open",
         // "html": "folder-page-open",
         // "htm": "folder-page-open",
-        // pipe close
+        // pipe opened
         // "pipe": "folder-pipe-open",
         // "pipes": "folder-pipe-open",
-        // private close
+        // private opened
         "private": "folder-private-open",
         "lock": "folder-private-open",
         
-        // S close
-        // server close
+        // R opened
+        // resource opened
+        "res": "folder-resource-open",
+        "resource": "folder-resource-open",
+        "resources": "folder-resource-open",
+        "static": "folder-resource-open",
+        
+        // S opened
+        // server opened
         "server": "folder-server-open",
         "servers": "folder-server-open",
         "back": "folder-server-open",
         "backend": "folder-server-open",
-        // src close
+        // src opened
         "src": "folder-src-open",
         "source": "folder-src-open",
         "controller": "folder-src-open",
         "controllers": "folder-src-open",
-        // style close
+        // style opened
         "style": "folder-style-open",
         "styles": "folder-style-open",
         "css": "folder-style-open",
         "stylesheets": "folder-style-open",
         "scss": "folder-style-open",
         "sass": "folder-style-open",
-        // scripts close
+        // scripts opened
         // "script": "folder-scripts-open",
         "scripts": "folder-scripts-open",
         "scripting": "folder-scripts-open",
         
-        // T close
-        // temp close
+        // T opened
+        // temp opened
         "temp": "folder-temp-open",
-        // test close
+        ".temp": "folder-temp-open",
+        "tmp": "folder-temp-open",
+        ".tmp": "folder-temp-open",
+        "cached": "folder-temp-open",
+        "cache": "folder-temp-open",
+        ".cache": "folder-temp-open",
+        "temporary": "folder-temp-open",
+        "scraps": "folder-temp-open",
+        // test opened
         "test": "folder-test-open",
         "tests": "folder-test-open",
-        // typescript close
+        "testing": "folder-test-open",
+        "__tests__": "folder-test-open",
+        "__snapshots__": "folder-test-open",
+        "__mocks__": "folder-test-open",
+        "__fixtures__": "folder-test-open",
+        "__test__": "folder-test-open",
+        "spec": "folder-test-open",
+        "specs": "folder-test-open",
+        // typescript opened
         "typescript": "folder-typescript-open",
         "ts": "folder-typescript-open",
+        // template opened
+        "template": "folder-template-open",
+        "templates": "folder-template-open",
+        "_template": "folder-template-open",
+        "_templates": "folder-template-open",
+        // theme opened
+        "theme": "folder-theme-open",
+        "themes": "folder-theme-open",
         
-        // V close
-        // vm close
+        // V opened
+        // vm opened
         // "vm": "folder-vm-open",
-        // vscode close
+        // vscode opened
         "vscode": "folder-vscode-open",
         ".vscode": "folder-vscode-open",
+        ".vscode-test": "folder-vscode-open",
         
-        // Y close
-        // yarn close
+        // Y opened
+        // yarn opened
         "yarn": "folder-yarn-open",
         ".yarn": "folder-yarn-open"
     },
@@ -1795,6 +1879,9 @@
         "cfg": {
             "iconPath": "../../assets/icons/properties.svg"
         },
+        "csv": {
+            "iconPath": "../../assets/icons/csv.svg"
+        },
         
         // D icon
         "d": {
@@ -1802,6 +1889,9 @@
         },
         "dart": {
             "iconPath": "../../assets/icons/dart.svg"
+        },
+        "disc": {
+            "iconPath": "../../assets/icons/disc.svg"
         },
         "django": {
             "iconPath": "../../assets/icons/django.svg"
@@ -2584,6 +2674,14 @@
             "iconPath": "../../assets/icons/folder_private_open.svg"
         },
         
+        // R folder
+        "folder-resource": {
+            "iconPath": "../../assets/icons/folder_resource.svg"
+        },
+        "folder-resource-open": {
+            "iconPath": "../../assets/icons/folder_resource_open.svg"
+        },
+        
         // S folder
         "folder-server": {
             "iconPath": "../../assets/icons/folder_server.svg"
@@ -2628,6 +2726,18 @@
         },
         "folder-typescript-open": {
             "iconPath": "../../assets/icons/folder_typescript_open.svg"
+        },
+        "folder-template": {
+            "iconPath": "../../assets/icons/folder_templates.svg"
+        },
+        "folder-template-open": {
+            "iconPath": "../../assets/icons/folder_templates_open.svg"
+        },
+        "folder-theme": {
+            "iconPath": "../../assets/icons/folder_themes.svg"
+        },
+        "folder-theme-open": {
+            "iconPath": "../../assets/icons/folder_themes_open.svg"
         },
         
         // V folder

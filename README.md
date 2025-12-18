@@ -2,7 +2,7 @@
 
 <!-- ![logo](./assets/logo.png) -->
 
-VS Code file icons, based on Catppuccin Latte
+VS Code file icons, based on [Catppuccin Latte](https://github.com/catppuccin/vscode-icons/releases)
 
 # Palette
 

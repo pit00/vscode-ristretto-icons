@@ -200,6 +200,7 @@
         "qcow": "disc",
         "qcow2": "disc",
         "qed": "disc",
+        "chd": "disc",
         
         // E ext
         // ejs ext
@@ -361,6 +362,12 @@
         // ico ext
         "ico": "ico",
         "icns": "ico",
+        // i18n ext
+        "po": "i18n",
+        "mo": "i18n",
+        "lang": "i18n",
+        // "pot": "i18n",
+        "strings": "i18n",
         
         // J ext
         // jar ext
@@ -1102,6 +1109,8 @@
         ".eslintignore": "eslint-ignore",
         ".eslintcache": "eslint-ignore",
         ".hintrc": "eslint-ignore",
+        // envrc name
+        ".envrc": "envrc",
         
         // F name
         "favicon.ico": "favicon",
@@ -1272,6 +1281,11 @@
         ".clang-format": "properties",
         ".clang-tidy": "properties",
         
+        // Q name
+        // quasar name
+        "quasar.conf.js": "quasar",
+        "quasar.config.js": "quasar",
+        
         // R name
         // readme name
         "readme": "readme",
@@ -1434,9 +1448,6 @@
         "META-INF": "folder-config",
         "option": "folder-config",
         "options": "folder-config",
-        // contract closed
-        // "contract": "folder-contract",
-        // "contracts": "folder-contract",
         // core closed
         "core": "folder-core",
         "cores": "folder-core",
@@ -1471,6 +1482,10 @@
         "diffs": "folder-diff",
         "patch": "folder-diff",
         "patches": "folder-diff",
+        // direnv closed
+        ".direnv": "folder-direnv",
+        "code": "folder-direnv",
+        "codes": "folder-direnv",
         
         // E closed
         // error closed
@@ -1479,6 +1494,14 @@
         // event closed
         "event": "folder-event",
         "events": "folder-event",
+        // environment closed
+        ".env": "folder-environment",
+        "env": "folder-environment",
+        "envs": "folder-environment",
+        ".environment": "folder-environment",
+        "environment": "folder-environment",
+        "environments": "folder-environment",
+        ".venv": "folder-environment",
         
         // F closed
         // font closed
@@ -1555,6 +1578,11 @@
         "ios": "folder-ios",
         "apple": "folder-ios",
         "mac": "folder-ios",
+        // include closed
+        "include": "folder-include",
+        "includes": "folder-include",
+        // intellij closed
+        ".idea": "folder-intellij",
         
         // J closed
         // java closed
@@ -1639,6 +1667,16 @@
         // private closed
         "private": "folder-private",
         "lock": "folder-private",
+        // project closed
+        "project": "folder-project",
+        "projects": "folder-project",
+        
+        // Q closed
+        // queue closed
+        "queue": "folder-queue",
+        "queues": "folder-queue",
+        "bull": "folder-queue",
+        "mq": "folder-queue",
         
         // R closed
         // resource closed
@@ -1646,7 +1684,7 @@
         "resource": "folder-resource",
         "resources": "folder-resource",
         "static": "folder-resource",
-        "@Resources": "folder-resource",
+        // "@Resources": "folder-resource",
         "@resources": "folder-resource",
         
         // S closed
@@ -1710,8 +1748,6 @@
         "themes": "folder-theme",
         
         // V closed
-        // vm closed
-        // "vm": "folder-vm",
         // vscode closed
         "vscode": "folder-vscode",
         ".vscode": "folder-vscode",
@@ -1724,6 +1760,20 @@
         "movie": "folder-video",
         "movies": "folder-video",
         "media": "folder-video",
+        
+        // U closed
+        // utils closed
+        "util": "folder-utils",
+        "utils": "folder-utils",
+        "utility": "folder-utils",
+        "utilities": "folder-utils",
+        "tool": "folder-utils",
+        "tools": "folder-utils",
+        "toolbox": "folder-utils",
+        "toolboxes": "folder-utils",
+        "tooling": "folder-utils",
+        "toolkit": "folder-utils",
+        "toolkits": "folder-utils",
         
         // Y closed
         // yarn closed
@@ -1820,9 +1870,6 @@
         "META-INF": "folder-config-open",
         "option": "folder-config-open",
         "options": "folder-config-open",
-        // contract opened
-        // "contract": "folder-contract-open",
-        // "contracts": "folder-contract-open",
         // core opened
         "core": "folder-core-open",
         "cores": "folder-core-open",
@@ -1855,6 +1902,10 @@
         "diffs": "folder-diff-open",
         "patch": "folder-diff-open",
         "patches": "folder-diff-open",
+        // direnv opened
+        ".direnv": "folder-direnv-open",
+        "code": "folder-direnv-open",
+        "codes": "folder-direnv-open",
         
         // e opened
         // error opened
@@ -1863,6 +1914,14 @@
         // event opened
         "event": "folder-event-open",
         "events": "folder-event-open",
+        // environment opened
+        ".env": "folder-environment-open",
+        "env": "folder-environment-open",
+        "envs": "folder-environment-open",
+        ".environment": "folder-environment-open",
+        "environment": "folder-environment-open",
+        "environments": "folder-environment-open",
+        ".venv": "folder-environment-open",
         
         // F opened
         // font opened
@@ -1937,6 +1996,11 @@
         "ios": "folder-ios-open",
         "apple": "folder-ios-open",
         "mac": "folder-ios-open",
+        // include opened
+        "include": "folder-include-open",
+        "includes": "folder-include-open",
+        // intellij opened
+        ".idea": "folder-intellij-open",
         
         // J opened
         // java opened
@@ -2018,6 +2082,16 @@
         // private opened
         "private": "folder-private-open",
         "lock": "folder-private-open",
+        // project opened
+        "project": "folder-project-open",
+        "projects": "folder-project-open",
+        
+        // Q opened
+        // queue opened
+        "queue": "folder-queue-open",
+        "queues": "folder-queue-open",
+        "bull": "folder-queue-open",
+        "mq": "folder-queue-open",
         
         // R opened
         // resource opened
@@ -2025,7 +2099,7 @@
         "resource": "folder-resource-open",
         "resources": "folder-resource-open",
         "static": "folder-resource-open",
-        "@Resources": "folder-resource-open",
+        // "@Resources": "folder-resource-open",
         "@resources": "folder-resource-open",
         
         // S opened
@@ -2089,8 +2163,6 @@
         "themes": "folder-theme-open",
         
         // V opened
-        // vm opened
-        // "vm": "folder-vm-open",
         // vscode opened
         "vscode": "folder-vscode-open",
         ".vscode": "folder-vscode-open",
@@ -2103,6 +2175,20 @@
         "movie": "folder-video-open",
         "movies": "folder-video-open",
         "media": "folder-video-open",
+        
+        // U opened
+        // utils opened
+        "util": "folder-utils-open",
+        "utils": "folder-utils-open",
+        "utility": "folder-utils-open",
+        "utilities": "folder-utils-open",
+        "tool": "folder-utils-open",
+        "tools": "folder-utils-open",
+        "toolbox": "folder-utils-open",
+        "toolboxes": "folder-utils-open",
+        "tooling": "folder-utils-open",
+        "toolkit": "folder-utils-open",
+        "toolkits": "folder-utils-open",
         
         // Y opened
         // yarn opened
@@ -2341,6 +2427,9 @@
         "exe": {
             "iconPath": "../../assets/icons/exe.svg"
         },
+        "envrc": {
+            "iconPath": "../../assets/icons/envrc.svg"
+        },
         
         // F icon
         "figma": {
@@ -2435,6 +2524,9 @@
         },
         "icon": {
             "iconPath": "../../assets/icons/icon.svg"
+        },
+        "i18n": {
+            "iconPath": "../../assets/icons/i18n.svg"
         },
         
         // J icon
@@ -2621,6 +2713,9 @@
         // Q icon
         "quark": {
             "iconPath": "../../assets/icons/quark.svg"
+        },
+        "quasar": {
+            "iconPath": "../../assets/icons/quasar.svg"
         },
         
         // R icon
@@ -2885,12 +2980,6 @@
         "folder-config-open": {
             "iconPath": "../../assets/icons/folder_config_open.svg"
         },
-        // "folder-contract": {
-        //     "iconPath": "../../assets/icons/folder_contract.svg"
-        // },
-        // "folder-contract-open": {
-        //     "iconPath": "../../assets/icons/folder_contract_open.svg"
-        // },
         "folder-core": {
             "iconPath": "../../assets/icons/folder_core.svg"
         },
@@ -2935,6 +3024,12 @@
         "folder-diff-open": {
             "iconPath": "../../assets/icons/folder_diff_open.svg"
         },
+        "folder-direnv": {
+            "iconPath": "../../assets/icons/folder_direnv.svg"
+        },
+        "folder-direnv-open": {
+            "iconPath": "../../assets/icons/folder_direnv_open.svg"
+        },
         
         // E folder
         "folder-error": {
@@ -2948,6 +3043,12 @@
         },
         "folder-event-open": {
             "iconPath": "../../assets/icons/folder_event_open.svg"
+        },
+        "folder-environment": {
+            "iconPath": "../../assets/icons/folder_environment.svg"
+        },
+        "folder-environment-open": {
+            "iconPath": "../../assets/icons/folder_environment_open.svg"
         },
         
         // F folder
@@ -3022,6 +3123,18 @@
         },
         "folder-ios-open": {
             "iconPath": "../../assets/icons/folder_ios_open.svg"
+        },
+        "folder-include": {
+            "iconPath": "../../assets/icons/folder_include.svg"
+        },
+        "folder-include-open": {
+            "iconPath": "../../assets/icons/folder_include_open.svg"
+        },
+        "folder-intellij": {
+            "iconPath": "../../assets/icons/folder_intellij.svg"
+        },
+        "folder-intellij-open": {
+            "iconPath": "../../assets/icons/folder_intellij_open.svg"
         },
         
         // J folder
@@ -3131,6 +3244,20 @@
         "folder-private-open": {
             "iconPath": "../../assets/icons/folder_private_open.svg"
         },
+        "folder-project": {
+            "iconPath": "../../assets/icons/folder_project.svg"
+        },
+        "folder-project-open": {
+            "iconPath": "../../assets/icons/folder_project_open.svg"
+        },
+        
+        // Q folder
+        "folder-queue": {
+            "iconPath": "../../assets/icons/folder_queue.svg"
+        },
+        "folder-queue-open": {
+            "iconPath": "../../assets/icons/folder_queue_open.svg"
+        },
         
         // R folder
         "folder-resource": {
@@ -3205,12 +3332,6 @@
         },
         
         // V folder
-        // "folder-vm": {
-        //     "iconPath": "../../assets/icons/Folder_VM_close.svg"
-        // },
-        // "folder-vm-open": {
-        //     "iconPath": "../../assets/icons/Folder_VM_open.svg"
-        // },
         "folder-vscode": {
             "iconPath": "../../assets/icons/folder_vscode.svg"
         },
@@ -3224,6 +3345,14 @@
             "iconPath": "../../assets/icons/folder_video_open.svg"
         },
         
+        // U folder
+        "folder-utils": {
+            "iconPath": "../../assets/icons/folder_utils.svg"
+        },
+        "folder-utils-open": {
+            "iconPath": "../../assets/icons/folder_utils_open.svg"
+        },
+        
         // Y folder
         "folder-yarn": {
             "iconPath": "../../assets/icons/folder_yarn.svg"
@@ -3231,5 +3360,7 @@
         "folder-yarn-open": {
             "iconPath": "../../assets/icons/folder_yarn_open.svg"
         }
+        
+        // Z folder
     }
 }

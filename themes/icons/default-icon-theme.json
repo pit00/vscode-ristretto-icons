@@ -115,6 +115,8 @@
         "ch": "advpl",
         // apl ext
         "apl": "apl",
+        // azure ext
+        "azcli": "azure",
         
         // B ext
         // binary ext
@@ -165,7 +167,6 @@
         "cp": "cpp",
         "mii": "cpp",
         "ii": "cpp",
-        
         // crystal ext
         "cr": "crystal",
         // csharp ext
@@ -397,7 +398,7 @@
         "webmanifest": "json",
         "hjson": "hjson",
         "schema.json": "sjson",
-
+        
         // K ext
         // kotlin ext
         "kt": "kotlin",
@@ -427,7 +428,6 @@
         "rst": "md",
         // mdx ext
         "mdx": "mdx",
-        
         //ms-docx ext
         "doc": "ms-docx",
         "docm": "ms-docx",
@@ -531,7 +531,7 @@
         "rd": "r-ignore",
         "Rproj": "r-ignore",
         // lock ext
-        // "lock": "lock",
+        "lock": "lock",
         // react ext
         "jsx": "react",
         "tsx": "react-type",
@@ -587,7 +587,35 @@
         // txt ext
         "txt": "text",
         
+        // U ext
+        // unity ext
+        "meta": "unity",
+        "url": "url",
+        
         // V ext
+        // vbs ext
+        "vb": "vba",
+        "vba": "vba",
+        "vbs": "vba",
+        // visualstudio ext
+        "csproj": "visualstudio",
+        "ruleset": "visualstudio",
+        "sln": "visualstudio",
+        "suo": "visualstudio",
+        "vcxitems": "visualstudio",
+        "vcxitems.filters": "visualstudio",
+        "vcxproj": "visualstudio",
+        "vcxproj.filters": "visualstudio",
+        // vue ext
+        "vue": "vue",
+        // vsc ext
+        "vscodeignore": "vscig",
+        "vsixmanifest": "vsc",
+        "vsix": "vsc",
+        "code-workplace": "vsc",
+        "code-workspace": "vsc",
+        "code-profile": "vsc",
+        "code-snippets": "vsc",
         // vim ext
         "vimrc": "vim",
         "gvimrc": "vim",
@@ -618,36 +646,6 @@
         "mpe": "video",
         "mpv": "video",
         "m2v": "video",
-        
-        // U ext
-        // unity ext
-        "meta": "unity",
-        "url": "url",
-        
-        // V ext
-        // vbs ext
-        "vb": "vba",
-        "vba": "vba",
-        "vbs": "vba",
-        // visualstudio ext
-        "csproj": "visualstudio",
-        "ruleset": "visualstudio",
-        "sln": "visualstudio",
-        "suo": "visualstudio",
-        "vcxitems": "visualstudio",
-        "vcxitems.filters": "visualstudio",
-        "vcxproj": "visualstudio",
-        "vcxproj.filters": "visualstudio",
-        // vue ext
-        "vue": "vue",
-        // vsc ext
-        "vscodeignore": "vscig",
-        "vsixmanifest": "vsc",
-        "vsix": "vsc",
-        "code-workplace": "vsc",
-        "code-workspace": "vsc",
-        "code-profile": "vsc",
-        "code-snippets": "vsc",
         
         // W ext
         // wasm ext
@@ -704,6 +702,7 @@
         // zap ext
         "zap": "zap",
         
+        // Misc ext
         // 3d ext
         "stl": "3d",
         "obj": "3d",
@@ -836,11 +835,12 @@
         "jsonl": "json",
         "hjson": "hjson",
         
-        // lua lang
-        "lua": "lua",
+        // K lang
         
         // L lang
-        // "lock": "lock",
+        // lua lang
+        "lua": "lua",
+        "lock": "lock",
         
         // M lang
         // md lang
@@ -849,6 +849,8 @@
         "matlab": "matlab",
         // makefile lang
         "makefile": "makefile",
+        
+        // N lang
         
         // O lang
         // objc lang
@@ -934,6 +936,8 @@
         "xquery": "xml",
         "xsl": "xml",
         
+        // W lang
+        
         // Y lang
         // yaml lang
         "yaml": "yaml",
@@ -941,6 +945,10 @@
         "github-actions-workflow": "yamlig",
         "ansible": "yamlig",
         "ansible-jinja": "yamlig"
+        
+        // Z lang
+        
+        // Misc ext
     },
     
     "fileNames": {
@@ -956,6 +964,11 @@
         "ace": "adonis",
         // award name
         "_THANK YOU 1K": "award",
+        // azure-pipelines names
+        "azure-pipelines.yml": "azure-pipelines",
+        "azure-pipelines.yaml": "azure-pipelines",
+        "azure-pipelines-main.yml": "azure-pipelines",
+        "azure-pipelines-main.yaml": "azure-pipelines",
         
         // B name
         // blitz name
@@ -1154,23 +1167,16 @@
         "._sc_": "godot-assets",
         "_sc_": "godot-assets",
         
-        // R name
-        // rignore name
-        "DESCRIPTION": "r-config",
-        ".lintr": "r-ignore",
-        ".Rprofile": "r-ignore",
-        ".Rbuildignore": "r-ignore",
-        "NAMESPACE": "r-ignore",
-        "WORDLIST": "r-ignore",
-        "renv.lock": "r-lock",
-        ".rhistory": "r-ignore",
-        ".Rhistory": "r-ignore",
         
         // H name
         // heroku name
         "Procfile": "heroku",
         // html lint
         ".htmlhintrc": "htmlint",
+        
+        // I name
+        "ionic.config.json": "ionic",
+        ".io-config.json": "ionic",
         
         // J name
         // jest name
@@ -1225,7 +1231,6 @@
         "licence.md": "license",
         "licence.rst": "license",
         "licence.txt": "license",
-        
         // lua name
         ".luacheckrc": "lua",
         
@@ -1254,6 +1259,8 @@
         // nuxt name
         "nuxt.config.js": "nuxt",
         "nuxt.config.ts": "nuxt",
+        
+        // O name
         
         // P name
         // postcss name
@@ -1296,6 +1303,18 @@
         "redwood.toml": "redwood",
         // rollup name
         "rollup.config.js": "rollup",
+        // rignore name
+        "DESCRIPTION": "r-config",
+        ".lintr": "r-ignore",
+        ".Rprofile": "r-ignore",
+        ".Rbuildignore": "r-ignore",
+        "NAMESPACE": "r-ignore",
+        "WORDLIST": "r-ignore",
+        "renv.lock": "r-lock",
+        ".rhistory": "r-ignore",
+        ".Rhistory": "r-ignore",
+        
+        // S name
         
         // T name
         // todo name
@@ -1318,6 +1337,8 @@
         // tauri name
         "tauri.conf.json": "tauri",
         
+        // U name
+        
         // V name
         // vsc name
         "launch.json": "vsc",
@@ -1332,7 +1353,183 @@
         
         // W name
         // webpack name
+        "webpack.js": "webpack",
+        "webpack.cjs": "webpack",
+        "webpack.mjs": "webpack",
+        "webpack.ts": "webpack",
+        "webpack.cts": "webpack",
+        "webpack.mts": "webpack",
+        "webpack.base.js": "webpack",
+        "webpack.base.cjs": "webpack",
+        "webpack.base.mjs": "webpack",
+        "webpack.base.ts": "webpack",
+        "webpack.base.cts": "webpack",
+        "webpack.base.mts": "webpack",
         "webpack.config.js": "webpack",
+        "webpack.config.cjs": "webpack",
+        "webpack.config.mjs": "webpack",
+        "webpack.config.ts": "webpack",
+        "webpack.config.cts": "webpack",
+        "webpack.config.mts": "webpack",
+        "webpack.common.js": "webpack",
+        "webpack.common.cjs": "webpack",
+        "webpack.common.mjs": "webpack",
+        "webpack.common.ts": "webpack",
+        "webpack.common.cts": "webpack",
+        "webpack.common.mts": "webpack",
+        "webpack.config.common.js": "webpack",
+        "webpack.config.common.cjs": "webpack",
+        "webpack.config.common.mjs": "webpack",
+        "webpack.config.common.ts": "webpack",
+        "webpack.config.common.cts": "webpack",
+        "webpack.config.common.mts": "webpack",
+        "webpack.config.common.babel.js": "webpack",
+        "webpack.config.common.babel.ts": "webpack",
+        "webpack.dev.js": "webpack",
+        "webpack.dev.cjs": "webpack",
+        "webpack.dev.mjs": "webpack",
+        "webpack.dev.ts": "webpack",
+        "webpack.dev.cts": "webpack",
+        "webpack.dev.mts": "webpack",
+        "webpack.development.js": "webpack",
+        "webpack.development.cjs": "webpack",
+        "webpack.development.mjs": "webpack",
+        "webpack.development.ts": "webpack",
+        "webpack.development.cts": "webpack",
+        "webpack.development.mts": "webpack",
+        "webpack.config.dev.js": "webpack",
+        "webpack.config.dev.cjs": "webpack",
+        "webpack.config.dev.mjs": "webpack",
+        "webpack.config.dev.ts": "webpack",
+        "webpack.config.dev.cts": "webpack",
+        "webpack.config.dev.mts": "webpack",
+        "webpack.config.dev.babel.js": "webpack",
+        "webpack.config.dev.babel.ts": "webpack",
+        "webpack.config.main.js": "webpack",
+        "webpack.config.renderer.ts": "webpack",
+        "webpack.mix.js": "webpack",
+        "webpack.mix.cjs": "webpack",
+        "webpack.mix.mjs": "webpack",
+        "webpack.mix.ts": "webpack",
+        "webpack.mix.cts": "webpack",
+        "webpack.mix.mts": "webpack",
+        "webpack.prod.js": "webpack",
+        "webpack.prod.cjs": "webpack",
+        "webpack.prod.mjs": "webpack",
+        "webpack.prod.ts": "webpack",
+        "webpack.prod.cts": "webpack",
+        "webpack.prod.mts": "webpack",
+        "webpack.prod.config.js": "webpack",
+        "webpack.prod.config.cjs": "webpack",
+        "webpack.prod.config.mjs": "webpack",
+        "webpack.prod.config.ts": "webpack",
+        "webpack.prod.config.cts": "webpack",
+        "webpack.prod.config.mts": "webpack",
+        "webpack.production.js": "webpack",
+        "webpack.production.cjs": "webpack",
+        "webpack.production.mjs": "webpack",
+        "webpack.production.ts": "webpack",
+        "webpack.production.cts": "webpack",
+        "webpack.production.mts": "webpack",
+        "webpack.server.js": "webpack",
+        "webpack.server.cjs": "webpack",
+        "webpack.server.mjs": "webpack",
+        "webpack.server.ts": "webpack",
+        "webpack.server.cts": "webpack",
+        "webpack.server.mts": "webpack",
+        "webpack.client.js": "webpack",
+        "webpack.client.cjs": "webpack",
+        "webpack.client.mjs": "webpack",
+        "webpack.client.ts": "webpack",
+        "webpack.client.cts": "webpack",
+        "webpack.client.mts": "webpack",
+        "webpack.config.server.js": "webpack",
+        "webpack.config.server.cjs": "webpack",
+        "webpack.config.server.mjs": "webpack",
+        "webpack.config.server.ts": "webpack",
+        "webpack.config.server.cts": "webpack",
+        "webpack.config.server.mts": "webpack",
+        "webpack.config.client.js": "webpack",
+        "webpack.config.client.cjs": "webpack",
+        "webpack.config.client.mjs": "webpack",
+        "webpack.config.client.ts": "webpack",
+        "webpack.config.client.cts": "webpack",
+        "webpack.config.client.mts": "webpack",
+        "webpack.config.production.babel.js": "webpack",
+        "webpack.config.production.babel.ts": "webpack",
+        "webpack.config.prod.babel.js": "webpack",
+        "webpack.config.prod.babel.cjs": "webpack",
+        "webpack.config.prod.babel.mjs": "webpack",
+        "webpack.config.prod.babel.ts": "webpack",
+        "webpack.config.prod.babel.cts": "webpack",
+        "webpack.config.prod.babel.mts": "webpack",
+        "webpack.config.prod.js": "webpack",
+        "webpack.config.prod.cjs": "webpack",
+        "webpack.config.prod.mjs": "webpack",
+        "webpack.config.prod.ts": "webpack",
+        "webpack.config.prod.cts": "webpack",
+        "webpack.config.prod.mts": "webpack",
+        "webpack.config.production.js": "webpack",
+        "webpack.config.production.cjs": "webpack",
+        "webpack.config.production.mjs": "webpack",
+        "webpack.config.production.ts": "webpack",
+        "webpack.config.production.cts": "webpack",
+        "webpack.config.production.mts": "webpack",
+        "webpack.config.staging.js": "webpack",
+        "webpack.config.staging.cjs": "webpack",
+        "webpack.config.staging.mjs": "webpack",
+        "webpack.config.staging.ts": "webpack",
+        "webpack.config.staging.cts": "webpack",
+        "webpack.config.staging.mts": "webpack",
+        "webpack.config.babel.js": "webpack",
+        "webpack.config.babel.ts": "webpack",
+        "webpack.config.base.babel.js": "webpack",
+        "webpack.config.base.babel.ts": "webpack",
+        "webpack.config.base.js": "webpack",
+        "webpack.config.base.cjs": "webpack",
+        "webpack.config.base.mjs": "webpack",
+        "webpack.config.base.ts": "webpack",
+        "webpack.config.base.cts": "webpack",
+        "webpack.config.base.mts": "webpack",
+        "webpack.config.staging.babel.js": "webpack",
+        "webpack.config.staging.babel.ts": "webpack",
+        "webpack.config.coffee": "webpack",
+        "webpack.config.test.js": "webpack",
+        "webpack.config.test.cjs": "webpack",
+        "webpack.config.test.mjs": "webpack",
+        "webpack.config.test.ts": "webpack",
+        "webpack.config.test.cts": "webpack",
+        "webpack.config.test.mts": "webpack",
+        "webpack.config.vendor.js": "webpack",
+        "webpack.config.vendor.cjs": "webpack",
+        "webpack.config.vendor.mjs": "webpack",
+        "webpack.config.vendor.ts": "webpack",
+        "webpack.config.vendor.cts": "webpack",
+        "webpack.config.vendor.mts": "webpack",
+        "webpack.config.vendor.production.js": "webpack",
+        "webpack.config.vendor.production.cjs": "webpack",
+        "webpack.config.vendor.production.mjs": "webpack",
+        "webpack.config.vendor.production.ts": "webpack",
+        "webpack.config.vendor.production.cts": "webpack",
+        "webpack.config.vendor.production.mts": "webpack",
+        "webpack.test.js": "webpack",
+        "webpack.test.cjs": "webpack",
+        "webpack.test.mjs": "webpack",
+        "webpack.test.ts": "webpack",
+        "webpack.test.cts": "webpack",
+        "webpack.test.mts": "webpack",
+        "webpack.dist.js": "webpack",
+        "webpack.dist.cjs": "webpack",
+        "webpack.dist.mjs": "webpack",
+        "webpack.dist.ts": "webpack",
+        "webpack.dist.cts": "webpack",
+        "webpack.dist.mts": "webpack",
+        "webpackfile.js": "webpack",
+        "webpackfile.cjs": "webpack",
+        "webpackfile.mjs": "webpack",
+        "webpackfile.ts": "webpack",
+        "webpackfile.cts": "webpack",
+        "webpackfile.mts": "webpack",
         
         // X name
         // xml name
@@ -1344,7 +1541,6 @@
         ".yamllint": "yamlig",
         ".yamllint.yml": "yamlig",
         ".yamllint.yaml": "yamlig",
-        
         // yarn name
         ".yarnrc": "yarn",
         ".yarnclean": "yarn",
@@ -1355,14 +1551,13 @@
         "yarn.config.cjs": "yarn",
         "yarn.lock": "yarn-lock"
         
-
+        // Z name
+        
+        // Misc name
     },
     
     "folderNames": {
         // A closed
-        // abstract closed
-        // "abstract": "folder-abstract",
-        // "abstracts": "folder-abstract",
         // admin closed
         "admin": "folder-admin",
         "admins": "folder-admin",
@@ -1390,7 +1585,15 @@
         "musics": "folder-audio",
         "aud": "folder-audio",
         "auds": "folder-audio",
-        
+        // azure-pipelines closed
+        ".azure-pipelines": "folder-azure-pipelines",
+        ".azure-pipelines-ci": "folder-azure-pipelines",
+        "azure-pipelines": "folder-azure-pipelines",
+        "pipe": "folder-azure-pipelines",
+        "pipes": "folder-azure-pipelines",
+        // azure-devops closed
+        ".azure-devops": "folder-azure-devops",
+        ".azuredevops": "folder-azure-devops",
         // archives closed
         "arc": "folder-archive",
         "arcs": "folder-archive",
@@ -1405,6 +1608,8 @@
         "backups": "folder-archive",
         "back-up": "folder-archive",
         "back-ups": "folder-archive",
+        
+        // B closed
         
         // C closed
         // class closed
@@ -1451,6 +1656,15 @@
         // core closed
         "core": "folder-core",
         "cores": "folder-core",
+        //connection closed
+        "connection": "folder-connection",
+        "connections": "folder-connection",
+        "integration": "folder-connection",
+        "integrations": "folder-connection",
+        "url": "folder-connection",
+        "urls": "folder-connection",
+        "contract": "folder-connection",
+        "contracts": "folder-connection",
         
         // D closed
         // database closed
@@ -1567,7 +1781,6 @@
         "photograph": "folder-image",
         "photographs": "folder-image",
         "asset": "folder-image",
-        
         // in closed
         // "in": "folder-in",
         // "input": "folder-in",
@@ -1629,18 +1842,13 @@
         "markdowns": "folder-markdown",
         
         // N closed
-        // network closed
-        // "network": "folder-network",
-        // "networks": "folder-network",
-        // "packet": "folder-network",
-        // "packets": "folder-network",
-        // "route": "folder-network",
-        // "routes": "folder-network",
         // node closed
         "node": "folder-node",
         "node_modules": "folder-node",
         ".node": "folder-node",
         ".node_modules": "folder-node",
+        
+        // O closed
         
         // P closed
         // package closed
@@ -1654,22 +1862,14 @@
         "python3": "folder-python",
         ".pytest_cache": "folder-python",
         "__pycache__": "folder-python",
-        // page closed
-        // "page": "folder-page",
-        // "pages": "folder-page",
-        // "view": "folder-page",
-        // "views": "folder-page",
-        // "html": "folder-page",
-        // "htm": "folder-page",
-        // pipe closed
-        // "pipe": "folder-pipe",
-        // "pipes": "folder-pipe",
         // private closed
         "private": "folder-private",
         "lock": "folder-private",
         // project closed
         "project": "folder-project",
         "projects": "folder-project",
+        
+        // P closed
         
         // Q closed
         // queue closed
@@ -1686,6 +1886,18 @@
         "static": "folder-resource",
         // "@Resources": "folder-resource",
         "@resources": "folder-resource",
+        // routes closed
+        "route": "folder-routes",
+        "routes": "folder-routes",
+        "router": "folder-routes",
+        "routers": "folder-routes",
+        "navigation": "folder-routes",
+        "navigator": "folder-routes",
+        "navigators": "folder-routes",
+        "network": "folder-routes",
+        "networks": "folder-routes",
+        "packet": "folder-routes",
+        "packets": "folder-routes",
         
         // S closed
         // server closed
@@ -1747,20 +1959,6 @@
         "theme": "folder-theme",
         "themes": "folder-theme",
         
-        // V closed
-        // vscode closed
-        "vscode": "folder-vscode",
-        ".vscode": "folder-vscode",
-        ".vscode-test": "folder-vscode",
-        // video closed
-        "vid": "folder-video",
-        "vids": "folder-video",
-        "video": "folder-video",
-        "videos": "folder-video",
-        "movie": "folder-video",
-        "movies": "folder-video",
-        "media": "folder-video",
-        
         // U closed
         // utils closed
         "util": "folder-utils",
@@ -1775,17 +1973,50 @@
         "toolkit": "folder-utils",
         "toolkits": "folder-utils",
         
+        // V closed
+        // vscode closed
+        "vscode": "folder-vscode",
+        ".vscode": "folder-vscode",
+        ".vscode-test": "folder-vscode",
+        // video closed
+        "vid": "folder-video",
+        "vids": "folder-video",
+        "video": "folder-video",
+        "videos": "folder-video",
+        "movie": "folder-video",
+        "movies": "folder-video",
+        "media": "folder-video",
+        // vm closed
+        "vm": "folder-client",
+        // views closed
+        "page": "folder-views",
+        "pages": "folder-views",
+        "view": "folder-views",
+        "views": "folder-views",
+        "html": "folder-views",
+        "htm": "folder-views",
+        
+        // W closed
+        // webpack closed
+        ".webpack": "folder-webpack",
+        "webpack": "folder-webpack",
+        "abstract": "folder-webpack",
+        "abstracts": "folder-webpack",
+        
+        // X closed
+        
         // Y closed
         // yarn closed
         "yarn": "folder-yarn",
         ".yarn": "folder-yarn"
+        
+        // Z closed
+        
+        // Misc closed
     },
     
     "folderNamesExpanded": {
         // A opened
-        // abstract opened
-        // "abstract": "folder-abstract-open",
-        // "abstracts": "folder-abstract-open",
         // admin opened
         "admin": "folder-admin-open",
         "admins": "folder-admin-open",
@@ -1827,6 +2058,17 @@
         "backups": "folder-archive-open",
         "back-up": "folder-archive-open",
         "back-ups": "folder-archive-open",
+        // azure-pipelines opened
+        ".azure-pipelines": "folder-azure-pipelines-open",
+        ".azure-pipelines-ci": "folder-azure-pipelines-open",
+        "azure-pipelines": "folder-azure-pipelines-open",
+        "pipe": "folder-azure-pipelines-open",
+        "pipes": "folder-azure-pipelines-open",
+        // azure-devops opened
+        ".azure-devops": "folder-azure-devops-open",
+        ".azuredevops": "folder-azure-devops-open",
+        
+        // B opened
         
         // C opened
         // class opened
@@ -1873,6 +2115,15 @@
         // core opened
         "core": "folder-core-open",
         "cores": "folder-core-open",
+        //connection opened
+        "connection": "folder-connection-open",
+        "connections": "folder-connection-open",
+        "integration": "folder-connection-open",
+        "integrations": "folder-connection-open",
+        "url": "folder-connection-open",
+        "urls": "folder-connection-open",
+        "contract": "folder-connection-open",
+        "contracts": "folder-connection-open",
         
         // D opened
         // database opened
@@ -1907,7 +2158,7 @@
         "code": "folder-direnv-open",
         "codes": "folder-direnv-open",
         
-        // e opened
+        // E opened
         // error opened
         "error": "folder-error-open",
         "errors": "folder-error-open",
@@ -1927,6 +2178,8 @@
         // font opened
         "font": "folder-font-open",
         "fonts": "folder-font-open",
+        
+        // G opened
         // git opened
         "git": "folder-git-open",
         ".git": "folder-git-open",
@@ -1985,7 +2238,6 @@
         "photograph": "folder-image-open",
         "photographs": "folder-image-open",
         "asset": "folder-image-open",
-        
         // in opened
         // "in": "folder-in-open",
         // "input": "folder-in-open",
@@ -2038,13 +2290,6 @@
         // middleware opened
         "middleware": "folder-middleware-open",
         "middlewares": "folder-middleware-open",
-        // network opened
-        // "network": "folder-network-open",
-        // "networks": "folder-network-open",
-        // "packet": "folder-network-open",
-        // "packets": "folder-network-open",
-        // "route": "folder-network-open",
-        // "routes": "folder-network-open",
         // markdown opened
         "md": "folder-markdown-open",
         "markdown": "folder-markdown-open",
@@ -2056,6 +2301,8 @@
         "node_modules": "folder-node-open",
         ".node": "folder-node-open",
         ".node_modules": "folder-node-open",
+        
+        // O opened
         
         // P opened
         // package opened
@@ -2069,16 +2316,6 @@
         "python3": "folder-python-open",
         ".pytest_cache": "folder-python-open",
         "__pycache__": "folder-python-open",
-        // page opened
-        // "page": "folder-page-open",
-        // "pages": "folder-page-open",
-        // "view": "folder-page-open",
-        // "views": "folder-page-open",
-        // "html": "folder-page-open",
-        // "htm": "folder-page-open",
-        // pipe opened
-        // "pipe": "folder-pipe-open",
-        // "pipes": "folder-pipe-open",
         // private opened
         "private": "folder-private-open",
         "lock": "folder-private-open",
@@ -2101,6 +2338,18 @@
         "static": "folder-resource-open",
         // "@Resources": "folder-resource-open",
         "@resources": "folder-resource-open",
+        // routes opened
+        "route": "folder-routes-open",
+        "routes": "folder-routes-open",
+        "router": "folder-routes-open",
+        "routers": "folder-routes-open",
+        "navigation": "folder-routes-open",
+        "navigator": "folder-routes-open",
+        "navigators": "folder-routes-open",
+        "network": "folder-routes-open",
+        "networks": "folder-routes-open",
+        "packet": "folder-routes-open",
+        "packets": "folder-routes-open",
         
         // S opened
         // server opened
@@ -2162,20 +2411,6 @@
         "theme": "folder-theme-open",
         "themes": "folder-theme-open",
         
-        // V opened
-        // vscode opened
-        "vscode": "folder-vscode-open",
-        ".vscode": "folder-vscode-open",
-        ".vscode-test": "folder-vscode-open",
-        // video opened
-        "vid": "folder-video-open",
-        "vids": "folder-video-open",
-        "video": "folder-video-open",
-        "videos": "folder-video-open",
-        "movie": "folder-video-open",
-        "movies": "folder-video-open",
-        "media": "folder-video-open",
-        
         // U opened
         // utils opened
         "util": "folder-utils-open",
@@ -2190,70 +2425,52 @@
         "toolkit": "folder-utils-open",
         "toolkits": "folder-utils-open",
         
+        // V opened
+        // vscode opened
+        "vscode": "folder-vscode-open",
+        ".vscode": "folder-vscode-open",
+        ".vscode-test": "folder-vscode-open",
+        // video opened
+        "vid": "folder-video-open",
+        "vids": "folder-video-open",
+        "video": "folder-video-open",
+        "videos": "folder-video-open",
+        "movie": "folder-video-open",
+        "movies": "folder-video-open",
+        "media": "folder-video-open",
+        // vm opened
+        "vm": "folder-client-open",
+        // views closed
+        "page": "folder-views-open",
+        "pages": "folder-views-open",
+        "view": "folder-views-open",
+        "views": "folder-views-open",
+        "html": "folder-views-open",
+        "htm": "folder-views-open",
+        
+        // W opened
+        // webpack opened
+        ".webpack": "folder-webpack-open",
+        "webpack": "folder-webpack-open",
+        "abstract": "folder-webpack-open",
+        "abstracts": "folder-webpack-open",
+        
+        // X opened
+        
         // Y opened
         // yarn opened
         "yarn": "folder-yarn-open",
         ".yarn": "folder-yarn-open"
+        
+        // Z opened
+        
+        // Misc opened
     },
     
     "iconDefinitions": {
+        // Default icon
         "_file": {
             "iconPath": "../../assets/icons/_file.svg"
-        },
-        "_folder": {
-            "iconPath": "../../assets/icons/_folder.svg"
-        },
-        "_folder_open": {
-            "iconPath": "../../assets/icons/_folder_open.svg"
-        },
-        
-        "3d": {
-            "iconPath": "../../assets/icons/3d.svg"
-        },
-        "reg": {
-            "iconPath": "../../assets/icons/reg.svg"
-        },
-        "audio": {
-            "iconPath": "../../assets/icons/audio.svg"
-        },
-        "font": {
-            "iconPath": "../../assets/icons/font.svg"
-        },
-        "adobe-bridge": {
-            "iconPath": "../../assets/icons/adobebridge.svg"
-        },
-        "adobe-after-effects": {
-            "iconPath": "../../assets/icons/adobe-ae.svg"
-        },
-        "adobe-audition": {
-            "iconPath": "../../assets/icons/audition.svg"
-        },
-        "adobe-dreamweather": {
-            "iconPath": "../../assets/icons/dreamweather.svg"
-        },
-        "adobe-illustrator": {
-            "iconPath": "../../assets/icons/adobe-ai.svg"
-        },
-        "adobe-incopy": {
-            "iconPath": "../../assets/icons/incopy.svg"
-        },
-        "adobe-indesign": {
-            "iconPath": "../../assets/icons/adobe-id.svg"
-        },
-        "adobe-lightroom": {
-            "iconPath": "../../assets/icons/lightroom.svg"
-        },
-        "adobe-photoshop": {
-            "iconPath": "../../assets/icons/adobe-ps.svg"
-        },
-        "adobe-premiere-pro": {
-            "iconPath": "../../assets/icons/premierepro.svg"
-        },
-        "adobe-xd": {
-            "iconPath": "../../assets/icons/adobe-xd.svg"
-        },
-        "arduino": {
-            "iconPath": "../../assets/icons/arduino.svg"
         },
         
         // A icon
@@ -2292,6 +2509,48 @@
         },
         "apl": {
             "iconPath": "../../assets/icons/apl.svg"
+        },
+        "azure": {
+            "iconPath": "../../assets/icons/azure.svg"
+        },
+        "adobe-bridge": {
+            "iconPath": "../../assets/icons/adobebridge.svg"
+        },
+        "adobe-after-effects": {
+            "iconPath": "../../assets/icons/adobe-ae.svg"
+        },
+        "adobe-audition": {
+            "iconPath": "../../assets/icons/audition.svg"
+        },
+        "adobe-dreamweather": {
+            "iconPath": "../../assets/icons/dreamweather.svg"
+        },
+        "adobe-illustrator": {
+            "iconPath": "../../assets/icons/adobe-ai.svg"
+        },
+        "adobe-incopy": {
+            "iconPath": "../../assets/icons/incopy.svg"
+        },
+        "adobe-indesign": {
+            "iconPath": "../../assets/icons/adobe-id.svg"
+        },
+        "adobe-lightroom": {
+            "iconPath": "../../assets/icons/lightroom.svg"
+        },
+        "adobe-photoshop": {
+            "iconPath": "../../assets/icons/adobe-ps.svg"
+        },
+        "adobe-premiere-pro": {
+            "iconPath": "../../assets/icons/premierepro.svg"
+        },
+        "adobe-xd": {
+            "iconPath": "../../assets/icons/adobe-xd.svg"
+        },
+        "arduino": {
+            "iconPath": "../../assets/icons/arduino.svg"
+        },
+        "audio": {
+            "iconPath": "../../assets/icons/audio.svg"
         },
         
         // B icon
@@ -2444,6 +2703,9 @@
         "favicon": {
             "iconPath": "../../assets/icons/favicon.svg"
         },
+        "font": {
+            "iconPath": "../../assets/icons/font.svg"
+        },
         
         // G icon
         "gemfile": {
@@ -2528,6 +2790,9 @@
         "i18n": {
             "iconPath": "../../assets/icons/i18n.svg"
         },
+        "ionic": {
+            "iconPath": "../../assets/icons/ionic.svg"
+        },
         
         // J icon
         "jar": {
@@ -2580,6 +2845,9 @@
         },
         "jb-webstorm": {
             "iconPath": "../../assets/icons/webstorm.svg"
+        },
+        "jupyter": {
+            "iconPath": "../../assets/icons/jupyter.svg"
         },
         
         // K icon
@@ -2704,10 +2972,8 @@
         "properties":{
             "iconPath": "../../assets/icons/properties.svg"
         },
-        
-        // J icon
-        "jupyter": {
-            "iconPath": "../../assets/icons/jupyter.svg"
+        "pipelines":{
+            "iconPath": "../../assets/icons/pipelines.svg"
         },
         
         // Q icon
@@ -2731,9 +2997,9 @@
         "r-lock": {
             "iconPath": "../../assets/icons/r-lock.svg"
         },
-        // "lock": {
-        //     "iconPath": "../../assets/icons/lock.svg"
-        // },
+        "lock": {
+            "iconPath": "../../assets/icons/lock.svg"
+        },
         "react": {
             "iconPath": "../../assets/icons/javascript-react.svg"
         },
@@ -2754,6 +3020,9 @@
         },
         "rust": {
             "iconPath": "../../assets/icons/rust.svg"
+        },
+        "reg": {
+            "iconPath": "../../assets/icons/reg.svg"
         },
         
         // S icon
@@ -2880,13 +3149,19 @@
             "iconPath": "../../assets/icons/zip.svg"
         },
         
-        //FOLDERS
-        // "folder-abstract": {
-        //     "iconPath": "../../assets/icons/Folder_ABSTRACT_close.svg"
-        // },
-        // "folder-abstract-open": {
-        //     "iconPath": "../../assets/icons/Folder_ABSTRACT_open.svg"
-        // },
+        // Misc icon
+        "3d": {
+            "iconPath": "../../assets/icons/3d.svg"
+        },
+        
+        // Default folder
+        "_folder": {
+            "iconPath": "../../assets/icons/_folder.svg"
+        },
+        "_folder_open": {
+            "iconPath": "../../assets/icons/_folder_open.svg"
+        },
+        
         // A folder
         "folder-admin": {
             "iconPath": "../../assets/icons/folder_admin.svg"
@@ -2937,6 +3212,8 @@
             "iconPath": "../../assets/icons/folder_audio_open.svg"
         },
         
+        // B folder
+        
         // C folder
         // "folder-class": {
         //     "iconPath": "../../assets/icons/Folder_CLASS_close.svg"
@@ -2985,6 +3262,12 @@
         },
         "folder-core-open": {
             "iconPath": "../../assets/icons/folder_core_open.svg"
+        },
+        "folder-connection": {
+            "iconPath": "../../assets/icons/folder_connection.svg"
+        },
+        "folder-connection-open": {
+            "iconPath": "../../assets/icons/folder_connection_open.svg"
         },
         
         // D folder
@@ -3200,18 +3483,14 @@
         },
         
         // N folder
-        // "folder-network": {
-        //     "iconPath": "../../assets/icons/Folder_NETWORK_close.svg"
-        // },
-        // "folder-network-open": {
-        //     "iconPath": "../../assets/icons/Folder_NETWORK_open.svg"
-        // },
         "folder-node": {
             "iconPath": "../../assets/icons/folder_node.svg"
         },
         "folder-node-open": {
             "iconPath": "../../assets/icons/folder_node_open.svg"
         },
+        
+        // O folder
         
         // P folder
         "folder-python": {
@@ -3226,18 +3505,18 @@
         "folder-package-open": {
             "iconPath": "../../assets/icons/folder_packages_open.svg"
         },
-        // "folder-page": {
-        //     "iconPath": "../../assets/icons/Folder_PAGE_close.svg"
-        // },
-        // "folder-page-open": {
-        //     "iconPath": "../../assets/icons/Folder_PAGE_open.svg"
-        // },
-        // "folder-pipe": {
-        //     "iconPath": "../../assets/icons/Folder_PIPE_close.svg"
-        // },
-        // "folder-pipe-open": {
-        //     "iconPath": "../../assets/icons/Folder_PIPE_open.svg"
-        // },
+        "folder-azure-pipelines": {
+            "iconPath": "../../assets/icons/folder_azure-pipelines.svg"
+        },
+        "folder-azure-pipelines-open": {
+            "iconPath": "../../assets/icons/folder_azure-pipelines_open.svg"
+        },
+        "folder-azure-devops": {
+            "iconPath": "../../assets/icons/folder_azure-devops.svg"
+        },
+        "folder-azure-devops-open": {
+            "iconPath": "../../assets/icons/folder_azure-devops_open.svg"
+        },
         "folder-private": {
             "iconPath": "../../assets/icons/folder_private.svg"
         },
@@ -3265,6 +3544,12 @@
         },
         "folder-resource-open": {
             "iconPath": "../../assets/icons/folder_resource_open.svg"
+        },
+        "folder-routes": {
+            "iconPath": "../../assets/icons/folder_routes.svg"
+        },
+        "folder-routes-open": {
+            "iconPath": "../../assets/icons/folder_routes_open.svg"
         },
         
         // S folder
@@ -3331,6 +3616,14 @@
             "iconPath": "../../assets/icons/folder_themes_open.svg"
         },
         
+        // U folder
+        "folder-utils": {
+            "iconPath": "../../assets/icons/folder_utils.svg"
+        },
+        "folder-utils-open": {
+            "iconPath": "../../assets/icons/folder_utils_open.svg"
+        },
+        
         // V folder
         "folder-vscode": {
             "iconPath": "../../assets/icons/folder_vscode.svg"
@@ -3344,14 +3637,22 @@
         "folder-video-open": {
             "iconPath": "../../assets/icons/folder_video_open.svg"
         },
+        "folder-views": {
+            "iconPath": "../../assets/icons/folder_views.svg"
+        },
+        "folder-views-open": {
+            "iconPath": "../../assets/icons/folder_views_open.svg"
+        },
         
-        // U folder
-        "folder-utils": {
-            "iconPath": "../../assets/icons/folder_utils.svg"
+        // W folder
+        "folder-webpack": {
+            "iconPath": "../../assets/icons/folder_webpack.svg"
         },
-        "folder-utils-open": {
-            "iconPath": "../../assets/icons/folder_utils_open.svg"
+        "folder-webpack-open": {
+            "iconPath": "../../assets/icons/folder_webpack_open.svg"
         },
+        
+        // X folder
         
         // Y folder
         "folder-yarn": {
@@ -3362,5 +3663,7 @@
         }
         
         // Z folder
+        
+        // Misc folder
     }
 }

@@ -182,6 +182,11 @@
         "csv": "csv",
         "tsv": "csv",
         "psv": "csv",
+        // certificate ext
+        "cer": "certificate",
+        "cert": "certificate",
+        "crt": "certificate",
+        "pfx": "certificate",
         
         // D ext
         // d ext
@@ -202,6 +207,8 @@
         "qcow2": "disc",
         "qed": "disc",
         "chd": "disc",
+        "ips": "disc",
+        "sbi": "disc",
         
         // E ext
         // ejs ext
@@ -307,8 +314,6 @@
         // idris ext
         "idr": "idris",
         "ibc": "idris",
-        // ini ext
-        "ini": "ini",
         // lnk ext
         "lnk": "symlink",
         // image ext
@@ -360,9 +365,9 @@
         "pgm": "image",
         "pnm": "image",
         "avif": "image",
-        // ico ext
-        "ico": "ico",
-        "icns": "ico",
+        // icon ext
+        "ico": "icon",
+        "icns": "icon",
         // i18n ext
         "po": "i18n",
         "mo": "i18n",
@@ -403,6 +408,19 @@
         // kotlin ext
         "kt": "kotlin",
         "kts": "kotlin",
+        // kdl ext
+        "kdl": "kdl",
+        // kivy ext
+        "kv": "kivy",
+        // key ext
+        "pub": "key",
+        "key": "key",
+        "pem": "key",
+        "asc": "key",
+        "gpg": "key",
+        "passwd": "key",
+        "keystore": "key",
+        
         
         // L ext
         // laravel ext
@@ -475,6 +493,17 @@
         // objc ext
         "m": "objc",
         "mm": "objc",
+        // ocaml ext
+        "ml": "ocaml",
+        "mli": "ocaml",
+        "cmx": "ocaml",
+        // ocaml ext
+        "odin": "odin",
+        // opentofu ext
+        "tofu": "opentofu",
+        "tofu.json": "opentofu",
+        // org ext
+        "org": "org",
         
         // P ext
         // pdf ext
@@ -517,6 +546,7 @@
         "prefs": "properties",
         "sln.dotsettings": "properties",
         "sln.dotsettings.user": "properties",
+        "ini": "properties",
         
         // Q ext
         // quark ext
@@ -573,6 +603,7 @@
         "sbv": "subt",
         "dfxp": "subt",
         "vtt": "subt",
+        "lrc": "subt",
         
         // T ext
         // terrabyte ext
@@ -591,6 +622,13 @@
         // unity ext
         "meta": "unity",
         "url": "url",
+        "unity":"unity",
+        // uml ext
+        "iuml": "uml",
+        "pu": "uml",
+        "puml": "uml",
+        "plantuml": "uml",
+        "wsd": "uml",
         
         // V ext
         // vbs ext
@@ -609,13 +647,13 @@
         // vue ext
         "vue": "vue",
         // vsc ext
-        "vscodeignore": "vscig",
-        "vsixmanifest": "vsc",
-        "vsix": "vsc",
-        "code-workplace": "vsc",
-        "code-workspace": "vsc",
-        "code-profile": "vsc",
-        "code-snippets": "vsc",
+        "vscodeignore": "vscode-ignore",
+        "vsixmanifest": "vscode",
+        "vsix": "vscode",
+        "code-workplace": "vscode",
+        "code-workspace": "vscode",
+        "code-profile": "vscode",
+        "code-snippets": "vscode-json",
         // vim ext
         "vimrc": "vim",
         "gvimrc": "vim",
@@ -668,14 +706,24 @@
         "xml.dist": "xml",
         "xml.dist.sample": "xml",
         "dmn": "xml",
+        "jrxml": "xml",
+        // xib ext
+        "xib": "xib",
+        "nib": "xib",
+        "storyboard": "xib",
+        // xaml ext
+        "xaml": "xaml",
+        "axaml": "axaml",
+        // xcode_project ext
+        "pbxproj": "xcode",
         
         // Y ext
         // yaml ext
         "yml": "yaml",
         "yaml": "yaml",
-        "yml.dist": "yamlig",
-        "yaml.dist": "yamlig",
-        "YAML-tmLanguage": "yamlig",
+        "yml.dist": "yaml-ignore",
+        "yaml.dist": "yaml-ignore",
+        "YAML-tmLanguage": "yaml-ignore",
         
         // Z ext
         // zig ext
@@ -817,8 +865,6 @@
         // I lang
         // idris lang
         "idris": "idris",
-        // ini lang
-        "ini": "ini",
         
         // J lang
         // java lang
@@ -836,6 +882,8 @@
         "hjson": "hjson",
         
         // K lang
+        // kdl lang
+        "kdl": "kdl",
         
         // L lang
         // lua lang
@@ -856,6 +904,12 @@
         // objc lang
         "objective-c": "objc",
         "objective-cpp": "objc",
+        // ocaml lang
+        "odin": "odin",
+        // opentofu lang
+        "opentofu": "opentofu",
+        // org lang
+        "org": "org",
         
         // P lang
         // perl lang
@@ -870,6 +924,7 @@
         // properties lang
         "properties": "properties",
         "spring-boot-properties": "properties",
+        "ini": "properties",
         // pyc lang
         "pip-requirements": "pyc",
         // python lang
@@ -921,10 +976,11 @@
         // visualstudio lang
         "testOutput": "visualstudio",
         // vsc lang
-        "vscodeignore": "vscig",
-        "vsixmanifest": "vsc",
-        "vsix": "vsc",
-        "code-workplace": "vsc",
+        "vscodeignore": "vscode-ignore",
+        "vsixmanifest": "vscode",
+        "vsix": "vscode",
+        "code-workplace": "vscode",
+        "code-snippets": "vscode-json",
         // vue lang
         "vue": "vue",
         "vue-postcss": "vue",
@@ -941,10 +997,10 @@
         // Y lang
         // yaml lang
         "yaml": "yaml",
-        "spring-boot-properties-yaml": "yamlig",
-        "github-actions-workflow": "yamlig",
-        "ansible": "yamlig",
-        "ansible-jinja": "yamlig"
+        "spring-boot-properties-yaml": "yaml-ignore",
+        "github-actions-workflow": "yaml-ignore",
+        "ansible": "yaml-ignore",
+        "ansible-jinja": "yaml-ignore"
         
         // Z lang
         
@@ -1198,6 +1254,32 @@
         // kotlin-main name
         "Main.kt": "kotlin-main",
         "Main.kts": "kotlin-main",
+        // knip name
+        "knip.json": "knip",
+        "knip.jsonc": "knip",
+        ".knip.json": "knip",
+        ".knip.jsonc": "knip",
+        "knip.ts": "knip",
+        "knip.js": "knip",
+        "knip.config.ts": "knip",
+        "knip.config.js": "knip",
+        // karma name
+        "karma.conf.js": "karma",
+        "karma.conf.ts": "karma",
+        "karma.conf.coffee": "karma",
+        "karma.config.js": "karma",
+        "karma.config.ts": "karma",
+        "karma-main.js": "karma",
+        "karma-main.ts": "karma",
+        // key name
+        ".htpasswd": "key",
+        // kubernetes name
+        "k8s.yml": "kubernetes",
+        "k8s.yaml": "kubernetes",
+        "kubernetes.yml": "kubernetes",
+        "kubernetes.yaml": "kubernetes",
+        ".k8s.yml": "kubernetes",
+        ".k8s.yaml": "kubernetes",
         
         // L name
         // laravel name
@@ -1287,6 +1369,8 @@
         // properties name
         ".clang-format": "properties",
         ".clang-tidy": "properties",
+        // properties-ignore name
+        "desktop.ini": "properties-ignore",
         
         // Q name
         // quasar name
@@ -1338,10 +1422,25 @@
         "tauri.conf.json": "tauri",
         
         // U name
+        // unocss name
+        "uno.config.js": "unocss",
+        "uno.config.mjs": "unocss",
+        "uno.config.ts": "unocss",
+        "uno.config.mts": "unocss",
+        "unocss.config.js": "unocss",
+        "unocss.config.mjs": "unocss",
+        "unocss.config.ts": "unocss",
+        "unocss.config.mts": "unocss",
+        // uv name
+        "uv.lock": "uv",
+        // unity name
+        "shaderlab": "unity",
         
         // V name
         // vsc name
-        "launch.json": "vsc",
+        "launch.json": "vscode",
+        "keybindings.json": "vscode-json",
+        "settings.json": "vscode-json",
         // vite name
         "vite.config.js": "vite",
         "vite.config.ts": "vite",
@@ -1534,13 +1633,15 @@
         // X name
         // xml name
         ".htaccess": "xml",
+        // xmake name
+        "xmake": "xmake",
         
         // Y name
         // yaml name
         ".gitbook.yaml": "gitbook",
-        ".yamllint": "yamlig",
-        ".yamllint.yml": "yamlig",
-        ".yamllint.yaml": "yamlig",
+        ".yamllint": "yaml-ignore",
+        ".yamllint.yml": "yaml-ignore",
+        ".yamllint.yaml": "yaml-ignore",
         // yarn name
         ".yarnrc": "yarn",
         ".yarnclean": "yarn",
@@ -1573,6 +1674,8 @@
         "gifs": "folder-anim",
         // api closed
         "api": "folder-api",
+        "cluster": "folder-api",
+        "clusters": "folder-api",
         // app closed
         "app": "folder-app",
         "apps": "folder-app",
@@ -1612,9 +1715,6 @@
         // B closed
         
         // C closed
-        // class closed
-        // "class": "folder-class",
-        // "classes": "folder-class",
         // client closed
         "client": "folder-client",
         "clients": "folder-client",
@@ -1625,9 +1725,6 @@
         "clouds": "folder-cloud",
         "aws": "folder-cloud",
         "gcs": "folder-cloud",
-        // cluster closed
-        // "cluster": "folder-cluster",
-        // "clusters": "folder-cluster",
         // command closed
         "command": "folder-command",
         "commands": "folder-command",
@@ -1721,6 +1818,13 @@
         // font closed
         "font": "folder-font",
         "fonts": "folder-font",
+        // favorite closed
+        "favorite": "folder-favorite",
+        "favorites": "folder-favorite",
+        "like": "folder-favorite",
+        "likes": "folder-favorite",
+        "heart": "folder-favorite",
+        "hearts": "folder-favorite",
         
         // G closed
         // git closed
@@ -1781,12 +1885,6 @@
         "photograph": "folder-image",
         "photographs": "folder-image",
         "asset": "folder-image",
-        // in closed
-        // "in": "folder-in",
-        // "input": "folder-in",
-        // interface closed
-        // "interface": "folder-interface",
-        // "interfaces": "folder-interface",
         // ios closed
         "ios": "folder-ios",
         "apple": "folder-ios",
@@ -1814,23 +1912,42 @@
         // keys closed
         "keys": "folder-keys",
         "key": "folder-keys",
+        "token": "folder-key",
+        "tokens": "folder-key",
+        "jwt": "folder-key",
+        "secret": "folder-key",
+        "secrets": "folder-key",
+        // kubernetes closed
+        "kubernetes": "folder-kubernetes",
+        ".kubernetes": "folder-kubernetes",
+        "k8s": "folder-kubernetes",
+        ".k8s": "folder-kubernetes",
         
         // L closed
         // layout closed
         "layout": "folder-layout",
         "ui": "folder-layout",
+        "interface": "folder-layout",
+        "interfaces": "folder-layout",
         // lib closed
         "lib": "folder-lib",
         "libs": "folder-lib",
-        "librarie": "folder-lib",
+        "library": "folder-lib",
         "libraries": "folder-lib",
-        "ressource": "folder-lib",
-        "ressources": "folder-lib",
+        "class": "folder-lib",
+        "classes": "folder-lib",
         // log closed
         "log": "folder-log",
         "logs": "folder-log",
         "history": "folder-log",
         "histories": "folder-log",
+        // link closed
+        "link": "folder-link",
+        "links": "folder-link",
+        "shortcut": "folder-link",
+        "shortcuts": "folder-link",
+        "in": "folder-link",
+        "input": "folder-link",
         
         // M closed
         // middleware closed
@@ -1972,6 +2089,11 @@
         "tooling": "folder-utils",
         "toolkit": "folder-utils",
         "toolkits": "folder-utils",
+        // unity closed
+        "unity": "folder-unity",
+        // upload closed
+        "upload": "folder-upload",
+        "uploads": "folder-upload",
         
         // V closed
         // vscode closed
@@ -2002,8 +2124,22 @@
         "webpack": "folder-webpack",
         "abstract": "folder-webpack",
         "abstracts": "folder-webpack",
+        // windows closed
+        "windows": "folder-windows",
+        "win": "folder-windows",
+        "win32": "folder-windows",
+        "win64": "folder-windows",
+        "wince": "folder-windows",
         
         // X closed
+        // xcode closed
+        "xcodeproj": "folder-xcode",
+        "xcworkspace": "folder-xcode",
+        "xcshareddata": "folder-xcode",
+        "xcschemes": "folder-xcode",
+        // xmake closed
+        "xmake": "folder-xmake",
+        ".xmake": "folder-xmake",
         
         // Y closed
         // yarn closed
@@ -2032,6 +2168,8 @@
         "gifs": "folder-anim-open",
         // api opened
         "api": "folder-api-open",
+        "cluster": "folder-api-open",
+        "clusters": "folder-api-open",
         // app opened
         "app": "folder-app-open",
         "apps": "folder-app-open",
@@ -2084,9 +2222,6 @@
         "clouds": "folder-cloud-open",
         "aws": "folder-cloud-open",
         "gcs": "folder-cloud-open",
-        // cluster opened
-        // "cluster": "folder-cluster-open",
-        // "clusters": "folder-cluster-open",
         // command opened
         "command": "folder-command-open",
         "commands": "folder-command-open",
@@ -2178,6 +2313,13 @@
         // font opened
         "font": "folder-font-open",
         "fonts": "folder-font-open",
+        // favorite opened
+        "favorite": "folder-favorite-open",
+        "favorites": "folder-favorite-open",
+        "like": "folder-favorite-open",
+        "likes": "folder-favorite-open",
+        "heart": "folder-favorite-open",
+        "hearts": "folder-favorite-open",
         
         // G opened
         // git opened
@@ -2238,12 +2380,6 @@
         "photograph": "folder-image-open",
         "photographs": "folder-image-open",
         "asset": "folder-image-open",
-        // in opened
-        // "in": "folder-in-open",
-        // "input": "folder-in-open",
-        // interface opened
-        // "interface": "folder-interface-open",
-        // "interfaces": "folder-interface-open",
         // ios opened
         "ios": "folder-ios-open",
         "apple": "folder-ios-open",
@@ -2271,20 +2407,43 @@
         // keys opened
         "keys": "folder-keys-open",
         "key": "folder-keys-open",
+        "token": "folder-key-open",
+        "tokens": "folder-key-open",
+        "jwt": "folder-key-open",
+        "secret": "folder-key-open",
+        "secrets": "folder-key-open",
+        // kubernetes opened
+        "kubernetes": "folder-kubernetes-open",
+        ".kubernetes": "folder-kubernetes-open",
+        "k8s": "folder-kubernetes-open",
+        ".k8s": "folder-kubernetes-open",
         
         // L opened
         // layout opened
         "layout": "folder-layout-open",
         "ui": "folder-layout-open",
+        "interface": "folder-layout-open",
+        "interfaces": "folder-layout-open",
         // lib opened
         "lib": "folder-lib-open",
         "libs": "folder-lib-open",
+        "library": "folder-lib",
+        "librarie": "folder-lib",
         "libraries": "folder-lib-open",
+        "class": "folder-lib-open",
+        "classes": "folder-lib-open",
         // log opened
         "log": "folder-log-open",
         "logs": "folder-log-open",
         "history": "folder-log-open",
         "histories": "folder-log-open",
+        // link opened
+        "link": "folder-link-open",
+        "links": "folder-link-open",
+        "shortcut": "folder-link-open",
+        "shortcuts": "folder-link-open",
+        "in": "folder-link-open",
+        "input": "folder-link-open",
         
         // M opened
         // middleware opened
@@ -2424,6 +2583,11 @@
         "tooling": "folder-utils-open",
         "toolkit": "folder-utils-open",
         "toolkits": "folder-utils-open",
+        // unity opened
+        "unity": "folder-unity-open",
+        // upload opened
+        "upload": "folder-upload-open",
+        "uploads": "folder-upload-open",
         
         // V opened
         // vscode opened
@@ -2454,8 +2618,22 @@
         "webpack": "folder-webpack-open",
         "abstract": "folder-webpack-open",
         "abstracts": "folder-webpack-open",
+        // windows opened
+        "windows": "folder-windows-open",
+        "win": "folder-windows-open",
+        "win32": "folder-windows-open",
+        "win64": "folder-windows-open",
+        "wince": "folder-windows-open",
         
         // X opened
+        // xcode opened
+        "xcodeproj": "folder-xcode-open",
+        "xcworkspace": "folder-xcode-open",
+        "xcshareddata": "folder-xcode-open",
+        "xcschemes": "folder-xcode-open",
+        // xmake opened
+        "xmake": "folder-xmake-open",
+        ".xmake": "folder-xmake-open",
         
         // Y opened
         // yarn opened
@@ -2622,6 +2800,9 @@
         "contributing": {
             "iconPath": "../../assets/icons/contributing.svg"
         },
+        "certificate": {
+            "iconPath": "../../assets/icons/certificate.svg"
+        },
         
         // D icon
         "d": {
@@ -2778,9 +2959,6 @@
         "idris": {
             "iconPath": "../../assets/icons/idris.svg"
         },
-        "ini": {
-            "iconPath": "../../assets/icons/ini.svg"
-        },
         "image": {
             "iconPath": "../../assets/icons/image.svg"
         },
@@ -2854,8 +3032,23 @@
         "kotlin": {
             "iconPath": "../../assets/icons/kotlin.svg"
         },
-        "kotlin-main": {
-            "iconPath": "../../assets/icons/kotlin-main.svg"
+        "knip": {
+            "iconPath": "../../assets/icons/knip.svg"
+        },
+        "karma": {
+            "iconPath": "../../assets/icons/karma.svg"
+        },
+        "key": {
+            "iconPath": "../../assets/icons/key.svg"
+        },
+        "kdl": {
+            "iconPath": "../../assets/icons/kdl.svg"
+        },
+        "kivy": {
+            "iconPath": "../../assets/icons/kivy.svg"
+        },
+        "kubernetes": {
+            "iconPath": "../../assets/icons/kubernetes.svg"
         },
         
         // L icon
@@ -2940,6 +3133,18 @@
         "objc": {
             "iconPath": "../../assets/icons/objectivec.svg"
         },
+        "odin": {
+            "iconPath": "../../assets/icons/odin.svg"
+        },
+        "opentofu": {
+            "iconPath": "../../assets/icons/opentofu.svg"
+        },
+        "org": {
+            "iconPath": "../../assets/icons/org.svg"
+        },
+        "ocaml": {
+            "iconPath": "../../assets/icons/ocaml.svg"
+        },
         
         // P icon
         "pdf": {
@@ -2971,6 +3176,9 @@
         },
         "properties":{
             "iconPath": "../../assets/icons/properties.svg"
+        },
+        "properties-ignore":{
+            "iconPath": "../../assets/icons/properties-ignore.svg"
         },
         "pipelines":{
             "iconPath": "../../assets/icons/pipelines.svg"
@@ -3084,6 +3292,15 @@
         "url": {
             "iconPath": "../../assets/icons/url.svg"
         },
+        "uml": {
+            "iconPath": "../../assets/icons/uml.svg"
+        },
+        "unocss": {
+            "iconPath": "../../assets/icons/unocss.svg"
+        },
+        "uv": {
+            "iconPath": "../../assets/icons/uv.svg"
+        },
         
         // V icon
         "vba": {
@@ -3098,10 +3315,13 @@
         "visualstudio": {
             "iconPath": "../../assets/icons/vstudio.svg"
         },
-        "vsc": {
+        "vscode": {
             "iconPath": "../../assets/icons/vscode.svg"
         },
-        "vscig": {
+        "vscode-json": {
+            "iconPath": "../../assets/icons/vscode-json.svg"
+        },
+        "vscode-ignore": {
             "iconPath": "../../assets/icons/vscode-ignore.svg"
         },
         "vue": {
@@ -3123,12 +3343,24 @@
         "xml": {
             "iconPath": "../../assets/icons/xml.svg"
         },
+        "xaml": {
+            "iconPath": "../../assets/icons/xaml.svg"
+        },
+        "xcode": {
+            "iconPath": "../../assets/icons/xcode_project.svg"
+        },
+        "xib": {
+            "iconPath": "../../assets/icons/xib.svg"
+        },
+        "xmake": {
+            "iconPath": "../../assets/icons/xmake.svg"
+        },
         
         // Y icon
         "yaml": {
             "iconPath": "../../assets/icons/yaml.svg"
         },
-        "yamlig": {
+        "yaml-ignore": {
             "iconPath": "../../assets/icons/yaml-ignore.svg"
         },
         "yarn": {
@@ -3215,12 +3447,6 @@
         // B folder
         
         // C folder
-        // "folder-class": {
-        //     "iconPath": "../../assets/icons/Folder_CLASS_close.svg"
-        // },
-        // "folder-class-open": {
-        //     "iconPath": "../../assets/icons/Folder_CLASS_open.svg"
-        // },
         "folder-client": {
             "iconPath": "../../assets/icons/folder_client.svg"
         },
@@ -3233,12 +3459,6 @@
         "folder-cloud-open": {
             "iconPath": "../../assets/icons/folder_cloud_open.svg"
         },
-        // "folder-cluster": {
-        //     "iconPath": "../../assets/icons/Folder_CLUSTER_close.svg"
-        // },
-        // "folder-cluster-open": {
-        //     "iconPath": "../../assets/icons/Folder_CLUSTER_open.svg"
-        // },
         "folder-command": {
             "iconPath": "../../assets/icons/folder_command.svg"
         },
@@ -3341,6 +3561,12 @@
         "folder-font-open": {
             "iconPath": "../../assets/icons/folder_fonts_open.svg"
         },
+        "folder-favorite": {
+            "iconPath": "../../assets/icons/folder_favorite.svg"
+        },
+        "folder-favorite-open": {
+            "iconPath": "../../assets/icons/folder_favorite_open.svg"
+        },
         
         // G folder
         "folder-git": {
@@ -3389,18 +3615,6 @@
         "folder-image-open": {
             "iconPath": "../../assets/icons/folder_images_open.svg"
         },
-        // "folder-in": {
-        //     "iconPath": "../../assets/icons/Folder_IN_close.svg"
-        // },
-        // "folder-in-open": {
-        //     "iconPath": "../../assets/icons/Folder_IN_open.svg"
-        // },
-        // "folder-interface": {
-        //     "iconPath": "../../assets/icons/folder_interface.svg"
-        // },
-        // "folder-interface-open": {
-        //     "iconPath": "../../assets/icons/folder_interface_open.svg"
-        // },
         "folder-ios": {
             "iconPath": "../../assets/icons/folder_ios.svg"
         },
@@ -3447,6 +3661,12 @@
         "folder-keys-open": {
             "iconPath": "../../assets/icons/folder_key_open.svg"
         },
+        "folder-kubernetes": {
+            "iconPath": "../../assets/icons/folder_kubernetes.svg"
+        },
+        "folder-kubernetes-open": {
+            "iconPath": "../../assets/icons/folder_kubernetes_open.svg"
+        },
         
         // L folder
         "folder-layout": {
@@ -3466,6 +3686,12 @@
         },
         "folder-log-open": {
             "iconPath": "../../assets/icons/folder_log_open.svg"
+        },
+        "folder-link": {
+            "iconPath": "../../assets/icons/folder_link.svg"
+        },
+        "folder-link-open": {
+            "iconPath": "../../assets/icons/folder_link_open.svg"
         },
         
         // M folder
@@ -3623,6 +3849,18 @@
         "folder-utils-open": {
             "iconPath": "../../assets/icons/folder_utils_open.svg"
         },
+        "folder-unity": {
+            "iconPath": "../../assets/icons/folder_unity.svg"
+        },
+        "folder-unity-open": {
+            "iconPath": "../../assets/icons/folder_unity_open.svg"
+        },
+        "folder-upload": {
+            "iconPath": "../../assets/icons/folder_upload.svg"
+        },
+        "folder-upload-open": {
+            "iconPath": "../../assets/icons/folder_upload_open.svg"
+        },
         
         // V folder
         "folder-vscode": {
@@ -3651,8 +3889,26 @@
         "folder-webpack-open": {
             "iconPath": "../../assets/icons/folder_webpack_open.svg"
         },
+        "folder-windows": {
+            "iconPath": "../../assets/icons/folder_windows.svg"
+        },
+        "folder-windows-open": {
+            "iconPath": "../../assets/icons/folder_windows_open.svg"
+        },
         
         // X folder
+        "folder-xmake": {
+            "iconPath": "../../assets/icons/folder_xmake.svg"
+        },
+        "folder-xmake-open": {
+            "iconPath": "../../assets/icons/folder_xmake_open.svg"
+        },
+        "folder-xcode": {
+            "iconPath": "../../assets/icons/folder_xcode.svg"
+        },
+        "folder-xcode-open": {
+            "iconPath": "../../assets/icons/folder_xcode_open.svg"
+        },
         
         // Y folder
         "folder-yarn": {

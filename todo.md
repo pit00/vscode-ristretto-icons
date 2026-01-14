@@ -130,9 +130,6 @@ cargo: filename: ["cargo.toml"],
 cargolock": { | fileNames: ["cargo.lock"]
 cart[folder].svg
 cart: folder: ["cart", "shopping-cart", "shopping", "shop"],
-certificate: { | fileExtensions: [ "cer", "cert", "crt", "pfx"]
-certificate: fileExtensions: ["cer", "cert", "crt", "pfx"],
-certificate.svg
 chart_lock: filename: ["chart.lock"],
 chart_lock.svg
 chart: filename: ["chart.yaml"],
@@ -347,8 +344,6 @@ fastlane: { | fileNames: [ "fastfile", "appfile", "snapfile", "matchfile", "deli
 fastlane: filename: ["fastfile", "fastlane/appfile", "fastlane/pluginfile"],
 fastlane: folder: ["fastlane"],
 fastlane.svg
-favorite[folder].svg
-favorite: folder: ["favorite", "favorites", "like", "likes", "heart", "hearts"],
 figma: { | fileExtensions: ["fig"]
 firebase[folder].svg
 firebase: { | fileNames: [ "firebase.json", ".firebaserc", "firestore.rules", "firestore.indexes.json"], | folderNames: [ "firebase", ".firebase"]
@@ -513,26 +508,6 @@ julia: languageIds: ["julia", "juliamarkdown"],
 just: { | fileExtensions: ["just"], | fileNames: ["justfile", ".justfile"]
 just.svg
 
-<!-- K -->
-karma: filename: [ "karma.conf.js", "karma.conf.ts", "karma.conf.coffee", "karma.config.js", "karma.config.ts", "karma-main.js", "karma-main.ts"],
-karma.svg
-kdl: { | languageIds: ["kdl"], | fileExtensions: ["kdl"]
-kdl.svg
-key: { | fileExtensions: [ "pub", "key", "pem", "asc", "gpg", "passwd", "keystore"], | fileNames: [".htpasswd"]
-key: fileExtensions: ["pub", "key", "pem", "asc", "gpg", "passwd", "keystore"],
-key: folder: ["key", "keys", "token", "tokens", "jwt", "secret", "secrets"],
-key.svg
-kivy: fileExtensions: ["kv"],
-kivy.svg
-knip.svg
-kotlin: { | fileExtensions: [ "kt", "kts"]
-kotlin: fileExtensions: ["kt", "kts"],
-kubernetes[folder].svg
-kubernetes: { | folderNames: [ "kubernetes", ".kubernetes", "k8s", ".k8s"]
-kubernetes: filename: [ "k8s.yml", "k8s.yaml", "kubernetes.yml", "kubernetes.yaml", ".k8s.yml", ".k8s.yaml"],
-kubernetes: folder: ["kubernetes", ".kubernetes"],
-kubernetes.svg
-
 <!-- L -->
 laravel: { | fileExtensions: [ "blade.php", "inky.php"], | fileNames: ["artisan"]
 laravel: fileExtensions: ["blade.php", "inky.php"],
@@ -558,8 +533,6 @@ lib.svg
 library: folder: ["lib", "libs", "library", "libraries", "vendor", "vendors", "third-party", "dll"],
 lighthouse: filename: [ ".lighthouserc.js", "lighthouserc.js", ".lighthouserc.json", "lighthouserc.json", ".lighthouserc.yml", "lighthouserc.yml", ".lighthouserc.yaml", "lighthouserc.yaml"],
 lighthouse.svg
-link[folder].svg
-link: folder: ["link", "links", "shortcut", "shortcuts"],
 lint-staged.svg
 lintstaged: filename: [ ".lintstagedrc", ".lintstagedrc.json", ".lintstagedrc.yaml", ".lintstagedrc.yml", ".lintstagedrc.mts", ".lintstagedrc.cjs", ".lintstagedrc.cts", ".lintstagedrc.js", ".lintstagedrc.ts", "lint-staged.config.js", "lint-staged.config.ts", "lint-staged.config.mjs", "lint-staged.config.mts", "lint-staged.config.cjs", "lint-staged.config.cts"],
 lintstaged": { | fileNames: [ ".lintstagedrc", ".lintstagedrc.json", ".lintstagedrc.yaml", ".lintstagedrc.yml", ".lintstagedrc.mjs", ".lintstagedrc.cjs", ".lintstagedrc.js", "lint-staged.config.js", "lint-staged.config.mjs", "lint-staged.config.cjs"]
@@ -744,17 +717,6 @@ nx: fileExtensions: ["nx"],
 nx: filename: ["nx.json"],
 nx.svg
 nxignore": { | fileNames: [".nxignore"]
-
-<!-- O -->
-ocaml: { | fileExtensions: [ "ml", "mli", "cmx"]
-ocaml: fileExtensions: ["ml", "mli", "cmx"],
-ocaml.svg
-odin: { | languageIds: ["odin"], | fileExtensions: ["odin"]
-odin: fileExtensions: ["odin"],
-odin.svg
-opentofu: { | languageIds: ["opentofu"], | fileExtensions: ["tofu", "tofu.json"]
-org: { | languageIds: ["org"], | fileExtensions: ["org"]
-org.svg
 
 <!-- P -->
 packages: { | folderNames: [ "package", "packages", "pkg", "pkgs", "crate", "crates"]
@@ -1191,23 +1153,6 @@ typescripttest": { | fileExtensions: [ "spec.ts", "spec.cts", "spec.mts", "cy.ts
 typst: { | languageIds: ["typst"], | fileExtensions: ["typ"], | fileNames: ["typst.toml"]
 typst.svg
 
-<!-- U -->
-uml: fileExtensions: ["iuml", "pu", "puml", "plantuml", "wsd"],
-uml.svg
-unity[folder].svg
-unity: { | languageIds: ["shaderlab"], | fileExtensions: ["unity"]
-unity: fileExtensions: ["unity"],
-unity: folder: ["unity"],
-unity: languageIds: ["shaderlab"],
-unocss: { | fileNames: [ "uno.config.js", "uno.config.mjs", "uno.config.ts", "uno.config.mts", "unocss.config.js", "unocss.config.mjs", "unocss.config.ts", "unocss.config.mts"]
-unocss: filename: [ "uno.config.js", "uno.config.ts", "unocss.config.js", "unocss.config.ts"],
-unocss.svg
-upload[folder].svg
-upload: { | folderNames: [ "uploads", "upload"]
-upload: folder: ["upload", "uploads"],
-uv: { | fileNames: ["uv.lock"]
-uv.svg
-
 <!-- V -->
 v: { | languageIds: ["v"], | fileExtensions: ["v"], | fileNames: [ "vpkg.json", "v.mod"]
 v.svg
@@ -1253,7 +1198,6 @@ vite: filename: [ "vite.config.js", "vite.config.mjs", "vite.config.cjs", "vite.
 vitest: { | fileNames: [ "vitest.config.ts", "vitest.config.mts", "vitest.config.cts", "vitest.config.js", "vitest.config.mjs", "vitest.config.cjs", "vitest.workspace.js", "vitest.workspace.ts", "vitest.workspace.json"]
 vitest: filename: [ "vitest.config.js", "vitest.config.mjs", "vitest.config.cjs", "vitest.config.ts", "vitest.config.cts", "vitest.config.mts", "vitest.config.js", "vitest.config.mjs", "vitest.config.cjs", "vitest.config.ts", "vitest.config.cts", "vitest.config.mts"],
 vitest.svg
-vs_code: fileExtensions: ["vsixmanifest", "vsix", "code-workplace", "code-workspace", "code-profile", "code-snippets"],
 vue[folder].svg
 vue_config: filename: [ "vue.config.js", "vue.config.ts", "vetur.config.js", "vetur.config.ts", "volar.config.js"],
 vue-config.svg
@@ -1274,9 +1218,6 @@ web-assembly.svg
 webassembly": { | fileExtensions: [ "wat", "wasm"]
 windi: { | fileNames: [ "windi.config.js", "windi.config.cjs", "windi.config.ts", "windi.config.cts", "windi.config.json"], | fileExtensions: ["windi"]
 windi.svg
-windows[folder].svg
-windows: { | folderNames: ["windows"]
-windows: folder: ["windows", "win", "win32", "win64", "wince"],
 wolfram: fileExtensions: ["wl"],
 wolfram: languageIds: ["wolframlanguage"],
 wolfram.svg
@@ -1293,25 +1234,6 @@ wxt[folder].svg
 wxt: { | folderNames: [".wxt"], | fileNames: [ "wxt.config.js", "wxt.config.ts"]
 wxt.svg
 
-<!-- X -->
-xaml: { | fileExtensions: [ "xaml", "axaml"]
-xaml: fileExtensions: ["xaml"],
-xaml.svg
-xcode[folder].svg
-xcode_project: fileExtensions: ["pbxproj"],
-xcode_project.svg
-xcode: { | folderNames: [ "xcodeproj", "xcworkspace", "xcshareddata", "xcschemes"]
-xcode.svg
-xd: fileExtensions: ["xd"],
-xd.svg
-xib: fileExtensions: ["xib", "nib", "storyboard"],
-xib.svg
-xmake: { | fileNames: ["xmake.lua"], | folderNames: ["xmake", ".xmake"]
-xmake.svg
-xml: { | fileExtensions: [ "xml", "plist", "xsd", "dtd", "xsl", "xslt", "resx", "iml", "xquery", "tmLanguage", "manifest", "project", "xml.dist", "xml.dist.sample", "dmn", "jrxml"], | fileNames: [".htaccess"]
-xml: fileExtensions: ["xml", "plist", "xsd", "dtd", "xsl", "xslt", "resx", "iml", "xquery", "tmLanguage", "manifest", "project", "xml.dist", "xml.dist.sample", "dmn", "jrxml"],
-xml: languageIds: ["xml", "xquery", "xsl"],
-
 <!-- ? -->
 [ ] A
 [ ] B
@@ -1323,24 +1245,27 @@ xml: languageIds: ["xml", "xquery", "xsl"],
 [ ] H
 [X] I
 [ ] J
-[ ] K
+[X] K
 [ ] L
 [ ] M
 [ ] N
-[ ] O
+[X] O
 [ ] P
 [X] Q
 [ ] R
 [ ] S
 [ ] T
-[ ] U
+[X] U
 [ ] V
 [ ] W
-[ ] X
+[X] X
 [X] Y
 [X] Z
 .mte?
 .dropbox
 .dropbox.cache
+
+https://github.com/catppuccin/vscode-icons/blob/main/src/defaults/fileIcons.ts
+https://github.com/catppuccin/vscode-icons/blob/main/src/defaults/folderIcons.ts
 
 * diff the folder

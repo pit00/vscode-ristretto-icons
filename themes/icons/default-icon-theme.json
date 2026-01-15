@@ -48,6 +48,7 @@
         "argus": "asm",
         "mitigus": "asm",
         "binsource": "asm",
+        "inc": "asm",
         //audio ext
         "mp3": "audio",
         "flac": "audio",
@@ -78,8 +79,8 @@
         // adobe-illustrator ext
         "ai": "adobe-illustrator",
         // adobe-incopy ext
-        "inc": "adobe-incopy",
         "icap": "adobe-incopy",
+        // "inc": "adobe-incopy",
         "icma": "adobe-incopy",
         "icml": "adobe-incopy",
         "inca": "adobe-incopy",
@@ -194,8 +195,15 @@
         // dart ext
         "dart": "dart",
         // docker ext
-        "dockerignore": "dockerig",
         "dockerfile": "docker",
+        "containerfile": "docker",
+        // docker-compose ext
+        "docker-compose.yml": "dockercomp",
+        "docker-compose.yaml": "dockercomp",
+        "compose.yaml": "dockercomp",
+        "compose.yml": "dockercomp",
+        // docker-ignore ext
+        "dockerignore": "dockerig",
         // django ext
         "djt": "django",
         // disc ext
@@ -213,19 +221,23 @@
         // E ext
         // ejs ext
         "ejs": "ejs",
-        // elexir ext
-        "ex": "elexir",
-        "exs": "elexir",
         // elm ext
         "elm": "elm",
         // env ext
         "env": "env",
         // erlang ext
         "erl": "erlang",
+        // excalidraw ext
         "excalidraw": "excalidraw",
         // exe ext
         "exe": "exe",
         "msi": "exe",
+        // elixir ext
+        "ex": "elixir",
+        "exs": "elixir",
+        "eex": "elixir",
+        "leex": "elixir",
+        "heex": "elixir",
         
         // F ext
         // fortan ext
@@ -309,6 +321,10 @@
         "xhtml": "html",
         "html_vm": "html",
         "asp": "html",
+        // http ext
+        "http": "http",
+        "rest": "http",
+        "cname": "http",
         
         // I ext
         // idris ext
@@ -403,6 +419,38 @@
         "webmanifest": "json",
         "hjson": "hjson",
         "schema.json": "sjson",
+        // juce ext
+        "jucer": "jule",
+        // jenkins ext
+        "jenkinsfile": "jenkins",
+        "jenkins": "jenkins",
+        // jinja ext
+        "jinja": "jinja",
+        "jinja2": "jinja",
+        "j2": "jinja",
+        "jinja-html": "jinja",
+        // just ext
+        "just": "just",
+        // javascript-map ext
+        "js.map": "javascript-map",
+        "mjs.map": "javascript-map",
+        "cjs.map": "javascript-map",
+        // javascript-test ext
+        "spec.js": "javascript-test",
+        "spec.cjs": "javascript-test",
+        "spec.mjs": "javascript-test",
+        "e2e-spec.js": "javascript-test",
+        "e2e-spec.cjs": "javascript-test",
+        "e2e-spec.mjs": "javascript-test",
+        "test.js": "javascript-test",
+        "test.cjs": "javascript-test",
+        "test.mjs": "javascript-test",
+        "js.snap": "javascript-test",
+        "cy.js": "javascript-test",
+        "spec.jsx": "javascript-test",
+        "test.jsx": "javascript-test",
+        "jsx.snap": "javascript-test",
+        "cy.jsx": "javascript-test",
         
         // K ext
         // kotlin ext
@@ -420,7 +468,6 @@
         "gpg": "key",
         "passwd": "key",
         "keystore": "key",
-        
         
         // L ext
         // laravel ext
@@ -560,6 +607,8 @@
         // rd
         "rd": "r-ignore",
         "Rproj": "r-ignore",
+        // rmd ext
+        "rmd": "rmd",
         // lock ext
         "lock": "lock",
         // react ext
@@ -604,6 +653,43 @@
         "dfxp": "subt",
         "vtt": "subt",
         "lrc": "subt",
+        // shader ext
+        "vert": "shader",
+        // "glsl": "shader",
+        "tesc": "shader",
+        "tese": "shader",
+        "geom": "shader",
+        "frag": "shader",
+        "comp": "shader",
+        "vert.glsl": "shader",
+        "tesc.glsl": "shader",
+        "tese.glsl": "shader",
+        "geom.glsl": "shader",
+        "frag.glsl": "shader",
+        "comp.glsl": "shader",
+        "vertex.glsl": "shader",
+        "geometry.glsl": "shader",
+        "fragment.glsl": "shader",
+        "compute.glsl": "shader",
+        "ts.glsl": "shader",
+        "gs.glsl": "shader",
+        "vs.glsl": "shader",
+        "fs.glsl": "shader",
+        "shader": "shader",
+        "vertexshader": "shader",
+        "fragmentshader": "shader",
+        "geometryshader": "shader",
+        "computeshader": "shader",
+        "hlsl": "shader",
+        "pixel.hlsl": "shader",
+        "geometry.hlsl": "shader",
+        "compute.hlsl": "shader",
+        "tessellation.hlsl": "shader",
+        "px.hlsl": "shader",
+        "geom.hlsl": "shader",
+        "comp.hlsl": "shader",
+        "tess.hlsl": "shader",
+        "wgsl": "shader",
         
         // T ext
         // terrabyte ext
@@ -611,8 +697,34 @@
         // text ext
         "plaintext": "text",
         // typescript ext
-        "d.ts": "typescript",
         "ts": "typescript",
+        // "d.ts": "typescript",
+        "cts": "typescript",
+        "mts": "typescript",
+        // typescript-def ext
+        "d.ts": "typescript-def",
+        "d.cts": "typescript-def",
+        "d.mts": "typescript-def",
+        // typescript-config ext
+        "tsconfig.json": "typescript-config",
+        // typescript-test ext
+        "spec-d.ts": "typescript-test",
+        "spec.ts": "typescript-test",
+        "spec.cts": "typescript-test",
+        "spec.mts": "typescript-test",
+        "cy.ts": "typescript-test",
+        "e2e-spec.ts": "typescript-test",
+        "e2e-spec.cts": "typescript-test",
+        "e2e-spec.mts": "typescript-test",
+        "test-d.ts": "typescript-test",
+        "test.ts": "typescript-test",
+        "test.cts": "typescript-test",
+        "test.mts": "typescript-test",
+        "ts.snap": "typescript-test",
+        "spec.tsx": "typescript-test",
+        "test.tsx": "typescript-test",
+        "tsx.snap": "typescript-test",
+        "cy.tsx": "typescript-test",
         // todo ext
         "todo": "todo",
         // txt ext
@@ -631,15 +743,24 @@
         "wsd": "uml",
         
         // V ext
-        // vbs ext
+        // vba ext
         "vb": "vba",
         "vba": "vba",
         "vbs": "vba",
         // visualstudio ext
         "csproj": "visualstudio",
+        "vcxproj.user": "visualstudio",
+        "csproj.user": "visualstudio",
+        "vbproj": "visualstudio",
+        "vbproj.user": "visualstudio",
+        "fsproj": "visualstudio",
+        "fsproj.user": "visualstudio",
         "ruleset": "visualstudio",
+        "slnf": "visualstudio",
         "sln": "visualstudio",
         "suo": "visualstudio",
+        // "vb": "visualstudio",
+        // "vbs": "visualstudio",
         "vcxitems": "visualstudio",
         "vcxitems.filters": "visualstudio",
         "vcxproj": "visualstudio",
@@ -686,9 +807,16 @@
         "m2v": "video",
         
         // W ext
-        // wasm ext
+        // web-assembly ext
         "wat": "wasm",
         "wasm": "wasm",
+        // workflow ext
+        "workflows/yml": "workflow",
+        "workflows/yaml": "workflow",
+        // windi ext
+        "windi": "windi",
+        // wolfram ext
+        "wl": "wolfram",
         
         // X ext
         // xml ext
@@ -826,6 +954,7 @@
         "dart": "dart",
         // docker lang
         "dockerfile": "docker",
+        "dockercompose": "docker",
         // diff lang
         "diff": "diff",
         
@@ -833,6 +962,12 @@
         // editor-config lang
         "editor-config": "editor-config",
         "editorconfig": "editor-config",
+        // elixir lang
+        "elixir": "elixir",
+        // env lang
+        "dotenv": "env",
+        // env lang
+        "erlang": "erlang",
         
         // F lang
         // fsharp lang
@@ -880,6 +1015,10 @@
         "json5": "json",
         "jsonl": "json",
         "hjson": "hjson",
+        // jule lang
+        "jule": "jule",
+        // jinja lang
+        "jinja": "jinja",
         
         // K lang
         // kdl lang
@@ -942,6 +1081,8 @@
         "ruby": "ruby",
         // rust lang
         "rust": "rust",
+        // rainmeter lang
+        "rainmeter": "rainmeter",
         
         // S lang
         // sass lang
@@ -957,6 +1098,10 @@
         "swift": "swift",
         // snippets lang
         "snippets": "json",
+        // shader lang
+        "hlsl": "shader",
+        "glsl": "shader",
+        "wgsl": "shader",
         
         // T lang
         // typescript lang
@@ -969,12 +1114,13 @@
         "shaderlab": "unity",
         
         // V lang
-        // vbs lang
-        "vb": "vbs",
+        // vba lang
+        "vb": "vba",
         // vim lang
         "viml": "vim",
         // visualstudio lang
         "testOutput": "visualstudio",
+        // "vb": "visualstudio",
         // vsc lang
         "vscodeignore": "vscode-ignore",
         "vsixmanifest": "vscode",
@@ -993,12 +1139,16 @@
         "xsl": "xml",
         
         // W lang
+        // workflow lang
+        "github-actions-workflow": "workflow",
+        // wolfram lang
+        "wolframlanguage": "wolfram",
         
         // Y lang
         // yaml lang
         "yaml": "yaml",
         "spring-boot-properties-yaml": "yaml-ignore",
-        "github-actions-workflow": "yaml-ignore",
+        // "github-actions-workflow": "yaml-ignore",
         "ansible": "yaml-ignore",
         "ansible-jinja": "yaml-ignore"
         
@@ -1047,6 +1197,13 @@
         "pre-auto-gc": "bash",
         "post-rewrite": "bash",
         "pre-push": "bash",
+        // benchmark name
+        "benchmark.md": "benchmark",
+        "benchmark.rst": "benchmark",
+        "benchmark.txt": "benchmark",
+        "benchmarks.md": "benchmark",
+        "benchmarks.rst": "benchmark",
+        "benchmarks.txt": "benchmark",
         
         // C name
         // cabal name
@@ -1097,38 +1254,88 @@
         "dockerfile.ci": "docker",
         "dockerfile.web": "docker",
         "dockerfile.worker": "docker",
+        "containerfile": "docker",
+        "containerfile.prod": "docker",
+        "containerfile.production": "docker",
+        "containerfile.alpha": "docker",
+        "containerfile.beta": "docker",
+        "containerfile.stage": "docker",
+        "containerfile.staging": "docker",
+        "containerfile.dev": "docker",
+        "containerfile.development": "docker",
+        "containerfile.local": "docker",
+        "containerfile.test": "docker",
+        "containerfile.testing": "docker",
+        "containerfile.ci": "docker",
+        "containerfile.web": "docker",
+        "containerfile.worker": "docker",
+        // docker-compose name
         "docker-compose.yml": "dockercomp",
-        "docker-compose.override.yml": "docker",
-        "docker-compose.prod.yml": "docker",
-        "docker-compose.production.yml": "docker",
-        "docker-compose.alpha.yml": "docker",
-        "docker-compose.beta.yml": "docker",
-        "docker-compose.stage.yml": "docker",
-        "docker-compose.staging.yml": "docker",
-        "docker-compose.dev.yml": "docker",
-        "docker-compose.development.yml": "docker",
-        "docker-compose.local.yml": "docker",
-        "docker-compose.test.yml": "docker",
-        "docker-compose.testing.yml": "docker",
-        "docker-compose.ci.yml": "docker",
-        "docker-compose.web.yml": "docker",
-        "docker-compose.worker.yml": "docker",
-        "docker-compose.yaml": "docker",
-        "docker-compose.override.yaml": "docker",
-        "docker-compose.prod.yaml": "docker",
-        "docker-compose.production.yaml": "docker",
-        "docker-compose.alpha.yaml": "docker",
-        "docker-compose.beta.yaml": "docker",
-        "docker-compose.stage.yaml": "docker",
-        "docker-compose.staging.yaml": "docker",
-        "docker-compose.dev.yaml": "docker",
-        "docker-compose.development.yaml": "docker",
-        "docker-compose.local.yaml": "docker",
-        "docker-compose.test.yaml": "docker",
-        "docker-compose.testing.yaml": "docker",
-        "docker-compose.ci.yaml": "docker",
-        "docker-compose.web.yaml": "docker",
-        "docker-compose.worker.yaml": "docker",
+        "docker-compose.override.yml": "dockercomp",
+        "docker-compose.prod.yml": "dockercomp",
+        "docker-compose.production.yml": "dockercomp",
+        "docker-compose.alpha.yml": "dockercomp",
+        "docker-compose.beta.yml": "dockercomp",
+        "docker-compose.stage.yml": "dockercomp",
+        "docker-compose.staging.yml": "dockercomp",
+        "docker-compose.dev.yml": "dockercomp",
+        "docker-compose.development.yml": "dockercomp",
+        "docker-compose.local.yml": "dockercomp",
+        "docker-compose.test.yml": "dockercomp",
+        "docker-compose.testing.yml": "dockercomp",
+        "docker-compose.ci.yml": "dockercomp",
+        "docker-compose.web.yml": "dockercomp",
+        "docker-compose.worker.yml": "dockercomp",
+        "docker-compose.yaml": "dockercomp",
+        "docker-compose.override.yaml": "dockercomp",
+        "docker-compose.prod.yaml": "dockercomp",
+        "docker-compose.production.yaml": "dockercomp",
+        "docker-compose.alpha.yaml": "dockercomp",
+        "docker-compose.beta.yaml": "dockercomp",
+        "docker-compose.stage.yaml": "dockercomp",
+        "docker-compose.staging.yaml": "dockercomp",
+        "docker-compose.dev.yaml": "dockercomp",
+        "docker-compose.development.yaml": "dockercomp",
+        "docker-compose.local.yaml": "dockercomp",
+        "docker-compose.test.yaml": "dockercomp",
+        "docker-compose.testing.yaml": "dockercomp",
+        "docker-compose.ci.yaml": "dockercomp",
+        "docker-compose.web.yaml": "dockercomp",
+        "docker-compose.worker.yaml": "dockercomp",
+        "compose.yaml": "dockercomp",
+        "compose.override.yaml": "dockercomp",
+        "compose.prod.yaml": "dockercomp",
+        "compose.production.yaml": "dockercomp",
+        "compose.alpha.yaml": "dockercomp",
+        "compose.beta.yaml": "dockercomp",
+        "compose.stage.yaml": "dockercomp",
+        "compose.staging.yaml": "dockercomp",
+        "compose.dev.yaml": "dockercomp",
+        "compose.development.yaml": "dockercomp",
+        "compose.local.yaml": "dockercomp",
+        "compose.test.yaml": "dockercomp",
+        "compose.testing.yaml": "dockercomp",
+        "compose.ci.yaml": "dockercomp",
+        "compose.web.yaml": "dockercomp",
+        "compose.worker.yaml": "dockercomp",
+        "compose.yml": "dockercomp",
+        "compose.override.yml": "dockercomp",
+        "compose.prod.yml": "dockercomp",
+        "compose.production.yml": "dockercomp",
+        "compose.alpha.yml": "dockercomp",
+        "compose.beta.yml": "dockercomp",
+        "compose.stage.yml": "dockercomp",
+        "compose.staging.yml": "dockercomp",
+        "compose.dev.yml": "dockercomp",
+        "compose.development.yml": "dockercomp",
+        "compose.local.yml": "dockercomp",
+        "compose.test.yml": "dockercomp",
+        "compose.testing.yml": "dockercomp",
+        "compose.ci.yml": "dockercomp",
+        "compose.web.yml": "dockercomp",
+        "compose.worker.yml": "dockercomp",
+        // docker-ignore name
+        "dockerignore": "dockerig",
         // diff name
         "reg1": "diff",
         "reg2": "diff",
@@ -1160,6 +1367,14 @@
         ".env.staging.local": "env",
         ".env.test.local": "env",
         ".env.docker": "env-docker",
+        ".env.cat": "env",
+        ".env": "env",
+        ".env.alpha": "env",
+        ".env.e2e": "env",
+        ".env.dev.local": "env",
+        ".env.prod.local": "env",
+        ".env.uat": "env",
+        ".env.cypress": "env",
         // eslint name
         ".eslintrc.js": "eslint",
         ".eslintrc.cjs": "eslint",
@@ -1180,6 +1395,25 @@
         ".hintrc": "eslint-ignore",
         // envrc name
         ".envrc": "envrc",
+        // eleventy name
+        ".eleventy.js": "eleventy",
+        "eleventy.config.js": "eleventy",
+        "eleventy.config.mjs": "eleventy",
+        "eleventy.config.cjs": "eleventy",
+        ".eleventyignore": "eleventy",
+        // esbuild name
+        "esbuild.js": "esbuild",
+        "esbuild.ts": "esbuild",
+        "esbuild.cjs": "esbuild",
+        "esbuild.mjs": "esbuild",
+        "esbuild.config.js": "esbuild",
+        "esbuild.config.ts": "esbuild",
+        "esbuild.config.cjs": "esbuild",
+        "esbuild.config.mjs": "esbuild",
+        // ember name
+        ".ember-cli": "ember",
+        ".ember-cli.js": "ember",
+        "ember-cli-builds.js": "ember",
         
         // F name
         "favicon.ico": "favicon",
@@ -1196,6 +1430,17 @@
         ".gitinclude": "git-ignore",
         "git-history": "git-ignore",
         ".gitignore": "git",
+        ".git": "git",
+        ".gitmessage": "git",
+        ".gitignore-global": "git",
+        ".gitattributes-global": "git",
+        ".gitattributes_global": "git",
+        ".keep": "git",
+        ".gitpreserve": "git",
+        ".git-blame-ignore": "git",
+        ".git-blame-ignore-revs": "git",
+        ".git-for-windows-updater": "git",
+        ".git-include": "git",
         // go name
         "go.mod": "gomod",
         "go.sum": "gomod",
@@ -1218,17 +1463,27 @@
         "graphql.config.toml": "graphql",
         "graphql.config.yaml": "graphql",
         "graphql.config.yml": "graphql",
-        //godot assets
+        // godot-assets name
         ".gdignore": "godot-ignore",
         "._sc_": "godot-assets",
         "_sc_": "godot-assets",
-        
+        // gitcliff name
+        "cliff.toml": "git-cliff",
+        // gitlab name
+        ".gitlab-ci.yml": "gitlab",
+        "gitlab-ci.yaml": "gitlab",
+        // gitpod name
+        ".gitpod.yml": "gitpod",
         
         // H name
         // heroku name
         "Procfile": "heroku",
         // html lint
         ".htmlhintrc": "htmlint",
+        // http name
+        "CNAME": "http",
+        // htaccess name
+        ".htaccess": "htaccess",
         
         // I name
         "ionic.config.json": "ionic",
@@ -1237,6 +1492,45 @@
         // J name
         // jest name
         "jest.config.js": "jest",
+        "jest.config.cjs": "jest",
+        "jest.config.mjs": "jest",
+        "jest.config.ts": "jest",
+        "jest.config.cts": "jest",
+        "jest.config.mts": "jest",
+        "jest.config.json": "jest",
+        "jest.e2e.config.js": "jest",
+        "jest.e2e.config.cjs": "jest",
+        "jest.e2e.config.mjs": "jest",
+        "jest.e2e.config.ts": "jest",
+        "jest.e2e.config.cts": "jest",
+        "jest.e2e.config.mts": "jest",
+        "jest.e2e.config.json": "jest",
+        "jest.e2e.json": "jest",
+        "jest-unit.config.js": "jest",
+        "jest-e2e.config.js": "jest",
+        "jest-e2e.config.cjs": "jest",
+        "jest-e2e.config.mjs": "jest",
+        "jest-e2e.config.ts": "jest",
+        "jest-e2e.config.cts": "jest",
+        "jest-e2e.config.mts": "jest",
+        "jest-e2e.config.json": "jest",
+        "jest-e2e.json": "jest",
+        "jest-github-actions-reporter.js": "jest",
+        "jest.setup.js": "jest",
+        "jest.setup.ts": "jest",
+        "jest.json": "jest",
+        ".jestrc": "jest",
+        ".jestrc.js": "jest",
+        ".jestrc.json": "jest",
+        "jest.teardown.js": "jest",
+        "jest-preset.json": "jest",
+        "jest-preset.js": "jest",
+        "jest-preset.cjs": "jest",
+        "jest-preset.mjs": "jest",
+        "jest.preset.js": "jest",
+        "jest.preset.mjs": "jest",
+        "jest.preset.cjs": "jest",
+        "jest.preset.json": "jest",
         // jetbrains name
         "modules.xml": "jetbrains",
         "workspace.xml": "jetbrains",
@@ -1249,6 +1543,15 @@
         "cdp.pid": "json",
         ".lintstagedrc": "json",
         ".whitesource": "json",
+        // jule name
+        "jule.mod": "jule",
+        // jenkins name
+        "jenkinsfile": "jenkins",
+        // just name
+        "justfile": "just",
+        ".justfile": "just",
+        // javascript-config name
+        "jsconfig.json": "javascript-config",
         
         // K name
         // kotlin-main name
@@ -1324,6 +1627,8 @@
         "pack.mcmeta": "minecraft-pack",
         // makefile name
         "Makefile": "makefile",
+        // macos name
+        ".ds_store": "macos",
         
         // N name
         // next name
@@ -1399,6 +1704,9 @@
         ".Rhistory": "r-ignore",
         
         // S name
+        // stitches name
+        "stitches.config.js": "stitches",
+        "stitches.config.ts": "stitches",
         
         // T name
         // todo name
@@ -1420,6 +1728,39 @@
         "tailwind.config.cjs": "tailwind",
         // tauri name
         "tauri.conf.json": "tauri",
+        // task name
+        "taskfile.yml": "task",
+        "taskfile.yaml": "task",
+        "taskfile.dist.yml": "task",
+        "taskfile.dist.yaml": "task",
+        ".taskrc.yml": "task",
+        ".taskrc.yaml": "task",
+        // typescript-config name
+        "tsconfig.json": "typescript-config",
+        "tsconfig.app.json": "typescript-config",
+        "tsconfig.editor.json": "typescript-config",
+        "tsconfig.spec.json": "typescript-config",
+        "tsconfig.base.json": "typescript-config",
+        "tsconfig.build.json": "typescript-config",
+        "tsconfig.eslint.json": "typescript-config",
+        "tsconfig.lib.json": "typescript-config",
+        "tsconfig.lib.prod.json": "typescript-config",
+        "tsconfig.node.json": "typescript-config",
+        "tsconfig.test.json": "typescript-config",
+        "tsconfig.e2e.json": "typescript-config",
+        "tsconfig.web.json": "typescript-config",
+        "tsconfig.webworker.json": "typescript-config",
+        "tsconfig.worker.json": "typescript-config",
+        "tsconfig.config.json": "typescript-config",
+        "tsconfig.vitest.json": "typescript-config",
+        "tsconfig.cjs.json": "typescript-config",
+        "tsconfig.esm.json": "typescript-config",
+        "tsconfig.mjs.json": "typescript-config",
+        "tsconfig.doc.json": "typescript-config",
+        "tsconfig.paths.json": "typescript-config",
+        "tsconfig.main.json": "typescript-config",
+        "tsconfig.cypress-ct.json": "typescript-config",
+        "tsconfig.components.json": "typescript-config",
         
         // U name
         // unocss name
@@ -1629,10 +1970,31 @@
         "webpackfile.ts": "webpack",
         "webpackfile.cts": "webpack",
         "webpackfile.mts": "webpack",
+        // wxt name
+        "wxt.config.js": "wxt",
+        "wxt.config.ts": "wxt",
+        // watchman name
+        ".watchmanconfig": "watchman",
+        // wally name
+        "wally.toml": "wally",
+        "wally.lock": "wally",
+        // wallaby name
+        "wallaby.js": "wallaby",
+        "wallaby.conf.js": "wallaby",
+        // windi name
+        "windi.config.js": "windi",
+        "windi.config.cjs": "windi",
+        "windi.config.ts": "windi",
+        "windi.config.cts": "windi",
+        "windi.config.json": "windi",
+        // wrangler name
+        "wrangler.toml": "wrangler",
+        "wrangler.json": "wrangler",
+        "wrangler.jsonc": "wrangler",
         
         // X name
         // xml name
-        ".htaccess": "xml",
+        // ".htaccess": "xml",
         // xmake name
         "xmake": "xmake",
         
@@ -1686,6 +2048,10 @@
         "sounds": "folder-audio",
         "music": "folder-audio",
         "musics": "folder-audio",
+        "radio": "folder-audio",
+        "radios": "folder-audio",
+        "station": "folder-audio",
+        "stations": "folder-audio",
         "aud": "folder-audio",
         "auds": "folder-audio",
         // azure-pipelines closed
@@ -1713,6 +2079,15 @@
         "back-ups": "folder-archive",
         
         // B closed
+        // benchmark closed
+        "benchmark": "folder-benchmark",
+        "benchmarks": "folder-benchmark",
+        "bench": "folder-benchmark",
+        "benches": "folder-benchmark",
+        "performance": "folder-benchmark",
+        "measure": "folder-benchmark",
+        "measures": "folder-benchmark",
+        "measurement": "folder-benchmark",
         
         // C closed
         // client closed
@@ -1779,6 +2154,8 @@
         "release": "folder-dist",
         // docker closed
         "docker": "folder-docker",
+        "dockerfiles": "folder-docker",
+        ".docker": "folder-docker",
         // docs closed
         "doc": "folder-docs",
         "docs": "folder-docs",
@@ -1802,6 +2179,7 @@
         // error closed
         "error": "folder-error",
         "errors": "folder-error",
+        "err": "folder-error",
         // event closed
         "event": "folder-event",
         "events": "folder-event",
@@ -1813,6 +2191,17 @@
         "environment": "folder-environment",
         "environments": "folder-environment",
         ".venv": "folder-environment",
+        // examples closed
+        "demo": "folder-examples",
+        "demos": "folder-examples",
+        "example": "folder-examples",
+        "examples": "folder-examples",
+        "sample": "folder-examples",
+        "samples": "folder-examples",
+        "sample-data": "folder-examples",
+        // expo closed
+        ".expo": "folder-expo",
+        ".expo-shared": "folder-expo",
         
         // F closed
         // font closed
@@ -1948,6 +2337,21 @@
         "shortcuts": "folder-link",
         "in": "folder-link",
         "input": "folder-link",
+        // locales closed
+        "i18n": "folder-locales",
+        "internationalization": "folder-locales",
+        "lang": "folder-locales",
+        "langs": "folder-locales",
+        "language": "folder-locales",
+        "languages": "folder-locales",
+        "locale": "folder-locales",
+        "locales": "folder-locales",
+        "l10n": "folder-locales",
+        "localization": "folder-locales",
+        "translation": "folder-locales",
+        "translate": "folder-locales",
+        "translations": "folder-locales",
+        ".tx": "folder-locales",
         
         // M closed
         // middleware closed
@@ -1985,8 +2389,6 @@
         // project closed
         "project": "folder-project",
         "projects": "folder-project",
-        
-        // P closed
         
         // Q closed
         // queue closed
@@ -2041,6 +2443,11 @@
         // svg closed
         "svg": "folder-svg",
         "svgs": "folder-svg",
+        // shader closed
+        "glsl": "folder-shader",
+        "hlsl": "folder-shader",
+        "shader": "folder-shader",
+        "shaders": "folder-shader",
         
         // T closed
         // temp closed
@@ -2075,6 +2482,9 @@
         // theme closed
         "theme": "folder-theme",
         "themes": "folder-theme",
+        // task closed
+        "task": "folder-task",
+        "tasks": "folder-task",
         
         // U closed
         // utils closed
@@ -2117,6 +2527,9 @@
         "views": "folder-views",
         "html": "folder-views",
         "htm": "folder-views",
+        "screen": "folder-views",
+        "screens": "folder-views",
+        "public_html": "folder-views",
         
         // W closed
         // webpack closed
@@ -2130,6 +2543,16 @@
         "win32": "folder-windows",
         "win64": "folder-windows",
         "wince": "folder-windows",
+        // workflows closed
+        "workflow": "folder-workflows",
+        "workflows": "folder-workflows",
+        "ci": "folder-workflows",
+        ".ci": "folder-workflows",
+        // wxt closed
+        ".wxt": "folder-wxt",
+        // wordpress closed
+        ".wordpress-org": "folder-wordpress",
+        "wp-content": "folder-wordpress",
         
         // X closed
         // xcode closed
@@ -2207,11 +2630,17 @@
         ".azuredevops": "folder-azure-devops-open",
         
         // B opened
+        // benchmark opened
+        "benchmark": "folder-benchmark-open",
+        "benchmarks": "folder-benchmark-open",
+        "bench": "folder-benchmark-open",
+        "benches": "folder-benchmark-open",
+        "performance": "folder-benchmark-open",
+        "measure": "folder-benchmark-open",
+        "measures": "folder-benchmark-open",
+        "measurement": "folder-benchmark-open",
         
         // C opened
-        // class opened
-        // "class": "folder-class-open",
-        // "classes": "folder-class-open",
         // client opened
         "client": "folder-client-open",
         "clients": "folder-client-open",
@@ -2274,6 +2703,8 @@
         "out": "folder-dist-open",
         // docker opened
         "docker": "folder-docker-open",
+        "dockerfiles": "folder-docker-open",
+        ".docker": "folder-docker-open",
         // docs opened
         "doc": "folder-docs-open",
         "docs": "folder-docs-open",
@@ -2297,6 +2728,7 @@
         // error opened
         "error": "folder-error-open",
         "errors": "folder-error-open",
+        "err": "folder-error-open",
         // event opened
         "event": "folder-event-open",
         "events": "folder-event-open",
@@ -2308,6 +2740,17 @@
         "environment": "folder-environment-open",
         "environments": "folder-environment-open",
         ".venv": "folder-environment-open",
+        // examples opened
+        "demo": "folder-examples-open",
+        "demos": "folder-examples-open",
+        "example": "folder-examples-open",
+        "examples": "folder-examples-open",
+        "sample": "folder-examples-open",
+        "samples": "folder-examples-open",
+        "sample-data": "folder-examples-open",
+        // expo opened
+        ".expo": "folder-expo-open",
+        ".expo-shared": "folder-expo-open",
         
         // F opened
         // font opened
@@ -2444,6 +2887,21 @@
         "shortcuts": "folder-link-open",
         "in": "folder-link-open",
         "input": "folder-link-open",
+        // locales opened
+        "i18n": "folder-locales-open",
+        "internationalization": "folder-locales-open",
+        "lang": "folder-locales-open",
+        "langs": "folder-locales-open",
+        "language": "folder-locales-open",
+        "languages": "folder-locales-open",
+        "locale": "folder-locales-open",
+        "locales": "folder-locales-open",
+        "l10n": "folder-locales-open",
+        "localization": "folder-locales-open",
+        "translation": "folder-locales-open",
+        "translate": "folder-locales-open",
+        "translations": "folder-locales-open",
+        ".tx": "folder-locales-open",
         
         // M opened
         // middleware opened
@@ -2535,6 +2993,11 @@
         // svg opened
         "svg": "folder-svg-open",
         "svgs": "folder-svg-open",
+        // shader opened
+        "glsl": "folder-shader-open",
+        "hlsl": "folder-shader-open",
+        "shader": "folder-shader-open",
+        "shaders": "folder-shader-open",
         
         // T opened
         // temp opened
@@ -2569,6 +3032,9 @@
         // theme opened
         "theme": "folder-theme-open",
         "themes": "folder-theme-open",
+        // task opened
+        "task": "folder-task-opened",
+        "tasks": "folder-task-opened",
         
         // U opened
         // utils opened
@@ -2611,6 +3077,9 @@
         "views": "folder-views-open",
         "html": "folder-views-open",
         "htm": "folder-views-open",
+        "screen": "folder-views-open",
+        "screens": "folder-views-open",
+        "public_html": "folder-views-open",
         
         // W opened
         // webpack opened
@@ -2624,6 +3093,16 @@
         "win32": "folder-windows-open",
         "win64": "folder-windows-open",
         "wince": "folder-windows-open",
+        // workflows opened
+        "workflow": "folder-workflows-open",
+        "workflows": "folder-workflows-open",
+        "ci": "folder-workflows-open",
+        ".ci": "folder-workflows-open",
+        // wxt opened
+        ".wxt": "folder-wxt-open",
+        // wordpress opened
+        ".wordpress-org": "folder-wordpress-open",
+        "wp-content": "folder-wordpress-open",
         
         // X opened
         // xcode opened
@@ -2753,6 +3232,9 @@
         "bf": {
             "iconPath": "../../assets/icons/bf.svg"
         },
+        "benchmark": {
+            "iconPath": "../../assets/icons/benchmark.svg"
+        },
         
         // C icon
         "c--": {
@@ -2870,6 +3352,18 @@
         "envrc": {
             "iconPath": "../../assets/icons/envrc.svg"
         },
+        "elixir": {
+            "iconPath": "../../assets/icons/elixir.svg"
+        },
+        "eleventy": {
+            "iconPath": "../../assets/icons/eleventy.svg"
+        },
+        "esbuild": {
+            "iconPath": "../../assets/icons/esbuild.svg"
+        },
+        "ember": {
+            "iconPath": "../../assets/icons/ember.svg"
+        },
         
         // F icon
         "figma": {
@@ -2928,6 +3422,15 @@
         "godot-ignore": {
             "iconPath": "../../assets/icons/godot-ignore.svg"
         },
+        "git-cliff": {
+            "iconPath": "../../assets/icons/git-cliff.svg"
+        },
+        "gitlab": {
+            "iconPath": "../../assets/icons/gitlab.svg"
+        },
+        "gitpod": {
+            "iconPath": "../../assets/icons/gitpod.svg"
+        },
         
         // H icon
         "h": {
@@ -2953,6 +3456,12 @@
         },
         "htmlint": {
             "iconPath": "../../assets/icons/htlm-config.svg" // html + cog
+        },
+        "http": {
+            "iconPath": "../../assets/icons/http.svg"
+        },
+        "htaccess": {
+            "iconPath": "../../assets/icons/htaccess.svg"
         },
         
         // I icon
@@ -3026,6 +3535,30 @@
         },
         "jupyter": {
             "iconPath": "../../assets/icons/jupyter.svg"
+        },
+        "javascript-config": {
+            "iconPath": "../../assets/icons/javascript-config.svg"
+        },
+        "javascript-map": {
+            "iconPath": "../../assets/icons/javascript-map.svg"
+        },
+        "javascript-test": {
+            "iconPath": "../../assets/icons/javascript-test.svg"
+        },
+        "juce": {
+            "iconPath": "../../assets/icons/juce.svg"
+        },
+        "jenkins": {
+            "iconPath": "../../assets/icons/jenkins.svg"
+        },
+        "jule": {
+            "iconPath": "../../assets/icons/jule.svg"
+        },
+        "jinja": {
+            "iconPath": "../../assets/icons/jinja.svg"
+        },
+        "just": {
+            "iconPath": "../../assets/icons/just.svg"
         },
         
         // K icon
@@ -3104,6 +3637,9 @@
         },
         "ms-xlsx": {
             "iconPath": "../../assets/icons/xlsx.svg"
+        },
+        "macos": {
+            "iconPath": "../../assets/icons/macos.svg"
         },
         
         // N icon
@@ -3205,6 +3741,9 @@
         "r-lock": {
             "iconPath": "../../assets/icons/r-lock.svg"
         },
+        "rmd": {
+            "iconPath": "../../assets/icons/rmd.svg"
+        },
         "lock": {
             "iconPath": "../../assets/icons/lock.svg"
         },
@@ -3231,6 +3770,9 @@
         },
         "reg": {
             "iconPath": "../../assets/icons/reg.svg"
+        },
+        "rainmeter": {
+            "iconPath": "../../assets/icons/rainmeter.svg"
         },
         
         // S icon
@@ -3261,6 +3803,12 @@
         "symlink": {
             "iconPath": "../../assets/icons/symlink.svg"
         },
+        "stitches": {
+            "iconPath": "../../assets/icons/stitches.svg"
+        },
+        "shader": {
+            "iconPath": "../../assets/icons/shader.svg"
+        },
         
         // T icon
         "tailwind": {
@@ -3281,8 +3829,20 @@
         "typescript": {
             "iconPath": "../../assets/icons/typescript.svg"
         },
+        "typescript-def": {
+            "iconPath": "../../assets/icons/typescript-def.svg"
+        },
+        "typescript-config": {
+            "iconPath": "../../assets/icons/typescript-config.svg"
+        },
+        "typescript-test": {
+            "iconPath": "../../assets/icons/typescript-test.svg"
+        },
         "text": {
             "iconPath": "../../assets/icons/text.svg"
+        },
+        "task": {
+            "iconPath": "../../assets/icons/task.svg"
         },
         
         // U icon
@@ -3333,10 +3893,34 @@
         
         // W icon
         "wasm": {
-            "iconPath": "../../assets/icons/wasm.svg"
+            "iconPath": "../../assets/icons/web-assembly.svg"
         },
         "webpack": {
             "iconPath": "../../assets/icons/webpack.svg"
+        },
+        "workflows": {
+            "iconPath": "../../assets/icons/workflows.svg"
+        },
+        "wxt": {
+            "iconPath": "../../assets/icons/wxt.svg"
+        },
+        "watchman": {
+            "iconPath": "../../assets/icons/watchman.svg"
+        },
+        "wally": {
+            "iconPath": "../../assets/icons/wally.svg"
+        },
+        "wallaby": {
+            "iconPath": "../../assets/icons/wallaby.svg"
+        },
+        "windi": {
+            "iconPath": "../../assets/icons/windi.svg"
+        },
+        "wrangler": {
+            "iconPath": "../../assets/icons/wrangler.svg"
+        },
+        "wolfram": {
+            "iconPath": "../../assets/icons/wolfram.svg"
         },
         
         // X icon
@@ -3445,6 +4029,12 @@
         },
         
         // B folder
+        "folder-benchmark": {
+            "iconPath": "../../assets/icons/folder_benchmark.svg"
+        },
+        "folder-benchmark-open": {
+            "iconPath": "../../assets/icons/folder_benchmark_open.svg"
+        },
         
         // C folder
         "folder-client": {
@@ -3552,6 +4142,18 @@
         },
         "folder-environment-open": {
             "iconPath": "../../assets/icons/folder_environment_open.svg"
+        },
+        "folder-examples": {
+            "iconPath": "../../assets/icons/folder_examples.svg"
+        },
+        "folder-examples-open": {
+            "iconPath": "../../assets/icons/folder_examples_open.svg"
+        },
+        "folder-expo": {
+            "iconPath": "../../assets/icons/folder_expo.svg"
+        },
+        "folder-expo-open": {
+            "iconPath": "../../assets/icons/folder_expo_open.svg"
         },
         
         // F folder
@@ -3693,6 +4295,12 @@
         "folder-link-open": {
             "iconPath": "../../assets/icons/folder_link_open.svg"
         },
+        "folder-locales": {
+            "iconPath": "../../assets/icons/folder_locales.svg"
+        },
+        "folder-locales-open": {
+            "iconPath": "../../assets/icons/folder_locales_open.svg"
+        },
         
         // M folder
         "folder-middleware": {
@@ -3809,6 +4417,12 @@
         "folder-svg-open": {
             "iconPath": "../../assets/icons/folder_svg_open.svg"
         },
+        "folder-shader": {
+            "iconPath": "../../assets/icons/folder_shader.svg"
+        },
+        "folder-shader-open": {
+            "iconPath": "../../assets/icons/folder_shader_open.svg"
+        },
         
         // T folder
         "folder-temp": {
@@ -3840,6 +4454,12 @@
         },
         "folder-theme-open": {
             "iconPath": "../../assets/icons/folder_themes_open.svg"
+        },
+        "folder-task": {
+            "iconPath": "../../assets/icons/folder_task.svg"
+        },
+        "folder-task-open": {
+            "iconPath": "../../assets/icons/folder_task_open.svg"
         },
         
         // U folder
@@ -3894,6 +4514,24 @@
         },
         "folder-windows-open": {
             "iconPath": "../../assets/icons/folder_windows_open.svg"
+        },
+        "folder-workflows": {
+            "iconPath": "../../assets/icons/folder_workflows.svg"
+        },
+        "folder-workflows-open": {
+            "iconPath": "../../assets/icons/folder_workflows_open.svg"
+        },
+        "folder-wxt": {
+            "iconPath": "../../assets/icons/folder_wxt.svg"
+        },
+        "folder-wxt-open": {
+            "iconPath": "../../assets/icons/folder_wxt_open.svg"
+        },
+        "folder-wordpress": {
+            "iconPath": "../../assets/icons/folder_wordpress.svg"
+        },
+        "folder-wordpress-open": {
+            "iconPath": "../../assets/icons/folder_wordpress_open.svg"
         },
         
         // X folder

@@ -34,6 +34,8 @@
         // B filename
             // blitz filename
             "blitz.config.js": "blitz",
+            "blitz.config.ts": "blitz",
+            ".blitz.config.compiled.js": "blitz",
             // bash filename
             "applypatch-msg": "bash",
             "pre-applypatch": "bash",
@@ -59,6 +61,55 @@
             "benchmarks.md": "benchmark",
             "benchmarks.rst": "benchmark",
             "benchmarks.txt": "benchmark",
+            // bicep filename
+            "bicepconfig.json": "bicep",
+            // babel filename
+            ".babelrc": "babel",
+            ".babelrc.cjs": "babel",
+            ".babelrc.js": "babel",
+            ".babelrc.mjs": "babel",
+            ".babelrc.json": "babel",
+            "babel.config.cjs": "babel",
+            "babel.config.js": "babel",
+            "babel.config.mjs": "babel",
+            "babel.config.json": "babel",
+            "babel-transform.js": "babel",
+            ".babel-plugin-macrosrc": "babel",
+            ".babel-plugin-macrosrc.json": "babel",
+            ".babel-plugin-macrosrc.yaml": "babel",
+            ".babel-plugin-macrosrc.yml": "babel",
+            ".babel-plugin-macrosrc.js": "babel",
+            "babel-plugin-macros.config.js": "babel",
+            // biome filename
+            "biome.json": "biome",
+            "biome.jsonc": "biome",
+            // bitbucket filename
+            "bitbucket-pipelines.yaml": "bitbucket",
+            "bitbucket-pipelines.yml": "bitbucket",
+            // bithound filename
+            ".bithoundrc": "bithound",
+            // bower filename
+            ".bowerrc": "bower",
+            "bower.json": "bower",
+            // browserslist filename
+            "browserslist": "browserslist",
+            ".browserslistrc": "browserslist",
+            // buck filename
+            ".buckconfig": "buck",
+            // buildkite filename
+            "buildkite.yml": "buildkite",
+            "buildkite.yaml": "buildkite",
+            // bazel filename
+            ".bazelrc": "bazel",
+            // ".bazelignore": "bazel",
+            ".bazelversion": "bazel",
+            // bazel-ignore filename
+            ".bazelignore": "bazel-ignore",
+            // bun filename
+            "bunfig.toml": "bun",
+            // bun-lock filename
+            "bun.lock": "bun-lock",
+            "bun.lockb": "bun-lock",
         
         // C filename
             // cabal filename
@@ -319,9 +370,10 @@
             "graphql.config.yaml": "graphql",
             "graphql.config.yml": "graphql",
             // godot-assets filename
-            ".gdignore": "godot-ignore",
             "._sc_": "godot-assets",
             "_sc_": "godot-assets",
+            // godot-ignore filename
+            ".gdignore": "godot-ignore",
             // gitcliff filename
             "cliff.toml": "git-cliff",
             // gitlab filename
@@ -397,7 +449,7 @@
             ".jsbeautifyrc": "json",
             ".esformatter": "json",
             "cdp.pid": "json",
-            ".lintstagedrc": "json",
+            // ".lintstagedrc": "json",
             ".whitesource": "json",
             // jule filename
             "jule.mod": "jule",
@@ -474,6 +526,42 @@
             "licence.txt": "license",
             // lua filename
             ".luacheckrc": "lua",
+            // liquid filename
+            ".liquidrc.json": "liquid",
+            ".liquidrc": "liquid",
+            // lua-rocks filename
+            ".rock": "lua-rocks",
+            ".rockspec": "lua-rocks",
+            // luau filename
+            ".luaurc": "luau",
+            // lerna filename
+            "lerna.json": "lerna",
+            // lighthouse filename
+            ".lighthouserc.js": "lighthouse",
+            "lighthouserc.js": "lighthouse",
+            ".lighthouserc.json": "lighthouse",
+            "lighthouserc.json": "lighthouse",
+            ".lighthouserc.yml": "lighthouse",
+            "lighthouserc.yml": "lighthouse",
+            ".lighthouserc.yaml": "lighthouse",
+            "lighthouserc.yaml": "lighthouse",
+            // lint-staged filename
+            ".lintstagedrc": "lint-staged",
+            ".lintstagedrc.json": "lint-staged",
+            ".lintstagedrc.yaml": "lint-staged",
+            ".lintstagedrc.yml": "lint-staged",
+            ".lintstagedrc.mts": "lint-staged",
+            ".lintstagedrc.cjs": "lint-staged",
+            ".lintstagedrc.cts": "lint-staged",
+            ".lintstagedrc.js": "lint-staged",
+            ".lintstagedrc.ts": "lint-staged",
+            "lint-staged.config.js": "lint-staged",
+            "lint-staged.config.ts": "lint-staged",
+            "lint-staged.config.mjs": "lint-staged",
+            "lint-staged.config.mts": "lint-staged",
+            "lint-staged.config.cjs": "lint-staged",
+            "lint-staged.config.cts": "lint-staged",
+            ".lintstagedrc.mjs": "lint-staged",
         
         // M filename
             // maven filename
@@ -485,6 +573,11 @@
             "Makefile": "makefile",
             // macos filename
             ".ds_store": "macos",
+            // ms-build filename
+            "directory.build.props": "ms-build",
+            "directory.build.rsp": "ms-build",
+            "directory.build.targets": "ms-build",
+            "directory.packages.props": "ms-build",
         
         // N filename
             // next filename
@@ -513,6 +606,20 @@
             ".postcssrc": "postcss",
             ".postcssrc.json": "postcss",
             ".postcssrc.yml": "postcss",
+            "postcss.config.mjs": "postcss",
+            "postcss.config.ts": "postcss",
+            "postcss.config.cts": "postcss",
+            "postcss.config.mts": "postcss",
+            ".postcssrc.cjs": "postcss",
+            ".postcssrc.ts": "postcss",
+            ".postcssrc.cts": "postcss",
+            ".postcssrc.yaml": "postcss",
+            // posthtml filename
+            "posthtml.config.js": "posthtml",
+            ".posthtmlrc.js": "posthtml",
+            ".posthtmlrc": "posthtml",
+            ".posthtmlrc.json": "posthtml",
+            ".posthtmlrc.yml": "posthtml",
             // python-config filename
             "pyproject.toml": "python-config",
             "requirements.txt": "python-config",
@@ -532,6 +639,16 @@
             ".clang-tidy": "properties",
             // properties-ignore filename
             "desktop.ini": "properties-ignore",
+            // panda-css filename
+            "panda.config.ts": "panda",
+            "panda.config.js": "panda",
+            "panda.config.mjs": "panda",
+            "panda.config.mts": "panda",
+            "panda.config.cjs": "panda",
+            // pug filename
+            ".pug-lintrc": "pug",
+            ".pug-lintrc.js": "pug",
+            ".pug-lintrc.json": "pug",
         
         // Q filename
             // quasar filename
@@ -563,6 +680,26 @@
             // stitches filename
             "stitches.config.js": "stitches",
             "stitches.config.ts": "stitches",
+            // stylelint filename
+            ".stylelintrc": "stylelint",
+            "stylelint.config.js": "stylelint",
+            "stylelint.config.cjs": "stylelint",
+            "stylelint.config.mjs": "stylelint",
+            ".stylelintrc.json": "stylelint",
+            ".stylelintrc.yaml": "stylelint",
+            ".stylelintrc.yml": "stylelint",
+            ".stylelintrc.js": "stylelint",
+            ".stylelintrc.cjs": "stylelint",
+            ".stylelintrc.mjs": "stylelint",
+            "stylelint.config.ts": "stylelint",
+            "stylelint.config.cts": "stylelint",
+            "stylelint.config.mts": "stylelint",
+            ".stylelintrc.ts": "stylelint",
+            ".stylelintrc.cts": "stylelint",
+            ".stylelintrc.mts": "stylelint",
+            // stylelint-ignore filename
+            ".stylelintignore": "stylelint-ignore",
+            ".stylelintcache": "stylelint-ignore",
         
         // T filename
             // todo filename
@@ -582,6 +719,10 @@
             "tailwind.config.js": "tailwind",
             "tailwind.config.ts": "tailwind",
             "tailwind.config.cjs": "tailwind",
+            "tailwind.config.mjs": "tailwind",
+            "tailwind.config.cts": "tailwind",
+            "tailwind.config.mts": "tailwind",
+            "tailwind.css": "tailwind",
             // tauri filename
             "tauri.conf.json": "tauri",
             // task filename
@@ -617,6 +758,14 @@
             "tsconfig.main.json": "typescript-config",
             "tsconfig.cypress-ct.json": "typescript-config",
             "tsconfig.components.json": "typescript-config",
+            // textlint filename
+            ".textlintrc": "textlint",
+            ".textlintrc.js": "textlint",
+            ".textlintrc.json": "textlint",
+            ".textlintrc.yml": "textlint",
+            ".textlintrc.yaml": "textlint",
+            // typst filename
+            "typst.toml": "typst",
         
         // U filename
             // unocss filename
@@ -646,6 +795,12 @@
             "vue.config.ts": "vue",
             "vetur.config.js": "vue",
             "vetur.config.ts": "vue",
+            "vue.config.cjs": "vue",
+            "vue.config.mjs": "vue",
+            "vue.config.cts": "vue",
+            "vue.config.mts": "vue",
+            ".vuerc": "vue",
+            "volar.config.js": "vue",
         
         // W filename
             // webpack filename
@@ -1016,6 +1171,17 @@
             "zshrc": "bat",
             // bak extension
             "bak": "bak",
+            // bicep extension
+            "bicep": "bicep",
+            "bicepparam": "bicep",
+            // ballerina extension
+            "bal": "ballerina",
+            "balx": "ballerina",
+            // bazel extension
+            "bzl": "bazel",
+            "bazel": "bazel",
+            // blink extension
+            "blink": "blink",
         
         // C extension
             // c-- extension
@@ -1051,7 +1217,8 @@
             "csharp": "csharp",
             // css extension
             "css": "css",
-            "css.map": "css",
+            // css-map extension
+            "css.map": "css-map",
             // cue extension
             "cue": "disc",
             // csv extension
@@ -1063,6 +1230,13 @@
             "cert": "certificate",
             "crt": "certificate",
             "pfx": "certificate",
+            // coffeescript extension
+            "coffee": "coffeescript",
+            "cson": "coffeescript",
+            "iced": "coffeescript",
+            // cuda extension
+            "cu": "cuda",
+            "cuh": "cuda",
         
         // D extension
             // d extension
@@ -1159,9 +1333,9 @@
             "gql": "graphql",
             // groovy extension
             "groovy": "groovy",
-            // godot
+            // godot extension
             "gd": "godot",
-            // godot assets
+            // godot-assets extension
             "godot": "godot-assets",
             "tres": "godot-assets",
             "tscn": "godot-assets",
@@ -1200,6 +1374,9 @@
             "http": "http",
             "rest": "http",
             "cname": "http",
+            // handlebars extension
+            "hbs": "handlebars",
+            "mustache": "handlebars",
         
         // I extension
             // idris extension
@@ -1350,8 +1527,37 @@
             "inky.php": "laravel",
             // lisp extension
             "lisp": "lisp",
+            "lsp": "lisp",
+            "cl": "lisp",
+            "fast": "lisp",
             // lua extension
             "lua": "lua",
+            // latex extension
+            "tex": "latex",
+            "sty": "latex",
+            "dtx": "latex",
+            "ltx": "latex",
+            // lib extension
+            "lib": "lib",
+            // "dll": "lib",
+            // "dlc": "lib",
+            "bib": "lib",
+            // latte extension
+            "latte": "latte",
+            // less extension
+            "less": "less",
+            // literate extension
+            "lhs": "literate",
+            // livescript extension
+            "ls": "livescript",
+            // log extension
+            "log": "log",
+            // lottie extension
+            "lottie": "lottie",
+            // liquid extension
+            "liquid": "liquid",
+            // luau extension
+            "luau": "luau",
         
         // M extension
             // matlab extension
@@ -1368,41 +1574,48 @@
             "rst": "md",
             // mdx extension
             "mdx": "mdx",
-            //ms-docx extension
-            "doc": "ms-docx",
-            "docm": "ms-docx",
-            "docx": "ms-docx",
-            "dot": "ms-docx",
-            "dotm": "ms-docx",
-            "dotx": "ms-docx",
-            "odt": "ms-docx",
+            //ms-word extension
+            "doc": "ms-word",
+            "docm": "ms-word",
+            "docx": "ms-word",
+            "dot": "ms-word",
+            "dotm": "ms-word",
+            "dotx": "ms-word",
+            "odt": "ms-word",
+            "rtf": "ms-word",
+            "pages": "ms-word",
             //ms-note extension
             "one": "ms-note",
-            //ms-pptx extension
-            "pot": "ms-pptx",
-            "potm": "ms-pptx",
-            "potx": "ms-pptx",
-            "ppa": "ms-pptx",
-            "ppam": "ms-pptx",
-            "pps": "ms-pptx",
-            "ppsm": "ms-pptx",
-            "ppsx": "ms-pptx",
-            "ppt": "ms-pptx",
-            "pptm": "ms-pptx",
-            "pptx": "ms-pptx",
-            //ms-xlsx extension
-            // "csv": "ms-xlsx",
-            "ods": "ms-xlsx",
-            "xla": "ms-xlsx",
-            "xlam": "ms-xlsx",
-            "xls": "ms-xlsx",
-            "xlsb": "ms-xlsx",
-            "xlsm": "ms-xlsx",
-            "xlsx": "ms-xlsx",
-            "xlt": "ms-xlsx",
-            "xltm": "ms-xlsx",
-            "xltx": "ms-xlsx",
-            "xlw": "ms-xlsx",
+            //ms-powerpoint extension
+            "pot": "ms-powerpoint",
+            "potm": "ms-powerpoint",
+            "potx": "ms-powerpoint",
+            "ppa": "ms-powerpoint",
+            "ppam": "ms-powerpoint",
+            "pps": "ms-powerpoint",
+            "ppsm": "ms-powerpoint",
+            "ppsx": "ms-powerpoint",
+            "ppt": "ms-powerpoint",
+            "pptm": "ms-powerpoint",
+            "pptx": "ms-powerpoint",
+            "odp": "ms-powerpoint",
+            // ms-excel extension
+            "ods": "ms-excel",
+            // "csv": "ms-excel",
+            "xla": "ms-excel",
+            "xlam": "ms-excel",
+            "xls": "ms-excel",
+            "xlsb": "ms-excel",
+            "xlsm": "ms-excel",
+            "xlsx": "ms-excel",
+            "xlt": "ms-excel",
+            "xltm": "ms-excel",
+            "xltx": "ms-excel",
+            "xlw": "ms-excel",
+            "numbers": "ms-excel",
+            // mojo extension
+            "mojo": "mojo",
+            "🔥": "mojo",
         
         // N extension
             // nim extension
@@ -1434,6 +1647,16 @@
             "pl": "perl",
             "pm": "perl",
             "raku": "perl",
+            "rakumod": "perl",
+            "pod": "perl",
+            "t": "perl",
+            "psgi": "perl",
+            "rakutest": "perl",
+            "rakudoc": "perl",
+            "nqp": "perl",
+            "p6": "perl",
+            "pl6": "perl",
+            "pm6": "perl",
             // php extension
             "php": "php",
             // postcss extension
@@ -1469,6 +1692,9 @@
             "sln.dotsettings": "properties",
             "sln.dotsettings.user": "properties",
             "ini": "properties",
+            // pug extension
+            "jade": "pug",
+            "pug": "pug",
         
         // Q extension
             // quark extension
@@ -1497,6 +1723,9 @@
             "rs": "rust",
             // reg extension
             "reg": "reg",
+            // razor extension
+            "cshtml": "razor",
+            "vbhtml": "razor",
         
         // S extension
             // sass extension
@@ -1518,6 +1747,7 @@
             "svelte": "svelte",
             // svg extension
             "svg": "svg",
+            "svg[Preview]": "svg",
             // swift extension
             "swift": "swift",
             // subtitle extension
@@ -1566,6 +1796,30 @@
             "comp.hlsl": "shader",
             "tess.hlsl": "shader",
             "wgsl": "shader",
+            // slidesk extension
+            "sdf": "slidesk",
+            "sdt": "slidesk",
+            // slim extension
+            "slim": "slim",
+            // storybook extension
+            "story.js": "storybook",
+            "story.ts": "storybook",
+            "stories.js": "storybook",
+            "stories.ts": "storybook",
+            "story.jsx": "storybook",
+            "stories.jsx": "storybook",
+            "story.tsx": "storybook",
+            "stories.tsx": "storybook",
+            "stories.mdx": "storybook",
+            "story.mdx": "storybook",
+            // storybook-svelte extension
+            "story.svelte": "storybook-svelte",
+            "stories.svelte": "storybook-svelte",
+            // storybook-vue extension
+            "story.vue": "storybook-vue",
+            "stories.vue": "storybook-vue",
+            // search extension
+            "code-search": "search",
         
         // T extension
             // terrabyte extension
@@ -1605,6 +1859,8 @@
             "todo": "todo",
             // txt extension
             "txt": "text",
+            // typst extension
+            "typ": "typst",
         
         // U extension
             // unity extension
@@ -1681,6 +1937,8 @@
             "mpe": "video",
             "mpv": "video",
             "m2v": "video",
+            // vanilla-extract extension
+            "css.ts": "vanilla-extract",
         
         // W extension
             // web-assembly extension
@@ -1803,6 +2061,8 @@
             "bat": "batch",
             // binary id
             "code-text-binary": "binary",
+            // bicep id
+            "bicep": "bicep",
         
         // C id
             // c id
@@ -1825,7 +2085,11 @@
             "csv (semicolon)": "csv",
             "csv (whitespace)": "csv",
             "dynamic csv": "csv",
-        
+            // coffeescript id
+            "coffeescript": "coffeescript",
+            // cuda id
+            "cuda-cpp": "cuda",
+            
         // D id
             // django id
             "django-html": "django",
@@ -1870,6 +2134,10 @@
             "groovy": "groovy",
             // godot id
             "gdscript": "godot",
+            // godot-assets id
+            "gdresource": "godot-assets",
+            "gdscene": "godot-assets",
+            "gdshader": "godot-assets",
         
         // H id
             // haskell id
@@ -1879,6 +2147,8 @@
             "hxml": "haxe",
             // html id
             "html": "html",
+            // handlebars id
+            "handlebars": "handlebars",
         
         // I id
             // idris id
@@ -1911,6 +2181,24 @@
             // lua id
             "lua": "lua",
             "lock": "lock",
+            // latex id
+            "bibtex": "latex",
+            "bibtex-style": "latex",
+            "tex": "latex",
+            "doctex": "latex",
+            "latex": "latex",
+            "latex-expl3": "latex",
+            // lib id
+            // "bibtex": "lib",
+            // "bibtex-style": "lib",
+            // livescript id
+            "livescript": "livescript",
+            // less id
+            "less": "less",
+            // log id
+            "log": "log",
+            // liquid id
+            "liquid": "liquid",
         
         // M id
             // md id
@@ -1919,6 +2207,8 @@
             "matlab": "matlab",
             // makefile id
             "makefile": "makefile",
+            // ms-excel id
+            "excel": "ms-excel",
         
         // N id
             // nim id
@@ -1940,6 +2230,7 @@
             // perl id
             "perl": "perl",
             "perl6": "perl",
+            "raku": "perl",
             // php id
             "php": "php",
             // postcss id
@@ -1955,6 +2246,9 @@
             // python id
             "python": "python",
             "jupyter": "jupyter",
+            // pug id
+            "jade": "pug",
+            "pug": "pug",
         
         // R id
             // r id
@@ -1978,6 +2272,9 @@
             "rainmeter": "rainmeter",
             // reg id
             "reg": "reg",
+            // razor id
+            "razor": "razor",
+            "aspnetcorerazor": "razor",
         
         // S id
             // sass id
@@ -1997,6 +2294,12 @@
             "hlsl": "shader",
             "glsl": "shader",
             "wgsl": "shader",
+            // slim id
+            "slim": "slim",
+            // slidesk id
+            "sdf": "slidesk",
+            // search id
+            "search-result": "search",
         
         // T id
             // typescript id
@@ -2005,6 +2308,10 @@
             "toml": "toml",
             // text id
             "plaintext": "text",
+            // tailwind id
+            "tailwindcss": "tailwind",
+            // typst id
+            "typst": "typst",
         
         // U id
             // unity id
@@ -2028,6 +2335,10 @@
             "vue": "vue",
             "vue-postcss": "vue",
             "vue-html": "vue",
+            "vue-directives": "vue",
+            "vue-injection-markdown": "vue",
+            "vue-interpolations": "vue",
+            "vue-sfc-style-variable-injection": "vue",
         
         // X id
             // xml id
@@ -2201,6 +2512,13 @@
             "document": "folder-docs",
             "documentation": "folder-docs",
             "documentations": "folder-docs",
+            "_post": "folder-docs",
+            "_posts": "folder-docs",
+            "documents": "folder-docs",
+            "post": "folder-docs",
+            "posts": "folder-docs",
+            "article": "folder-docs",
+            "articles": "folder-docs",
             // download closed
             "download": "folder-download",
             "downloads": "folder-download",
@@ -2364,11 +2682,10 @@
             "libraries": "folder-lib",
             "class": "folder-lib",
             "classes": "folder-lib",
-            // log closed
-            "log": "folder-log",
-            "logs": "folder-log",
-            "history": "folder-log",
-            "histories": "folder-log",
+            ".lib": "folder-lib",
+            ".libs": "folder-lib",
+            ".library": "folder-lib",
+            ".libraries": "folder-lib",
             // link closed
             "link": "folder-link",
             "links": "folder-link",
@@ -2391,6 +2708,33 @@
             "translate": "folder-locales",
             "translations": "folder-locales",
             ".tx": "folder-locales",
+            // linux closed
+            "linux": "folder-linux",
+            // library closed
+            "vendor": "folder-library",
+            "vendors": "folder-library",
+            // "lib": "folder-library",
+            // "libs": "folder-library",
+            // "library": "folder-library",
+            // "libraries": "folder-library",
+            "third-party": "folder-library",
+            "dll": "folder-library",
+            // luau closed
+            "luau_packages": "folder-luau",
+            // log closed
+            "log": "folder-log",
+            "logs": "folder-log",
+            "history": "folder-log",
+            "histories": "folder-log",
+            "report": "folder-log",
+            "reports": "folder-log",
+            // lottie closed
+            "lottie": "folder-lottie",
+            "lotties": "folder-lottie",
+            "lottiefiles": "folder-lottie",
+            // layouts closed
+            "layouts": "folder-layouts",
+            "_layouts": "folder-layouts",
         
         // M closed
             // middleware closed
@@ -2406,6 +2750,8 @@
             "macosx": "folder-macos",
             "osx": "folder-macos",
             "darwin": "folder-macos",
+            // mojo closed
+            "mojo": "folder-mojo",
         
         // N closed
             // node closed
@@ -2481,9 +2827,13 @@
             "style": "folder-style",
             "styles": "folder-style",
             "css": "folder-style",
+            "stylesheet": "folder-style",
             "stylesheets": "folder-style",
-            "scss": "folder-style",
-            "sass": "folder-style",
+            // sass closed
+            "scss": "folder-sass",
+            "_scss": "folder-sass",
+            "sass": "folder-sass",
+            "_sass": "folder-sass",
             // scripts closed
             // "script": "folder-scripts",
             "scripts": "folder-scripts",
@@ -2498,6 +2848,11 @@
             "hlsl": "folder-shader",
             "shader": "folder-shader",
             "shaders": "folder-shader",
+            // storybook closed
+            ".storybook": "folder-storybook",
+            "storybook": "folder-storybook",
+            "stories": "folder-storybook",
+            "__stories__": "folder-storybook",
         
         // T closed
             // temp closed
@@ -2536,6 +2891,10 @@
             // task closed
             "task": "folder-task",
             "tasks": "folder-task",
+            // types closed
+            "typings": "folder-types",
+            "@types": "folder-types",
+            "types": "folder-types",
         
         // U closed
             // utils closed
@@ -2581,6 +2940,8 @@
             "screen": "folder-views",
             "screens": "folder-views",
             "public_html": "folder-views",
+            // vue opened
+            "vue": "folder-vue",
         
         // W closed
             // webpack closed
@@ -2768,6 +3129,13 @@
             "document": "folder-docs-open",
             "documentation": "folder-docs-open",
             "documentations": "folder-docs-open",
+            "_post": "folder-docs-open",
+            "_posts": "folder-docs-open",
+            "documents": "folder-docs-open",
+            "post": "folder-docs-open",
+            "posts": "folder-docs-open",
+            "article": "folder-docs-open",
+            "articles": "folder-docs-open",
             // download opened
             "download": "folder-download-open",
             "downloads": "folder-download-open",
@@ -2932,11 +3300,10 @@
             "libraries": "folder-lib-open",
             "class": "folder-lib-open",
             "classes": "folder-lib-open",
-            // log opened
-            "log": "folder-log-open",
-            "logs": "folder-log-open",
-            "history": "folder-log-open",
-            "histories": "folder-log-open",
+            ".lib": "folder-lib-open",
+            ".libs": "folder-lib-open",
+            ".library": "folder-lib-open",
+            ".libraries": "folder-lib-open",
             // link opened
             "link": "folder-link-open",
             "links": "folder-link-open",
@@ -2959,6 +3326,33 @@
             "translate": "folder-locales-open",
             "translations": "folder-locales-open",
             ".tx": "folder-locales-open",
+            // linux opened
+            "linux": "folder-linux-open",
+            // library opened
+            "vendor": "folder-library-open",
+            "vendors": "folder-library-open",
+            // "lib": "folder-library-open",
+            // "libs": "folder-library-open",
+            // "library": "folder-library-open",
+            // "libraries": "folder-library-open",
+            "third-party": "folder-library-open",
+            "dll": "folder-library-open",
+            // luau opened
+            "luau_packages": "folder-luau-open",
+            // log opened
+            "log": "folder-log-open",
+            "logs": "folder-log-open",
+            "history": "folder-log-open",
+            "histories": "folder-log-open",
+            "report": "folder-log-open",
+            "reports": "folder-log-open",
+            // lottie opened
+            "lottie": "folder-lottie-open",
+            "lotties": "folder-lottie-open",
+            "lottiefiles": "folder-lottie-open",
+            // layouts opened
+            "layouts": "folder-layouts-open",
+            "_layouts": "folder-layouts-open",
         
         // M opened
             // middleware opened
@@ -2974,6 +3368,8 @@
             "macosx": "folder-macos-open",
             "osx": "folder-macos-open",
             "darwin": "folder-macos-open",
+            // mojo opened
+            "mojo": "folder-mojo-open",
         
         // N opened
             // node opened
@@ -3049,9 +3445,13 @@
             "style": "folder-style-open",
             "styles": "folder-style-open",
             "css": "folder-style-open",
+            "stylesheet": "folder-style-open",
             "stylesheets": "folder-style-open",
-            "scss": "folder-style-open",
-            "sass": "folder-style-open",
+            // sass opened
+            "scss": "folder-sass-open",
+            "_scss": "folder-sass-open",
+            "sass": "folder-sass-open",
+            "_sass": "folder-sass-open",
             // scripts opened
             // "script": "folder-scripts-open",
             "scripts": "folder-scripts-open",
@@ -3066,6 +3466,11 @@
             "hlsl": "folder-shader-open",
             "shader": "folder-shader-open",
             "shaders": "folder-shader-open",
+            // storybook opened
+            ".storybook": "folder-storybook-open",
+            "storybook": "folder-storybook-open",
+            "stories": "folder-storybook-open",
+            "__stories__": "folder-storybook-open",
         
         // T opened
             // temp opened
@@ -3104,6 +3509,10 @@
             // task opened
             "task": "folder-task-opened",
             "tasks": "folder-task-opened",
+            // types opened
+            "typings": "folder-types-open",
+            "@types": "folder-types-open",
+            "types": "folder-types-open",
         
         // U opened
             // utils opened
@@ -3139,7 +3548,7 @@
             "media": "folder-video-open",
             // vm opened
             "vm": "folder-client-open",
-            // views closed
+            // views opened
             "page": "folder-views-open",
             "pages": "folder-views-open",
             "view": "folder-views-open",
@@ -3149,6 +3558,8 @@
             "screen": "folder-views-open",
             "screens": "folder-views-open",
             "public_html": "folder-views-open",
+            // vue opened
+            "vue": "folder-vue-open",
         
         // W opened
             // webpack opened
@@ -3307,6 +3718,51 @@
             "benchmark": {
                 "iconPath": "../../assets/icons/benchmark.svg"
             },
+            "bicep": {
+                "iconPath": "../../assets/icons/bicep.svg"
+            },
+            "babel": {
+                "iconPath": "../../assets/icons/babel.svg"
+            },
+            "biome": {
+                "iconPath": "../../assets/icons/biome.svg"
+            },
+            "bitbucket": {
+                "iconPath": "../../assets/icons/bitbucket.svg"
+            },
+            "bithound": {
+                "iconPath": "../../assets/icons/bithound.svg"
+            },
+            "bower": {
+                "iconPath": "../../assets/icons/bower.svg"
+            },
+            "browserslist": {
+                "iconPath": "../../assets/icons/browserslist.svg"
+            },
+            "buck": {
+                "iconPath": "../../assets/icons/buck.svg"
+            },
+            "buildkite": {
+                "iconPath": "../../assets/icons/buildkite.svg"
+            },
+            "bazel": {
+                "iconPath": "../../assets/icons/bazel.svg"
+            },
+            "bazel-ignore": {
+                "iconPath": "../../assets/icons/bazel-ignore.svg"
+            },
+            "bun": {
+                "iconPath": "../../assets/icons/bun.svg"
+            },
+            "bun-lock": {
+                "iconPath": "../../assets/icons/bun-lock.svg"
+            },
+            "ballerina": {
+                "iconPath": "../../assets/icons/ballerina.svg"
+            },
+            "blink": {
+                "iconPath": "../../assets/icons/blink.svg"
+            },
         
         // C icon
             "c--": {
@@ -3346,7 +3802,10 @@
                 "iconPath": "../../assets/icons/css.svg"
             },
             "csv": {
-                "iconPath": "../../assets/icons/csv.svg"
+                "iconPath": "../../assets/icons/csv3.svg"
+            },
+            "css-map": {
+                "iconPath": "../../assets/icons/css-map.svg"
             },
             "code-of-conduct": {
                 "iconPath": "../../assets/icons/code-of-conduct.svg"
@@ -3356,6 +3815,12 @@
             },
             "certificate": {
                 "iconPath": "../../assets/icons/certificate.svg"
+            },
+            "coffeescript": {
+                "iconPath": "../../assets/icons/coffeescript.svg"
+            },
+            "cuda": {
+                "iconPath": "../../assets/icons/cuda.svg"
             },
         
         // D icon
@@ -3535,6 +4000,9 @@
             "htaccess": {
                 "iconPath": "../../assets/icons/htaccess.svg"
             },
+            "handlebars": {
+                "iconPath": "../../assets/icons/handlebars.svg"
+            },
         
         // I icon
             "idris": {
@@ -3669,6 +4137,51 @@
             "lua": {
                 "iconPath": "../../assets/icons/lua.svg"
             },
+            "textlint": {
+                "iconPath": "../../assets/icons/textlint.svg"
+            },
+            "liquid": {
+                "iconPath": "../../assets/icons/liquid.svg"
+            },
+            "lua-rocks": {
+                "iconPath": "../../assets/icons/lua-rocks.svg"
+            },
+            "luau": {
+                "iconPath": "../../assets/icons/luau.svg"
+            },
+            "lerna": {
+                "iconPath": "../../assets/icons/lerna.svg"
+            },
+            "lighthouse": {
+                "iconPath": "../../assets/icons/lighthouse.svg"
+            },
+            "lint-staged": {
+                "iconPath": "../../assets/icons/lint-staged.svg"
+            },
+            "latex": {
+                "iconPath": "../../assets/icons/latex.svg"
+            },
+            "lib": {
+                "iconPath": "../../assets/icons/lib.svg"
+            },
+            "latte": {
+                "iconPath": "../../assets/icons/latte.svg"
+            },
+            "less": {
+                "iconPath": "../../assets/icons/less.svg"
+            },
+            "literate": {
+                "iconPath": "../../assets/icons/literate.svg"
+            },
+            "livescript": {
+                "iconPath": "../../assets/icons/livescript.svg"
+            },
+            "log": {
+                "iconPath": "../../assets/icons/log.svg"
+            },
+            "lottie": {
+                "iconPath": "../../assets/icons/lottie.svg"
+            },
         
         // M icon
             "matlab": {
@@ -3698,20 +4211,26 @@
             "mjs": {
                 "iconPath": "../../assets/icons/mjs.svg"
             },
-            "ms-docx": {
-                "iconPath": "../../assets/icons/docx.svg"
-            },
             "ms-note": {
                 "iconPath": "../../assets/icons/one.svg"
             },
-            "ms-pptx": {
-                "iconPath": "../../assets/icons/pptx.svg"
+            "ms-build": {
+                "iconPath": "../../assets/icons/ms-build.svg"
             },
-            "ms-xlsx": {
-                "iconPath": "../../assets/icons/xlsx.svg"
+            "ms-excel": {
+                "iconPath": "../../assets/icons/ms-excel.svg"
+            },
+            "ms-powerpoint": {
+                "iconPath": "../../assets/icons/ms-powerpoint.svg"
+            },
+            "ms-word": {
+                "iconPath": "../../assets/icons/ms-word.svg"
             },
             "macos": {
                 "iconPath": "../../assets/icons/macos.svg"
+            },
+            "mojo": {
+                "iconPath": "../../assets/icons/mojo.svg"
             },
         
         // N icon
@@ -3767,6 +4286,9 @@
             "postcss": {
                 "iconPath": "../../assets/icons/postcss.svg"
             },
+            "posthtml": {
+                "iconPath": "../../assets/icons/posthtml.svg"
+            },
             "powershell": {
                 "iconPath": "../../assets/icons/powershell.svg"
             },
@@ -3790,6 +4312,12 @@
             },
             "pipelines":{
                 "iconPath": "../../assets/icons/pipelines.svg"
+            },
+            "panda-css":{
+                "iconPath": "../../assets/icons/panda-css.svg"
+            },
+            "pug":{
+                "iconPath": "../../assets/icons/pug.svg"
             },
         
         // Q icon
@@ -3849,6 +4377,9 @@
             "rainmeter": {
                 "iconPath": "../../assets/icons/rainmeter.svg"
             },
+            "razor": {
+                "iconPath": "../../assets/icons/razor.svg"
+            },
         
         // S icon
             "sass": {
@@ -3884,6 +4415,27 @@
             "shader": {
                 "iconPath": "../../assets/icons/shader.svg"
             },
+            "slim": {
+                "iconPath": "../../assets/icons/slim.svg"
+            },
+            "stylelint": {
+                "iconPath": "../../assets/icons/stylelint.svg"
+            },
+            "stylelint-ignore": {
+                "iconPath": "../../assets/icons/stylelint-ignore.svg"
+            },
+            "storybook": {
+                "iconPath": "../../assets/icons/storybook.svg"
+            },
+            "storybook-svelte": {
+                "iconPath": "../../assets/icons/storybook-svelte.svg"
+            },
+            "storybook-vue": {
+                "iconPath": "../../assets/icons/storybook-vue.svg"
+            },
+            "search": {
+                "iconPath": "../../assets/icons/search.svg"
+            },
         
         // T icon
             "tailwind": {
@@ -3918,6 +4470,9 @@
             },
             "task": {
                 "iconPath": "../../assets/icons/task.svg"
+            },
+            "typst": {
+                "iconPath": "../../assets/icons/typst.svg"
             },
         
         // U icon
@@ -3964,6 +4519,9 @@
             },
             "video": {
                 "iconPath": "../../assets/icons/video.svg"
+            },
+            "vanilla-extract": {
+                "iconPath": "../../assets/icons/vanilla-extract.svg"
             },
         
         // W icon
@@ -4346,10 +4904,10 @@
             },
         
         // L folder
-            "folder-layout": {
+            "folder-layouts": {
                 "iconPath": "../../assets/icons/folder_layouts.svg"
             },
-            "folder-layout-open": {
+            "folder-layouts-open": {
                 "iconPath": "../../assets/icons/folder_layouts_open.svg"
             },
             "folder-lib": {
@@ -4376,6 +4934,30 @@
             "folder-locales-open": {
                 "iconPath": "../../assets/icons/folder_locales_open.svg"
             },
+            "folder-linux": {
+                "iconPath": "../../assets/icons/folder_linux.svg"
+            },
+            "folder-linux-open": {
+                "iconPath": "../../assets/icons/folder_linux_open.svg"
+            },
+            "folder-library": {
+                "iconPath": "../../assets/icons/folder_library.svg"
+            },
+            "folder-library-open": {
+                "iconPath": "../../assets/icons/folder_library_open.svg"
+            },
+            "folder-luau": {
+                "iconPath": "../../assets/icons/folder_luau.svg"
+            },
+            "folder-luau-open": {
+                "iconPath": "../../assets/icons/folder_luau_open.svg"
+            },
+            "folder-lottie": {
+                "iconPath": "../../assets/icons/folder_lottie.svg"
+            },
+            "folder-lottie-open": {
+                "iconPath": "../../assets/icons/folder_lottie_open.svg"
+            },
         
         // M folder
             "folder-middleware": {
@@ -4395,6 +4977,12 @@
             },
             "folder-macos-open": {
                 "iconPath": "../../assets/icons/folder_macos_open.svg"
+            },
+            "folder-mojo": {
+                "iconPath": "../../assets/icons/folder_mojo.svg"
+            },
+            "folder-mojo-open": {
+                "iconPath": "../../assets/icons/folder_mojo_open.svg"
             },
         
         // N folder
@@ -4510,6 +5098,18 @@
             "folder-shader-open": {
                 "iconPath": "../../assets/icons/folder_shader_open.svg"
             },
+            "folder-sass": {
+                "iconPath": "../../assets/icons/folder_sass.svg"
+            },
+            "folder-sass-open": {
+                "iconPath": "../../assets/icons/folder_sass_open.svg"
+            },
+            "folder-storybook": {
+                "iconPath": "../../assets/icons/folder_storybook.svg"
+            },
+            "folder-storybook-open": {
+                "iconPath": "../../assets/icons/folder_storybook_open.svg"
+            },
         
         // T folder
             "folder-temp": {
@@ -4547,6 +5147,12 @@
             },
             "folder-task-open": {
                 "iconPath": "../../assets/icons/folder_task_open.svg"
+            },
+            "folder-types": {
+                "iconPath": "../../assets/icons/folder_types.svg"
+            },
+            "folder-types-open": {
+                "iconPath": "../../assets/icons/folder_types_open.svg"
             },
         
         // U folder
@@ -4587,6 +5193,12 @@
             },
             "folder-views-open": {
                 "iconPath": "../../assets/icons/folder_views_open.svg"
+            },
+            "folder-vue": {
+                "iconPath": "../../assets/icons/folder_vue.svg"
+            },
+            "folder-vue-open": {
+                "iconPath": "../../assets/icons/folder_vue_open.svg"
             },
         
         // W folder
